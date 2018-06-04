@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Anaconda",
+		"AutoDocstring",
+		"C Improved",
+		"CiteBibtex",
+		"Color Scheme - Chromodynamics",
+		"FileHeader",
+		"Google Spell Check",
+		"LaTeX Word Count",
+		"LaTeXTools",
+		"Markdown Extended",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"Package Control",
+		"Python PEP8 Autoformat",
+		"SideBarEnhancements",
+		"Strapdown Markdown Preview",
+		"Vintageous"
+	]
+}

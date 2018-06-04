@@ -1,0 +1,37 @@
+[
+    { "keys": ["j", "k"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
+    { "keys": ["q", "w"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
+    { "keys": ["j", "j"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
+    { "keys": ["i", "i"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
+    { "keys": ["alt+z"], "command": "toggle_comment"},
+    { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+    { "keys": ["ctrl+shift+c"], "command": "copy" },
+    { "keys": ["ctrl+shift+v"], "command": "paste" },
+    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 5.0 } },
+    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -5.0 } },
+    { "keys": ["ctrl+k"], "command": "scroll_lines", "args": {"amount": 35.0 } },
+    { "keys": ["ctrl+j"], "command": "scroll_lines", "args": {"amount": -35.0 } },
+    { "keys": ["ctrl+c"], "command": "exec", "args": {"kill": true}},
+    { "keys": ["f9"], "command": "repl_open",
+                 "caption": "Python - IPython",
+                 "id": "repl_python_ipython",
+                 "mnemonic": "p",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "autocomplete_server": true,
+                    "cmd": {
+                        "osx": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"],
+                        "linux": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"],
+                        "windows": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"]
+                    },
+                    "cwd": "$file_path",
+                    "syntax": "Packages/Python/Python.tmLanguage",
+                    "external_id": "python",
+                    "extend_env": {
+                        "PYTHONIOENCODING": "utf-8",
+                        "SUBLIMEREPL_EDITOR": "$editor"
+                    }
+                }
+                }
+]

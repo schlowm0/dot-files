@@ -1,0 +1,4 @@
+{
+    "cmd": ["/home/moritz/.MATLAB/R2015b/bin/matlab", "-nosplash", "<$file_name"],
+    "selector": "source.matlab"
+}

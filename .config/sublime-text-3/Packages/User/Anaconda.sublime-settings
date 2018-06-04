@@ -1,0 +1,43 @@
+{
+    "pep8_ignore":
+    [
+        "E128",
+        "E309",
+        "E501",
+        "E712",
+        "E402",
+        "E265",
+        "E293"
+    ],
+
+    "pep8_max_line_length": 170,
+
+    /*
+            Anaconda Tooltip Options
+            Sublime Text 3 supports tooltips since build 3070; if anaconda
+            runs in a ST3 installation equal to or newer than build 3070, it
+            can be configured to show tooltips for documentation and signatures.
+            The options below set how the tooltip looks.
+        */
+        "anaconda_tooltip_theme": "popup",
+
+        /*
+            If you set the following option as true, anaconda will display the
+            signatures of the methods in a floating popup.
+            *note*: this only has an effect if "display_signatures" is true.
+        */
+        "enable_signatures_tooltip": true,
+
+        /*
+            If you set the following option as true, anaconda will display the
+            documentation of modules, classes or methods in a floating popup.
+        */
+        "enable_docstrings_tooltip": true,
+
+        /*
+            If the option below is set as true, anaconda will merge the
+            outputs of display_signatures and show documentation.
+            *note*: This only has an effect if tooltips are enabled.
+        */
+        "merge_signatures_and_doc": true,
+}

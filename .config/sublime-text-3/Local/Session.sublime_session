@@ -1,0 +1,2824 @@
+{
+	"folder_history":
+	[
+		"/home/moritz/Repositories/snn_object_tracking",
+		"/home/moritz/Repositories/NCSRobotLib",
+		"/home/moritz/Repositories/nstbot",
+		"/home/moritz/Repositories/snn_object_recognition"
+	],
+	"last_version": 3143,
+	"last_window_id": 44,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"num_inh_",
+						"num_inh_inputs"
+					],
+					[
+						"synIn",
+						"synInhInh1i"
+					],
+					[
+						"equa",
+						"equation_builder"
+					],
+					[
+						"wta",
+						"wtaParams"
+					],
+					[
+						"DPI",
+						"DPIstdp\tclass"
+					],
+					[
+						"eq",
+						"equation_builder"
+					],
+					[
+						"statem",
+						"statemon_weight"
+					],
+					[
+						"spikem",
+						"spikemon_input"
+					],
+					[
+						"State",
+						"StateMonitor"
+					],
+					[
+						"ran",
+						"randint\tfunction"
+					],
+					[
+						"compres",
+						"compressionMap"
+					],
+					[
+						"next",
+						"nextRow\t(neuron_synapse.py)"
+					],
+					[
+						"plot_t",
+						"plot_statemon_qt"
+					],
+					[
+						"spikemonW",
+						"spikemonWTAInp"
+					],
+					[
+						"WTA",
+						"WTAMonitors"
+					],
+					[
+						"raster",
+						"raster_input"
+					],
+					[
+						"end",
+						"end_time"
+					],
+					[
+						"synap",
+						"synaptic"
+					],
+					[
+						"start_",
+						"start_ind"
+					],
+					[
+						"m",
+						"monitor"
+					],
+					[
+						"star",
+						"start_time"
+					],
+					[
+						"symb",
+						"symbolBrush\t(neuron_synapse.py)"
+					],
+					[
+						"symbo",
+						"symbolSize=7\t(testbench.py)"
+					],
+					[
+						"symp",
+						"symbolPen=None\t(testbench.py)"
+					],
+					[
+						"symbol",
+						"symbol='o\t(testbench.py)"
+					],
+					[
+						"wt",
+						"wtaParams"
+					],
+					[
+						"block",
+						"block_params\t(wta.py)"
+					],
+					[
+						"noise",
+						"noise_syn"
+					],
+					[
+						"DP",
+						"DPISyn\tclass"
+					],
+					[
+						"nois",
+						"noise_syn"
+					],
+					[
+						"NC",
+						"NCSNetwork\tclass"
+					],
+					[
+						"start",
+						"start_time\t(testbench.py)"
+					],
+					[
+						"test",
+						"testbench"
+					],
+					[
+						"n",
+						"noise_input\tstatement"
+					],
+					[
+						"NCS",
+						"NCSBrian2Lib"
+					],
+					[
+						"num",
+						"num_inputs\t(neuron_synapse.py)"
+					],
+					[
+						"Neu",
+						"Neurons\tclass"
+					],
+					[
+						"numn",
+						"num_neurons"
+					],
+					[
+						"neur",
+						"neuron_id"
+					],
+					[
+						"inpu",
+						"inputGroup"
+					],
+					[
+						"neuron",
+						"neuron_id"
+					],
+					[
+						"ass",
+						"assertEqual\tfunction"
+					],
+					[
+						"num_inp",
+						"num_inp_neurons\tparam"
+					],
+					[
+						"Test",
+						"TestCase\t(test_tools.py)"
+					],
+					[
+						"Unit",
+						"unittest\tmodule"
+					],
+					[
+						"tr",
+						"truncnorm"
+					],
+					[
+						"buil",
+						"building_blocks\t(test_wta.py)"
+					],
+					[
+						"exc",
+						"except\t(groups.py)"
+					],
+					[
+						"var",
+						"variables"
+					],
+					[
+						"syna",
+						"synaptic_kernel"
+					],
+					[
+						"Eve",
+						"Events.npy"
+					],
+					[
+						"assert",
+						"assertEqual\tfunction"
+					],
+					[
+						"fker",
+						"fkernelgauss1d\tfunction"
+					],
+					[
+						"asse",
+						"assertEqual"
+					],
+					[
+						"retu",
+						"returnValTrue"
+					],
+					[
+						"reutn",
+						"returnVal"
+					],
+					[
+						"return",
+						"returnValFalse"
+					],
+					[
+						"returnV",
+						"returnValTrue"
+					],
+					[
+						"tes",
+						"testVal"
+					],
+					[
+						"ret",
+						"returnValueIf\tfunction"
+					],
+					[
+						"small",
+						"smallerThanVal\t(tools.py)"
+					],
+					[
+						"has",
+						"hasattr"
+					],
+					[
+						"brian",
+						"briangroup"
+					],
+					[
+						"art",
+						"artifical_stimulus=False"
+					],
+					[
+						"stdp",
+						"stdp_testbench"
+					],
+					[
+						"s",
+						"stdp_testbench"
+					],
+					[
+						"ind2",
+						"ind2xy\tfunction"
+					],
+					[
+						"coord",
+						"coordinates\t(testbench.py)"
+					],
+					[
+						"asser",
+						"assertEqual\tfunction"
+					],
+					[
+						"par",
+						"params\t(neuron_synapse.py)"
+					],
+					[
+						"dpi_syn",
+						"dpi_syn_eq"
+					],
+					[
+						"set",
+						"setParams\tfunction"
+					],
+					[
+						"dp",
+						"dpi_neuron_param\tmodule"
+					],
+					[
+						"DPIS",
+						"DPISynSTDPparam"
+					],
+					[
+						"DPI_",
+						"DPI_stdp\tfunction"
+					],
+					[
+						"Syn",
+						"SynapseModels\tmodule"
+					],
+					[
+						"dpi",
+						"dpi_synapse\tmodule"
+					],
+					[
+						"dpi_neu",
+						"dpi_neuron_eq"
+					],
+					[
+						"NeuronG",
+						"NeuronGroup\tclass"
+					],
+					[
+						"dpi_",
+						"dpi_neuron\tmodule"
+					],
+					[
+						"Sili",
+						"SiliconEq"
+					],
+					[
+						"event",
+						"events"
+					],
+					[
+						"param",
+						"parameters"
+					],
+					[
+						"testN",
+						"testNeurons"
+					],
+					[
+						"la",
+						"labelStyle"
+					],
+					[
+						"statemon",
+						"statemonInpSyn"
+					],
+					[
+						"bord",
+						"border_width"
+					],
+					[
+						"sym",
+						"symbols"
+					],
+					[
+						"sv",
+						"svg_e_all"
+					],
+					[
+						"win_",
+						"win_number\tstatement"
+					],
+					[
+						"win",
+						"win_isi"
+					],
+					[
+						"plot",
+						"plot_dir"
+					],
+					[
+						"freq",
+						"frequency"
+					],
+					[
+						"std",
+						"std_frequency"
+					],
+					[
+						"spi",
+						"spikes"
+					],
+					[
+						"e",
+						"exporters\tmodule"
+					],
+					[
+						"mean_",
+						"mean_spikes"
+					],
+					[
+						"max",
+						"max_dt\tstatement"
+					],
+					[
+						"del",
+						"delta_t"
+					],
+					[
+						"mean",
+						"mean_frequency\tstatement"
+					],
+					[
+						"burst",
+						"burstlength\tstatement"
+					],
+					[
+						"misma",
+						"mismatch_burst"
+					],
+					[
+						"burs",
+						"burstlength_rec\tstatement"
+					],
+					[
+						"un",
+						"unique\tfunction"
+					],
+					[
+						"neir",
+						"neuron_dict"
+					],
+					[
+						"data",
+						"data_processed"
+					],
+					[
+						"isi_",
+						"isi_single"
+					],
+					[
+						"isi",
+						"isi_single"
+					],
+					[
+						"spike",
+						"spikes_rec\tstatement"
+					],
+					[
+						"sp",
+						"spikes_rec_temp\tstatement"
+					],
+					[
+						"mism",
+						"mism_burst"
+					],
+					[
+						"pyqt",
+						"pyqtgraph\tmodule"
+					],
+					[
+						"get",
+						"getAxis"
+					],
+					[
+						"nm",
+						"number_of_spikes_recording\tstatement"
+					],
+					[
+						"sh",
+						"shape\tfunction"
+					],
+					[
+						"shap",
+						"shape_bursts"
+					],
+					[
+						"nmber",
+						"number_of_spikes_array"
+					],
+					[
+						"number",
+						"number_of_spikes\tstatement"
+					],
+					[
+						"inst",
+						"instaneousFrequency\t(visualize_semd.py)"
+					],
+					[
+						"load",
+						"load_data\t(visualize_semd.py)"
+					],
+					[
+						"save",
+						"save_data\t(visualize_semd.py)"
+					],
+					[
+						"spik",
+						"spiketimes"
+					],
+					[
+						"dire",
+						"directory_rawData"
+					],
+					[
+						"vis",
+						"visualize_semd\tmodule"
+					],
+					[
+						"bur",
+						"burstlength\tstatement"
+					],
+					[
+						"dara",
+						"data_neuronchannels"
+					],
+					[
+						"number_",
+						"number_of_spikes_array"
+					],
+					[
+						"stand",
+						"standaloneParams"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Markdown Preview/Markdown.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Markdown Preview/Markdown.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Traditional"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Script Builder"
+						]
+					],
+					[
+						"Packages/LaTeXTools/LaTeX.sublime-build",
+						"PdfLaTeX"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 246.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"pascl",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 1086.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"echo LOOL",
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_neuron_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/tutorial.py",
+				"/home/schlowmo/Repositories/ncs_brian/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/ncs_brian/parameters/constants.py",
+				"/home/schlowmo/Repositories/OCTA/interfaces/convert.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotter2d.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/core/groups.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/example_dvs_plot.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Master projects/Closed-loop sEMD/LOR_Schoepe_Telluride.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Journal Club/Journal Clubs at INI_old.txt",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_subgroup_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/wta.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/building_block.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/neuron_models.py",
+				"/home/schlowmo/Documents/spikegen_stdp_test.py",
+				"/home/schlowmo/Dropbox/Studies/ToDo/ToDo.txt",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/plotting/wta_plot.py",
+				"/home/schlowmo/Repositories/ncs_brian/syn_eq.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_synapse.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/synapse_models.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/neuron_equation_builder.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotting.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_wta.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_tools.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/OCTA/README.md",
+				"/tmp/mozilla_schlowmo0/groups.py",
+				"/home/schlowmo/Repositories/OCTA/.gitmodules",
+				"/home/schlowmo/Repositories/OCTA/octa.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/indexing.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/synaptic_kernel.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/misc.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_neuron.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_testbench.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Tools/tools.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/WTA.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_tools.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_testbench.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Stimuli/testbench.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/BuildingBlock.py",
+				"/tmp/mozilla_schlowmo0/test_maths.py",
+				"/home/schlowmo/Dropbox/Scripts/Brian2/aedat_check.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Equations/NeuronEquation.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/NeuronModels.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/SynapseModels.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp_kernel.py",
+				"/tmp/mozilla_schlowmo0/maths.py",
+				"/home/schlowmo/.config/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
+				"/home/schlowmo/.config/sublime-text-3/Packages/User/FileHeader.sublime-settings",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/.gitignore",
+				"/home/schlowmo/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
+				"/home/schlowmo/.config/sublime-text-3/Packages/AutoDocstring/AutoDocstring.sublime-settings",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Groups/Groups.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/dpi_synapse.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/dpi_neuron.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse_simple.py",
+				"/home/schlowmo/Repositories/ncs_brian/neuron_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/neuron_param.py",
+				"/home/schlowmo/Dropbox/config/install_packages.txt",
+				"/home/schlowmo/.config/sublime-text-3/Packages/User/python3.sublime-build",
+				"/home/schlowmo/Dropbox/config/.bashrc",
+				"/home/schlowmo/.bash_aliases",
+				"/home/schlowmo/Dropbox/config/setup-franz.sh",
+				"/home/schlowmo/.bash_",
+				"/home/schlowmo/.bashrc",
+				"/home/moritz/Repositories/spiking-insect-vision/Plotting/semd.py",
+				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/Equations/synapseEquations.py",
+				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/Equations/neuronEquations.py",
+				"/home/moritz/Repositories/OCTA/tutorial_new.py",
+				"/home/moritz/.config/sublime-text-3/Packages/User/Arc-Dark/Arc-Dark-Master.sublime-theme",
+				"/home/moritz/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
+				"/etc/i3blocks.conf",
+				"/home/moritz/.config/i3/i3blocks.conf",
+				"/home/moritz/.config/gtk-3.0/settings.ini",
+				"/home/moritz/.gtkrc-2.0",
+				"/home/moritz/.vimrc",
+				"/home/moritz/.xsession-errors",
+				"/media/moritz/Ellesmera/Dropbox/ebiv/scripts/Oscilloscope_scripts/old/raster_plot_aex.py",
+				"/etc/upstart-xsessions",
+				"/home/moritz/.xinitrc",
+				"/home/moritz/.Xauthority",
+				"/media/moritz/Data/sEMD/plots/Spikes.svg",
+				"/home/moritz/Repositories/plotting/Basic Obstacle Avoidance.ipynb",
+				"/home/moritz/Repositories/spiking-insect-vision/Plotting/visualize_semd.py",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/biases/sEMD_beforeCC.txt",
+				"/home/moritz/Repositories/spiking-insect-vision/Oscilloscope_scripts/test/raster.csv",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/expRun_STP.py",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/nbs_array.py",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/default_setup.py",
+				"/home/moritz/Repositories/spiking-insect-vision/Oscilloscope_scripts/Client_run.py",
+				"/usr/local/lib/python2.7/dist-packages/pyNCS/neurosetup.py",
+				"/home/moritz/sketchbook/libraries/readme.txt",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/AerConfiguratorGroup.py",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/run_setup.py",
+				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/BuildingBlocks/SequenceLearning.py",
+				"/home/moritz/Repositories/OCTA/NCSBrian2Stimuli/testbench.py",
+				"/home/moritz/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+				"/home/moritz/Repositories/NCSBrian2Examples/SingleNeuronExample/main.py",
+				"/home/moritz/Repositories/NCSBrian2Examples/WTA2dExample.py",
+				"/home/moritz/Repositories/NCSBrian2Examples/SequenceLearningStandaloneExample.py",
+				"/home/moritz/Repositories/NCSBrian2Examples/SingleNeuronExample/Training.pyc",
+				"/home/moritz/Repositories/NCSBrian2Examples/ChainExample.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/BuildingBlock.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Groups/Groups.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/Chain.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Tools/plotTools.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Tools/tools.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Tools/cppTools.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Plotting/WTAplot.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Parameters/synapseParams.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Parameters/neuronParams.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Equations/synapseEquations.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Equations/neuronEquations.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BasicBuildingBlocks/WTA.pyc",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/SOM.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/WTA.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/SequenceLearning.py"
+			],
+			"find":
+			{
+				"height": 44.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"I_connection_probability",
+					"layerSize",
+					"predictionUnits",
+					"errorStyle",
+					"tileID",
+					"contextFanIn",
+					"totalNumberTiles",
+					"tileNumberY",
+					"tileNumberX",
+					"tileSizeY",
+					"tileSizeX",
+					"strideSizeX",
+					"strideSizeY",
+					"strideSizeX",
+					"win",
+					"Description",
+					"component",
+					"namespace"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 44.0
+			},
+			"input":
+			{
+				"height": 54.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 430.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.latextools":
+			{
+				"height": 250.0
+			},
+			"output.markdown":
+			{
+				"height": 170.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 170.0
+			},
+			"output.vi_out":
+			{
+				"height": 96.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 80.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 380.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"mon_addr"
+					]
+				],
+				"width": 392.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 191.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"num_inh_",
+						"num_inh_inputs"
+					],
+					[
+						"synIn",
+						"synInhInh1i"
+					],
+					[
+						"equa",
+						"equation_builder"
+					],
+					[
+						"wta",
+						"wtaParams"
+					],
+					[
+						"DPI",
+						"DPIstdp\tclass"
+					],
+					[
+						"eq",
+						"equation_builder"
+					],
+					[
+						"statem",
+						"statemon_weight"
+					],
+					[
+						"spikem",
+						"spikemon_input"
+					],
+					[
+						"State",
+						"StateMonitor"
+					],
+					[
+						"ran",
+						"randint\tfunction"
+					],
+					[
+						"compres",
+						"compressionMap"
+					],
+					[
+						"next",
+						"nextRow\t(neuron_synapse.py)"
+					],
+					[
+						"plot_t",
+						"plot_statemon_qt"
+					],
+					[
+						"spikemonW",
+						"spikemonWTAInp"
+					],
+					[
+						"WTA",
+						"WTAMonitors"
+					],
+					[
+						"raster",
+						"raster_input"
+					],
+					[
+						"end",
+						"end_time"
+					],
+					[
+						"synap",
+						"synaptic"
+					],
+					[
+						"start_",
+						"start_ind"
+					],
+					[
+						"m",
+						"monitor"
+					],
+					[
+						"star",
+						"start_time"
+					],
+					[
+						"symb",
+						"symbolBrush\t(neuron_synapse.py)"
+					],
+					[
+						"symbo",
+						"symbolSize=7\t(testbench.py)"
+					],
+					[
+						"symp",
+						"symbolPen=None\t(testbench.py)"
+					],
+					[
+						"symbol",
+						"symbol='o\t(testbench.py)"
+					],
+					[
+						"wt",
+						"wtaParams"
+					],
+					[
+						"block",
+						"block_params\t(wta.py)"
+					],
+					[
+						"noise",
+						"noise_syn"
+					],
+					[
+						"DP",
+						"DPISyn\tclass"
+					],
+					[
+						"nois",
+						"noise_syn"
+					],
+					[
+						"NC",
+						"NCSNetwork\tclass"
+					],
+					[
+						"start",
+						"start_time\t(testbench.py)"
+					],
+					[
+						"test",
+						"testbench"
+					],
+					[
+						"n",
+						"noise_input\tstatement"
+					],
+					[
+						"NCS",
+						"NCSBrian2Lib"
+					],
+					[
+						"num",
+						"num_inputs\t(neuron_synapse.py)"
+					],
+					[
+						"Neu",
+						"Neurons\tclass"
+					],
+					[
+						"numn",
+						"num_neurons"
+					],
+					[
+						"neur",
+						"neuron_id"
+					],
+					[
+						"inpu",
+						"inputGroup"
+					],
+					[
+						"neuron",
+						"neuron_id"
+					],
+					[
+						"ass",
+						"assertEqual\tfunction"
+					],
+					[
+						"num_inp",
+						"num_inp_neurons\tparam"
+					],
+					[
+						"Test",
+						"TestCase\t(test_tools.py)"
+					],
+					[
+						"Unit",
+						"unittest\tmodule"
+					],
+					[
+						"tr",
+						"truncnorm"
+					],
+					[
+						"buil",
+						"building_blocks\t(test_wta.py)"
+					],
+					[
+						"exc",
+						"except\t(groups.py)"
+					],
+					[
+						"var",
+						"variables"
+					],
+					[
+						"syna",
+						"synaptic_kernel"
+					],
+					[
+						"Eve",
+						"Events.npy"
+					],
+					[
+						"assert",
+						"assertEqual\tfunction"
+					],
+					[
+						"fker",
+						"fkernelgauss1d\tfunction"
+					],
+					[
+						"asse",
+						"assertEqual"
+					],
+					[
+						"retu",
+						"returnValTrue"
+					],
+					[
+						"reutn",
+						"returnVal"
+					],
+					[
+						"return",
+						"returnValFalse"
+					],
+					[
+						"returnV",
+						"returnValTrue"
+					],
+					[
+						"tes",
+						"testVal"
+					],
+					[
+						"ret",
+						"returnValueIf\tfunction"
+					],
+					[
+						"small",
+						"smallerThanVal\t(tools.py)"
+					],
+					[
+						"has",
+						"hasattr"
+					],
+					[
+						"brian",
+						"briangroup"
+					],
+					[
+						"art",
+						"artifical_stimulus=False"
+					],
+					[
+						"stdp",
+						"stdp_testbench"
+					],
+					[
+						"s",
+						"stdp_testbench"
+					],
+					[
+						"ind2",
+						"ind2xy\tfunction"
+					],
+					[
+						"coord",
+						"coordinates\t(testbench.py)"
+					],
+					[
+						"asser",
+						"assertEqual\tfunction"
+					],
+					[
+						"par",
+						"params\t(neuron_synapse.py)"
+					],
+					[
+						"dpi_syn",
+						"dpi_syn_eq"
+					],
+					[
+						"set",
+						"setParams\tfunction"
+					],
+					[
+						"dp",
+						"dpi_neuron_param\tmodule"
+					],
+					[
+						"DPIS",
+						"DPISynSTDPparam"
+					],
+					[
+						"DPI_",
+						"DPI_stdp\tfunction"
+					],
+					[
+						"Syn",
+						"SynapseModels\tmodule"
+					],
+					[
+						"dpi",
+						"dpi_synapse\tmodule"
+					],
+					[
+						"dpi_neu",
+						"dpi_neuron_eq"
+					],
+					[
+						"NeuronG",
+						"NeuronGroup\tclass"
+					],
+					[
+						"dpi_",
+						"dpi_neuron\tmodule"
+					],
+					[
+						"Sili",
+						"SiliconEq"
+					],
+					[
+						"event",
+						"events"
+					],
+					[
+						"param",
+						"parameters"
+					],
+					[
+						"testN",
+						"testNeurons"
+					],
+					[
+						"la",
+						"labelStyle"
+					],
+					[
+						"statemon",
+						"statemonInpSyn"
+					],
+					[
+						"bord",
+						"border_width"
+					],
+					[
+						"sym",
+						"symbols"
+					],
+					[
+						"sv",
+						"svg_e_all"
+					],
+					[
+						"win_",
+						"win_number\tstatement"
+					],
+					[
+						"win",
+						"win_isi"
+					],
+					[
+						"plot",
+						"plot_dir"
+					],
+					[
+						"freq",
+						"frequency"
+					],
+					[
+						"std",
+						"std_frequency"
+					],
+					[
+						"spi",
+						"spikes"
+					],
+					[
+						"e",
+						"exporters\tmodule"
+					],
+					[
+						"mean_",
+						"mean_spikes"
+					],
+					[
+						"max",
+						"max_dt\tstatement"
+					],
+					[
+						"del",
+						"delta_t"
+					],
+					[
+						"mean",
+						"mean_frequency\tstatement"
+					],
+					[
+						"burst",
+						"burstlength\tstatement"
+					],
+					[
+						"misma",
+						"mismatch_burst"
+					],
+					[
+						"burs",
+						"burstlength_rec\tstatement"
+					],
+					[
+						"un",
+						"unique\tfunction"
+					],
+					[
+						"neir",
+						"neuron_dict"
+					],
+					[
+						"data",
+						"data_processed"
+					],
+					[
+						"isi_",
+						"isi_single"
+					],
+					[
+						"isi",
+						"isi_single"
+					],
+					[
+						"spike",
+						"spikes_rec\tstatement"
+					],
+					[
+						"sp",
+						"spikes_rec_temp\tstatement"
+					],
+					[
+						"mism",
+						"mism_burst"
+					],
+					[
+						"pyqt",
+						"pyqtgraph\tmodule"
+					],
+					[
+						"get",
+						"getAxis"
+					],
+					[
+						"nm",
+						"number_of_spikes_recording\tstatement"
+					],
+					[
+						"sh",
+						"shape\tfunction"
+					],
+					[
+						"shap",
+						"shape_bursts"
+					],
+					[
+						"nmber",
+						"number_of_spikes_array"
+					],
+					[
+						"number",
+						"number_of_spikes\tstatement"
+					],
+					[
+						"inst",
+						"instaneousFrequency\t(visualize_semd.py)"
+					],
+					[
+						"load",
+						"load_data\t(visualize_semd.py)"
+					],
+					[
+						"save",
+						"save_data\t(visualize_semd.py)"
+					],
+					[
+						"spik",
+						"spiketimes"
+					],
+					[
+						"dire",
+						"directory_rawData"
+					],
+					[
+						"vis",
+						"visualize_semd\tmodule"
+					],
+					[
+						"bur",
+						"burstlength\tstatement"
+					],
+					[
+						"dara",
+						"data_neuronchannels"
+					],
+					[
+						"number_",
+						"number_of_spikes_array"
+					],
+					[
+						"stand",
+						"standaloneParams"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.txt",
+					"settings":
+					{
+						"buffer_size": 1758,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/OCTA/octa.py",
+					"settings":
+					{
+						"buffer_size": 15377,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/NCSBrian2Lib/stimuli/testbench.py",
+					"settings":
+					{
+						"buffer_size": 27503,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotting.py",
+					"settings":
+					{
+						"buffer_size": 8966,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": " dImem/dt = (((Ith_clip / Itau_clip) * (Iin_clip  + Ia_clip - Ishunt - Iahp_clip)) - Ith_clip - ((1 + ((Ishunt + Iahp_clip - Ia_clip) / Itau_clip)) * Imem)   ) / (tau * ((Ith_clip/(Imem + Io)) + 1)) : amp (unless refractory)\n\n            # Ia_clip   : amp\n\n            Itau_clip = Itau*(Imem>Io) + Io*(Imem<=Io)  : amp\n            Ith_clip = Ith*(Imem>Io) + Io*(Imem<=Io)    : amp\n            Iin_clip = clip(Iin+Iconst,Io, 1*amp) : amp\n            Ithahp_clip = Ithahp*(Iahp>Io) + Io*(Iahp<=Io) : amp\n            Ishunt_clip = clip(Ishunt, Io, Imem) : amp\n\n            tau = (Cmem * Ut) / (kappa * Itau_clip) : second        # Membrane time constant\n            kappa = (kn + kp) / 2 : 1\n\n            Inoise  : amp                                    # Noise due to mismatch\n\n            kn      : 1 (shared, constant)                   # subthreshold slope factor for nFETs\n            kp      : 1 (shared, constant)                   # subthreshold slope factor for pFETs\n            Ut      : volt (shared, constant)                # Thermal voltage\n            Io      : amp (shared, constant)                 # Dark current\n            Cmem    : farad (shared, constant)               # Membrane capacitance\n            Ispkthr : amp (constant)                         # Spiking threshold\n            Ireset  : amp (shared, constant)                 # Reset current\n            refP    : second    (shared, constant)           # refractory period (It is still possible to set it to False)\n            Ith     : amp (constant)                         # DPI threshold (low pass filter).\n            Itau    : amp (constant)                         # Leakage current\n            Iconst  : amp (constant)                         # Additional input current similar to constant current injection\n            Ishunt  : amp (constant)                         # Shunting inhibitory current (directly affects soma)\n            Ica     : amp (constant)\n         \n\n          dIahp/dt = (- Ithahp_clip - Iahp + 2*Io*(Iahp<=Io)) / (tauahp * (Ithahp_clip / Iahp + 1)) : amp # adaptation current\n          Iahp_clip = Iahp*(Imem>Io) + Io*(Imem<=Io)  : amp\n          tauahp = (Cahp * Ut) / (kappa * Itauahp) : second # time constant of adaptation\n          Iahpmax = (Ica / Itauahp) * Ithahp_clip : amp     # Ratio of currents through diffpair and adaptation block\n          Ithahp : amp (constant)\n          Itauahp : amp (constant)\n          Cahp : farad (constant)\n         \n\n        Ia = Iagain / (1 + exp(-(Imem - Iath) / Ianorm)) : amp  # postive feedback current\n        Ia_clip = Ia*(Imem>Io) + 2*Io*(Imem<=Io)    : amp\n        Iagain : amp (constant)\n        Iath : amp (constant)\n        Ianorm : amp (constant)\n\n         \n\n           x : 1         (constant)        # x location on 2d grid (only set it if you need it)\n           y : 1         (constant)        # y location on 2d grid\n           Iin = Ie0+ Ie1 + Ie2 + Ie3 + Ie4 +Ii0+ Ii1 + Ii2 + Ii3 + Ii4  : amp # input currents\n    Ie0 : amp\n                Ie1 : amp\n                Ie2 : amp\n                Ie3 : amp\n                Ie4 : amp\n    Ii0 : amp\n                Ii1 : amp\n                Ii2 : amp\n                Ii3 : amp\n                Ii4 : amp\n\nrefractory : refP\nreset : Imem = Ireset\n                  Iahp += Iahpmax\n                  \nthreshold : Imem > Ispkthr\n\n\n\nIshunt vs Ishunt_clip\n Iahp??",
+					"settings":
+					{
+						"buffer_size": 3370,
+						"line_ending": "Unix",
+						"name": "dImem/dt = (((Ith_clip / Itau_clip) * (Iin_clip"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.py",
+					"settings":
+					{
+						"buffer_size": 19095,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Dropbox/Scripts/Brian2/mismatch_snippet.py",
+					"settings":
+					{
+						"buffer_size": 1554,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Markdown Preview/Markdown.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Markdown Preview/Markdown.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Traditional"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Script Builder"
+						]
+					],
+					[
+						"Packages/LaTeXTools/LaTeX.sublime-build",
+						"PdfLaTeX"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 246.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"pascl",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 1086.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"echo LOOL",
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/wta.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/core/groups.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_neuron_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/tutorial.py",
+				"/home/schlowmo/Repositories/ncs_brian/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/ncs_brian/parameters/constants.py",
+				"/home/schlowmo/Repositories/OCTA/interfaces/convert.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotter2d.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/example_dvs_plot.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Master projects/Closed-loop sEMD/LOR_Schoepe_Telluride.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Journal Club/Journal Clubs at INI_old.txt",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_subgroup_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/building_block.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/neuron_models.py",
+				"/home/schlowmo/Documents/spikegen_stdp_test.py",
+				"/home/schlowmo/Dropbox/Studies/ToDo/ToDo.txt",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/plotting/wta_plot.py",
+				"/home/schlowmo/Repositories/ncs_brian/syn_eq.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_synapse.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/synapse_models.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/neuron_equation_builder.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotting.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_wta.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_tools.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/OCTA/README.md",
+				"/tmp/mozilla_schlowmo0/groups.py",
+				"/home/schlowmo/Repositories/OCTA/.gitmodules",
+				"/home/schlowmo/Repositories/OCTA/octa.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/indexing.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/synaptic_kernel.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/misc.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_neuron.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_testbench.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Tools/tools.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/WTA.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_tools.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_testbench.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Stimuli/testbench.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/BuildingBlock.py",
+				"/tmp/mozilla_schlowmo0/test_maths.py",
+				"/home/schlowmo/Dropbox/Scripts/Brian2/aedat_check.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Equations/NeuronEquation.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/NeuronModels.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/SynapseModels.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp_kernel.py",
+				"/tmp/mozilla_schlowmo0/maths.py",
+				"/home/schlowmo/.config/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
+				"/home/schlowmo/.config/sublime-text-3/Packages/User/FileHeader.sublime-settings",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/.gitignore",
+				"/home/schlowmo/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
+				"/home/schlowmo/.config/sublime-text-3/Packages/AutoDocstring/AutoDocstring.sublime-settings",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Groups/Groups.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/dpi_synapse.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/dpi_neuron.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse_simple.py",
+				"/home/schlowmo/Repositories/ncs_brian/neuron_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/neuron_param.py",
+				"/home/schlowmo/Dropbox/config/install_packages.txt",
+				"/home/schlowmo/.config/sublime-text-3/Packages/User/python3.sublime-build",
+				"/home/schlowmo/Dropbox/config/.bashrc",
+				"/home/schlowmo/.bash_aliases",
+				"/home/schlowmo/Dropbox/config/setup-franz.sh",
+				"/home/schlowmo/.bash_",
+				"/home/schlowmo/.bashrc",
+				"/home/moritz/Repositories/spiking-insect-vision/Plotting/semd.py",
+				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/Equations/synapseEquations.py",
+				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/Equations/neuronEquations.py",
+				"/home/moritz/Repositories/OCTA/tutorial_new.py",
+				"/home/moritz/.config/sublime-text-3/Packages/User/Arc-Dark/Arc-Dark-Master.sublime-theme",
+				"/home/moritz/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
+				"/etc/i3blocks.conf",
+				"/home/moritz/.config/i3/i3blocks.conf",
+				"/home/moritz/.config/gtk-3.0/settings.ini",
+				"/home/moritz/.gtkrc-2.0",
+				"/home/moritz/.vimrc",
+				"/home/moritz/.xsession-errors",
+				"/media/moritz/Ellesmera/Dropbox/ebiv/scripts/Oscilloscope_scripts/old/raster_plot_aex.py",
+				"/etc/upstart-xsessions",
+				"/home/moritz/.xinitrc",
+				"/home/moritz/.Xauthority",
+				"/media/moritz/Data/sEMD/plots/Spikes.svg",
+				"/home/moritz/Repositories/plotting/Basic Obstacle Avoidance.ipynb",
+				"/home/moritz/Repositories/spiking-insect-vision/Plotting/visualize_semd.py",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/biases/sEMD_beforeCC.txt",
+				"/home/moritz/Repositories/spiking-insect-vision/Oscilloscope_scripts/test/raster.csv",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/expRun_STP.py",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/nbs_array.py",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/default_setup.py",
+				"/home/moritz/Repositories/spiking-insect-vision/Oscilloscope_scripts/Client_run.py",
+				"/usr/local/lib/python2.7/dist-packages/pyNCS/neurosetup.py",
+				"/home/moritz/sketchbook/libraries/readme.txt",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/AerConfiguratorGroup.py",
+				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/run_setup.py",
+				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/BuildingBlocks/SequenceLearning.py",
+				"/home/moritz/Repositories/OCTA/NCSBrian2Stimuli/testbench.py",
+				"/home/moritz/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+				"/home/moritz/Repositories/NCSBrian2Examples/SingleNeuronExample/main.py",
+				"/home/moritz/Repositories/NCSBrian2Examples/WTA2dExample.py",
+				"/home/moritz/Repositories/NCSBrian2Examples/SequenceLearningStandaloneExample.py",
+				"/home/moritz/Repositories/NCSBrian2Examples/SingleNeuronExample/Training.pyc",
+				"/home/moritz/Repositories/NCSBrian2Examples/ChainExample.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/BuildingBlock.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Groups/Groups.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/Chain.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Tools/plotTools.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Tools/tools.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Tools/cppTools.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Plotting/WTAplot.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Parameters/synapseParams.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Parameters/neuronParams.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Equations/synapseEquations.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/Equations/neuronEquations.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BasicBuildingBlocks/WTA.pyc",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/SOM.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/WTA.py",
+				"/home/moritz/Repositories/NCSBrian2Lib/BuildingBlocks/SequenceLearning.py"
+			],
+			"find":
+			{
+				"height": 50.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"I_connection_probability",
+					"layerSize",
+					"predictionUnits",
+					"errorStyle",
+					"tileID",
+					"contextFanIn",
+					"totalNumberTiles",
+					"tileNumberY",
+					"tileNumberX",
+					"tileSizeY",
+					"tileSizeX",
+					"strideSizeX",
+					"strideSizeY",
+					"strideSizeX",
+					"win",
+					"Description",
+					"component",
+					"namespace"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1758,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										231,
+										231
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										1,
+										16,
+										12,
+										30,
+										46,
+										8,
+										90,
+										231,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"highlight_line": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"recording": false,
+										"register": "\"",
+										"sequence": "",
+										"xpos": 10
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/schlowmo/Repositories/OCTA/octa.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 15377,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3814,
+										3814
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.python - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										1,
+										10,
+										10,
+										27,
+										20,
+										11,
+										55,
+										195,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 15
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 475.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/schlowmo/Repositories/NCSBrian2Lib/stimuli/testbench.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 27503,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.python - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										12,
+										27,
+										10,
+										46,
+										44,
+										8,
+										133,
+										71,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 12951.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 3,
+							"file": "/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotting.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8966,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4161,
+										4161
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.python - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										1,
+										12,
+										15,
+										20,
+										18,
+										9,
+										205,
+										157,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 14
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 2593.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3370,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3364,
+										3368
+									]
+								],
+								"settings":
+								{
+									"auto_name": "dImem/dt = (((Ith_clip / Itau_clip) * (Iin_clip",
+									"default_dir": "/home/schlowmo/Repositories/NCSBrian2Lib/tools",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 68
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 19095,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7019,
+										7019
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										3,
+										31,
+										14,
+										50,
+										12,
+										4,
+										246,
+										61,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 15
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 1976.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/schlowmo/Dropbox/Scripts/Brian2/mismatch_snippet.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1554,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.python - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										1,
+										10,
+										15,
+										24,
+										22,
+										8,
+										152,
+										221,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"highlight_line": false,
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 50.0
+			},
+			"input":
+			{
+				"height": 54.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.460625,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 430.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.latextools":
+			{
+				"height": 250.0
+			},
+			"output.markdown":
+			{
+				"height": 170.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 170.0
+			},
+			"output.vi_out":
+			{
+				"height": 96.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,0,0,0,3200,1800",
+			"project": "",
+			"replace":
+			{
+				"height": 92.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 380.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"mon_addr"
+					]
+				],
+				"width": 392.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+				"_vintageous_last_buffer_search": "param",
+				"_vintageous_last_buffer_search_command": "vi_slash",
+				"_vintageous_last_char_search_command": "vi_f",
+				"_vintageous_last_character_search": "\n",
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/home/schlowmo/ownCloud/Documents/Studies/ToDo"
+				}
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 191.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 39,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	//Color scheme for displaying notebooks
+	//Light:
+	// "color_scheme": "Packages/IPython Notebook/ipynb_light.hidden-tmTheme",
+	//Dark:
+	"color_scheme": "Packages/IPython Notebook/ipynb_dark.hidden-tmTheme",
+	"default_address":
+	[
+		"http://127.0.0.1:8888"
+	]
+}
