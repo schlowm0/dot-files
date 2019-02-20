@@ -7,7 +7,7 @@
 		"/home/moritz/Repositories/snn_object_recognition"
 	],
 	"last_version": 3176,
-	"last_window_id": 54,
+	"last_window_id": 94,
 	"log_indexing": false,
 	"settings":
 	{
@@ -18,6 +18,346 @@
 			{
 				"selected_items":
 				[
+					[
+						"spikemonit",
+						"spikemonitor_noise"
+					],
+					[
+						"noi",
+						"noise_input"
+					],
+					[
+						"input",
+						"inputGroup"
+					],
+					[
+						"nex",
+						"nextRow\t(stdp_tutorial.py)"
+					],
+					[
+						"Post",
+						"PostDevelopCommand\tclass"
+					],
+					[
+						"targ",
+						"target_N"
+					],
+					[
+						"raster",
+						"rasterPlot_c"
+					],
+					[
+						"eq",
+						"eq_dict"
+					],
+					[
+						"dic",
+						"dict_name"
+					],
+					[
+						"num_inputs",
+						"num_inputs=2"
+					],
+					[
+						"dir",
+						"directory_name"
+					],
+					[
+						"sourc",
+						"source_path"
+					],
+					[
+						"Ie_",
+						"Ie_th\t(DPIstdp.py)"
+					],
+					[
+						"Ii_tau",
+						"Ii_tau*(Ii_syn\t(DPIstdp_gm.py)"
+					],
+					[
+						"Itau",
+						"Itau_i\t(DPIstdp_gm.py)"
+					],
+					[
+						"decay",
+						"decay_time\tparam"
+					],
+					[
+						"learn",
+						"learning_rate"
+					],
+					[
+						"run",
+						"run_regularly"
+					],
+					[
+						"syn",
+						"synapse_types"
+					],
+					[
+						"SLOW",
+						"SLOW_INH"
+					],
+					[
+						"synap",
+						"synapse_type"
+					],
+					[
+						"post",
+						"post_neurons"
+					],
+					[
+						"core",
+						"core_offset"
+					],
+					[
+						"feature",
+						"feature_neuron"
+					],
+					[
+						"qu",
+						"quantize_weights_number\tfunction"
+					],
+					[
+						"qunatiz",
+						"quantized_weights"
+					],
+					[
+						"synapse",
+						"synapse_types"
+					],
+					[
+						"weights_",
+						"weights_inp"
+					],
+					[
+						"data",
+						"data_dir"
+					],
+					[
+						"rot",
+						"rotating_bar\t(testbench.py)"
+					],
+					[
+						"OCTA",
+						"OCTA_Testbench\tmodule"
+					],
+					[
+						"OCT",
+						"OCTA_Testbench\t(testbench.py)"
+					],
+					[
+						"activ",
+						"activity_proxy"
+					],
+					[
+						"check",
+						"check_units"
+					],
+					[
+						"exp",
+						"exp_weighted_membrane_buffer"
+					],
+					[
+						"disit",
+						"distribution"
+					],
+					[
+						"wei",
+						"weight_update"
+					],
+					[
+						"membran",
+						"membrane_buffer"
+					],
+					[
+						"Ipred",
+						"Ipred_syn"
+					],
+					[
+						"norma",
+						"normalized_Imem_var"
+					],
+					[
+						"Imem",
+						"Imem_var"
+					],
+					[
+						"high",
+						"high_indices"
+					],
+					[
+						"qua",
+						"quantized_weights"
+					],
+					[
+						"thre",
+						"threshold_high"
+					],
+					[
+						"thres",
+						"threshold_high"
+					],
+					[
+						"dec",
+						"declare_types\tfunction"
+					],
+					[
+						"inh",
+						"inh_wta_c"
+					],
+					[
+						"qunati",
+						"quantize_weights\tmodule"
+					],
+					[
+						"quna",
+						"quantize_weights\tmodule"
+					],
+					[
+						"testbench",
+						"testbench_stim"
+					],
+					[
+						"DPIst",
+						"DPIstdp_gm"
+					],
+					[
+						"Synapse",
+						"SynapseEquationBuilder.import_eq('octa\t(run_reg_functions.py)"
+					],
+					[
+						"SynST",
+						"SynSTDGM"
+					],
+					[
+						"synaps",
+						"synapse_group"
+					],
+					[
+						"logi",
+						"logical_or\tinstance"
+					],
+					[
+						"calac",
+						"calculate_distance"
+					],
+					[
+						"buffer",
+						"buffer_size"
+					],
+					[
+						"clacl",
+						"calculate_mean\tfunction"
+					],
+					[
+						"cal",
+						"calculate_mean\tfunction"
+					],
+					[
+						"clac",
+						"calculate_mean"
+					],
+					[
+						"Vect",
+						"Vector3D"
+					],
+					[
+						"Vec",
+						"Vector3D\tclass"
+					],
+					[
+						"_g",
+						"_get_length\tfunction"
+					],
+					[
+						"my_ve",
+						"my_vec2"
+					],
+					[
+						"my",
+						"my_duck_1\tstatement"
+					],
+					[
+						"he",
+						"head_color\tstatement"
+					],
+					[
+						"my_de",
+						"my_dec_duck\tstatement"
+					],
+					[
+						"red",
+						"red_head_3\tstatement"
+					],
+					[
+						"blac",
+						"black_duck"
+					],
+					[
+						"Dec",
+						"DecoyDuck\tclass"
+					],
+					[
+						"fl",
+						"flying_behaviour\tstatement"
+					],
+					[
+						"None",
+						"NonFlyingBehaviour"
+					],
+					[
+						"Fly",
+						"FlyinBehaviour\tclass"
+					],
+					[
+						"RedHe",
+						"ReadHeadDuck\tclass"
+					],
+					[
+						"neuron_m",
+						"neuron_models"
+					],
+					[
+						"pytho",
+						"python3"
+					],
+					[
+						"equation",
+						"equation_builder"
+					],
+					[
+						"pop",
+						"popitem\tfunction"
+					],
+					[
+						"file",
+						"filename"
+					],
+					[
+						"import",
+						"importlib"
+					],
+					[
+						"neuro",
+						"neuron_eq"
+					],
+					[
+						"Nac",
+						"NCSBrian2Lib"
+					],
+					[
+						"NCS",
+						"NCSBrian2Lib"
+					],
+					[
+						"standal",
+						"standaloneParams"
+					],
+					[
+						"Build",
+						"BuildingBlock\tclass"
+					],
 					[
 						"visu",
 						"visualization_backend"
@@ -45,10 +385,6 @@
 					[
 						"equa",
 						"equation_builder\tparam"
-					],
-					[
-						"noi",
-						"noise_x\tstatement"
 					],
 					[
 						"list",
@@ -83,10 +419,6 @@
 						"adjacency_matrix\tstatement"
 					],
 					[
-						"NCS",
-						"NCSBrian2Lib\t(davis_interface.py)"
-					],
-					[
 						"start",
 						"start_time"
 					],
@@ -117,10 +449,6 @@
 					[
 						"reserv",
 						"reservoir"
-					],
-					[
-						"Synapse",
-						"Synapses\t(groups.py)"
 					],
 					[
 						"bias",
@@ -163,10 +491,6 @@
 						"DPIstdp\tclass"
 					],
 					[
-						"eq",
-						"equation_builder"
-					],
-					[
 						"statem",
 						"statemon_weight"
 					],
@@ -203,332 +527,8 @@
 						"WTAMonitors"
 					],
 					[
-						"raster",
-						"raster_input"
-					],
-					[
 						"end",
 						"end_time"
-					],
-					[
-						"synap",
-						"synaptic"
-					],
-					[
-						"start_",
-						"start_ind"
-					],
-					[
-						"m",
-						"monitor"
-					],
-					[
-						"star",
-						"start_time"
-					],
-					[
-						"symb",
-						"symbolBrush\t(neuron_synapse.py)"
-					],
-					[
-						"symbo",
-						"symbolSize=7\t(testbench.py)"
-					],
-					[
-						"symp",
-						"symbolPen=None\t(testbench.py)"
-					],
-					[
-						"symbol",
-						"symbol='o\t(testbench.py)"
-					],
-					[
-						"wt",
-						"wtaParams"
-					],
-					[
-						"block",
-						"block_params\t(wta.py)"
-					],
-					[
-						"DP",
-						"DPISyn\tclass"
-					],
-					[
-						"test",
-						"testbench"
-					],
-					[
-						"n",
-						"noise_input\tstatement"
-					],
-					[
-						"num",
-						"num_inputs\t(neuron_synapse.py)"
-					],
-					[
-						"Neu",
-						"Neurons\tclass"
-					],
-					[
-						"numn",
-						"num_neurons"
-					],
-					[
-						"neur",
-						"neuron_id"
-					],
-					[
-						"inpu",
-						"inputGroup"
-					],
-					[
-						"neuron",
-						"neuron_id"
-					],
-					[
-						"ass",
-						"assertEqual\tfunction"
-					],
-					[
-						"num_inp",
-						"num_inp_neurons\tparam"
-					],
-					[
-						"Test",
-						"TestCase\t(test_tools.py)"
-					],
-					[
-						"Unit",
-						"unittest\tmodule"
-					],
-					[
-						"tr",
-						"truncnorm"
-					],
-					[
-						"buil",
-						"building_blocks\t(test_wta.py)"
-					],
-					[
-						"exc",
-						"except\t(groups.py)"
-					],
-					[
-						"var",
-						"variables"
-					],
-					[
-						"syna",
-						"synaptic_kernel"
-					],
-					[
-						"Eve",
-						"Events.npy"
-					],
-					[
-						"assert",
-						"assertEqual\tfunction"
-					],
-					[
-						"fker",
-						"fkernelgauss1d\tfunction"
-					],
-					[
-						"asse",
-						"assertEqual"
-					],
-					[
-						"retu",
-						"returnValTrue"
-					],
-					[
-						"reutn",
-						"returnVal"
-					],
-					[
-						"return",
-						"returnValFalse"
-					],
-					[
-						"returnV",
-						"returnValTrue"
-					],
-					[
-						"tes",
-						"testVal"
-					],
-					[
-						"ret",
-						"returnValueIf\tfunction"
-					],
-					[
-						"small",
-						"smallerThanVal\t(tools.py)"
-					],
-					[
-						"has",
-						"hasattr"
-					],
-					[
-						"brian",
-						"briangroup"
-					],
-					[
-						"art",
-						"artifical_stimulus=False"
-					],
-					[
-						"stdp",
-						"stdp_testbench"
-					],
-					[
-						"s",
-						"stdp_testbench"
-					],
-					[
-						"ind2",
-						"ind2xy\tfunction"
-					],
-					[
-						"coord",
-						"coordinates\t(testbench.py)"
-					],
-					[
-						"asser",
-						"assertEqual\tfunction"
-					],
-					[
-						"par",
-						"params\t(neuron_synapse.py)"
-					],
-					[
-						"dpi_syn",
-						"dpi_syn_eq"
-					],
-					[
-						"set",
-						"setParams\tfunction"
-					],
-					[
-						"dp",
-						"dpi_neuron_param\tmodule"
-					],
-					[
-						"DPIS",
-						"DPISynSTDPparam"
-					],
-					[
-						"DPI_",
-						"DPI_stdp\tfunction"
-					],
-					[
-						"Syn",
-						"SynapseModels\tmodule"
-					],
-					[
-						"dpi",
-						"dpi_synapse\tmodule"
-					],
-					[
-						"dpi_neu",
-						"dpi_neuron_eq"
-					],
-					[
-						"NeuronG",
-						"NeuronGroup\tclass"
-					],
-					[
-						"dpi_",
-						"dpi_neuron\tmodule"
-					],
-					[
-						"Sili",
-						"SiliconEq"
-					],
-					[
-						"event",
-						"events"
-					],
-					[
-						"param",
-						"parameters"
-					],
-					[
-						"la",
-						"labelStyle"
-					],
-					[
-						"statemon",
-						"statemonInpSyn"
-					],
-					[
-						"bord",
-						"border_width"
-					],
-					[
-						"sym",
-						"symbols"
-					],
-					[
-						"sv",
-						"svg_e_all"
-					],
-					[
-						"win_",
-						"win_number\tstatement"
-					],
-					[
-						"win",
-						"win_isi"
-					],
-					[
-						"plot",
-						"plot_dir"
-					],
-					[
-						"freq",
-						"frequency"
-					],
-					[
-						"std",
-						"std_frequency"
-					],
-					[
-						"spi",
-						"spikes"
-					],
-					[
-						"e",
-						"exporters\tmodule"
-					],
-					[
-						"mean_",
-						"mean_spikes"
-					],
-					[
-						"max",
-						"max_dt\tstatement"
-					],
-					[
-						"del",
-						"delta_t"
-					],
-					[
-						"mean",
-						"mean_frequency\tstatement"
-					],
-					[
-						"burst",
-						"burstlength\tstatement"
-					],
-					[
-						"misma",
-						"mismatch_burst"
-					],
-					[
-						"burs",
-						"burstlength_rec\tstatement"
 					]
 				]
 			},
@@ -587,30 +587,6 @@
 					],
 					[
 						"Packages/Markdown Preview/Markdown.sublime-build",
-						""
-					]
-				],
-				[
-					[
-						[
-							"Packages/MarkdownPreview/Markdown.sublime-build",
-							""
-						],
-						[
-							"Packages/Vintageous/Vintageous.sublime-build",
-							""
-						],
-						[
-							"Packages/Vintageous/Vintageous.sublime-build",
-							"Vintageous - Test (All)"
-						],
-						[
-							"Packages/Vintageous/Vintageous.sublime-build",
-							"Vintageous - Test (This File Only)"
-						]
-					],
-					[
-						"Packages/MarkdownPreview/Markdown.sublime-build",
 						""
 					]
 				],
@@ -743,7 +719,19 @@
 				"selected_items":
 				[
 					[
-						"package",
+						"pak",
+						"Package Control: Install Package"
+					],
+					[
+						"build",
+						"Build With: python3"
+					],
+					[
+						"inter",
+						"Anaconda: Set Python interpreter"
+					],
+					[
+						"packag",
 						"Package Control: Install Package"
 					],
 					[
@@ -756,10 +744,6 @@
 					],
 					[
 						"Package Control: ",
-						"Package Control: Install Package"
-					],
-					[
-						"packag",
 						"Package Control: Install Package"
 					],
 					[
@@ -789,138 +773,138 @@
 			},
 			"file_history":
 			[
-				"/home/schlowmo/Repositories/teili/README.md",
-				"/home/schlowmo/Repositories/Phd_Project/Thesis/mathdesign.sty",
-				"/home/schlowmo/Repositories/Phd_Project/Thesis/jb-thesis.cls",
-				"/home/schlowmo/Repositories/Phd_Project/Thesis/example.tex",
-				"/home/schlowmo/.bashrc",
-				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Researchideas_Moritz_Milde.tex",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Online Clustering of Temporal Activity/OCTA.tex",
-				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/PostDoc ideas.txt",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/submission/NECO-11-17-3017-Source.tex",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/synapse_models.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/synapse_equation_builder.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_kernel_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_test.py",
-				"/home/schlowmo/Repositories/ncs_brian/tutorial.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/core/groups.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/indexing.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.pyc",
-				"/home/schlowmo/Desktop/test.py",
-				"/home/schlowmo/Repositories/coincidence-detection/stimulus_protocol_generator.py",
-				"/home/schlowmo/Repositories/coincidence-detection/CD_stimulus_protocol.txt",
-				"/home/schlowmo/Repositories/coincidence-detection/coincidence_network.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/example_dvs_plot.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/neuron_equation_builder.py",
-				"/home/schlowmo/Repositories/reservoir/reservoir_config.py",
-				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_syn_eq.py",
-				"/home/schlowmo/Repositories/CAER_install/install_caer.sh",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/submission/NECO-11-17-3017-Supplementary File.tex",
-				"/home/schlowmo/Documents/Sensing_Perception.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/brian2genn_test.py",
-				"/home/schlowmo/Documents/install_brian2genn.sh",
-				"/home/schlowmo/.bash_profile",
-				"/home/schlowmo/Repositories/pyaer/scripts/configs/davis240c_config.json",
-				"/home/schlowmo/Repositories/pyaer/pyaer/davis.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/neuron_models.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_subgroup_test.py",
-				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.txt",
-				"/home/schlowmo/.local/lib/python3.5/site-packages/sympy/core/evalf.py",
-				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_neuron_eq.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/wta.py",
-				"/home/schlowmo/Repositories/ncs_brian/parameters/dpi_neuron_param.py",
-				"/home/schlowmo/Repositories/ncs_brian/parameters/constants.py",
-				"/home/schlowmo/Repositories/OCTA/interfaces/convert.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotter2d.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta_test.py",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Master projects/Closed-loop sEMD/LOR_Schoepe_Telluride.tex",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Journal Club/Journal Clubs at INI_old.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/building_block.py",
-				"/home/schlowmo/Documents/spikegen_stdp_test.py",
-				"/home/schlowmo/Dropbox/Studies/ToDo/ToDo.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/plotting/wta_plot.py",
-				"/home/schlowmo/Repositories/ncs_brian/syn_eq.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotting.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/teili/setup.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/synapse_templates.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/neuron_templates.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_gm.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPISyn.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_tutorial.py",
+				"/home/schlowmo/Repositories/teili/docs/build/html/_static/css/theme.css",
+				"/usr/share/sphinx_rtd_theme/static/css/theme.css",
+				"/home/schlowmo/Repositories/teili/docs/build/html/_static/js/theme.js",
+				"/home/schlowmo/Repositories/teili/teili/core/network.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Core.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Building Blocks.md",
 				"/home/schlowmo/Repositories/OCTA/README.md",
-				"/tmp/mozilla_schlowmo0/groups.py",
-				"/home/schlowmo/Repositories/OCTA/.gitmodules",
-				"/home/schlowmo/Repositories/OCTA/octa.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/synaptic_kernel.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/misc.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_neuron.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_testbench.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Tools/tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/WTA.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_testbench.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Stimuli/testbench.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/BuildingBlock.py",
-				"/tmp/mozilla_schlowmo0/test_maths.py",
-				"/home/schlowmo/Dropbox/Scripts/Brian2/aedat_check.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Equations/NeuronEquation.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/NeuronModels.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/SynapseModels.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp_kernel.py",
-				"/tmp/mozilla_schlowmo0/maths.py",
-				"/home/schlowmo/.config/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
-				"/home/schlowmo/.config/sublime-text-3/Packages/User/FileHeader.sublime-settings",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/.gitignore",
-				"/home/schlowmo/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
-				"/home/schlowmo/.config/sublime-text-3/Packages/AutoDocstring/AutoDocstring.sublime-settings",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Groups/Groups.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/dpi_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Parameters/dpi_neuron_param.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/dpi_neuron.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse_simple.py",
-				"/home/schlowmo/Repositories/ncs_brian/neuron_eq.py",
-				"/home/schlowmo/Repositories/ncs_brian/neuron_param.py",
-				"/home/schlowmo/Dropbox/config/install_packages.txt",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Equation builder.md",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_matrix_visualization.py",
+				"/home/schlowmo/.cache/.fr-1Q956U/thesis_george/thesis.tex",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/wta.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Neuron and Synapse models.md",
+				"/home/schlowmo/Repositories/teili/docs/conf.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/teili/examples/mismatch_tutorial.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/dpi_synapse_param.py",
+				"/home/schlowmo/teiliApps/equations/DPI.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvar.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/SynSTDGM.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIstdp_gm.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Getting started.md",
+				"/home/schlowmo/Repositories/teili/docs/build/doctrees/scripts/Getting started.doctree",
+				"/home/schlowmo/Repositories/teili/docs/build/html/_sources/scripts/Getting started.txt",
+				"/home/schlowmo/Repositories/teili/docs/build/doctrees/index.doctree",
+				"/home/schlowmo/Repositories/teili/examples/ExpAdaptIF_rand_input_demo.py",
+				"/home/schlowmo/Repositories/teili/README.md",
+				"/home/schlowmo/miniconda3/lib/python3.7/site-packages/teili/models/equations/ExpAdaptIF.py",
+				"/home/schlowmo/Repositories/teili/teili/__init__.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/random_sampling.py",
+				"/home/schlowmo/Repositories/teili/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/stimuli/testbench.py",
+				"/home/schlowmo/Repositories/Phd_Project/.gitignore",
+				"/home/schlowmo/Repositories/teili/teili/tools/misc.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Other examples.md",
+				"/home/schlowmo/Repositories/teili/examples/stdp_tutorial.py",
+				"/home/schlowmo/Repositories/teili/examples/wta_standalone_tutorial.py",
+				"/home/schlowmo/Repositories/teili/examples/mismatch_example.py",
+				"/home/schlowmo/Repositories/teili/examples/wta_standalone_test.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_tutorial.py",
+				"/home/schlowmo/Repositories/teili/examples/wta_live_demo.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_test.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_test.py",
+				"/home/schlowmo/Repositories/teili/examples/poisson_neurons.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_kernel_test.py",
+				"/home/schlowmo/teiliApps/examples/stdp_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/neuron_equation_builder.py",
 				"/home/schlowmo/.config/sublime-text-3/Packages/User/python3.sublime-build",
-				"/home/schlowmo/Dropbox/config/.bashrc",
+				"/home/schlowmo/tmp.txt",
+				"/home/schlowmo/Repositories/teili/teili/models/synapse_models.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/constants.py",
+				"/home/schlowmo/teiliApps/examples/wta_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/neuron_models.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations.py",
+				"/home/schlowmo/teiliApps/examples/example_dvs_plot.py",
+				"/home/schlowmo/teiliApps/examples/mismatch_example.py",
+				"/home/schlowmo/teiliApps/examples/wta_live_demo.py",
+				"/home/schlowmo/teiliApps/examples/reservoir_test.py",
+				"/home/schlowmo/teiliApps/examples/poisson_neurons.py",
+				"/home/schlowmo/teiliApps/examples/neuron_synapse_subgroup_test.py",
+				"/home/schlowmo/teiliApps/examples/sequence_learning_standalone_example.py",
+				"/home/schlowmo/teiliApps/examples/nicola_cloapth_2017_params.py",
+				"/home/schlowmo/miniconda3/envs/teili_ci_test/lib/python3.6/site-packages/teili/models/equations/DPI.py",
+				"/home/schlowmo/miniconda3/envs/teili_ci_test/bin/python3.6",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Cover letter/cover_letter.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/Allgemein/CV/CV.tex",
+				"/home/schlowmo/.local/share/applications/pycharm.desktop",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/registration_opens_mail.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/mission_statement.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/invitation_email.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Talks/Labmeeting/12.12.2018/announcement.txt",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvdp.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPIstdp.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotter2d.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/run_reg_functions.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_run_reg.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_mismatch.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/sorting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_init.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Job announcement.txt",
+				"/home/schlowmo/Documents/OCTA/Thesis/test_plot.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/building_block.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/reservoir.py",
+				"/home/schlowmo/.bashrc",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/ctxctl_SSV.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/old_code.py",
+				"/home/schlowmo/Repositories/cortexcontrol/NeuronNeuronConnector.py",
+				"/home/schlowmo/Repositories/cortexcontrol/PyCtxUtils.py",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/lock_and_load.py",
+				"/home/schlowmo/Repositories/OCTA/octa/dynap_octa.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/indexing.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/converter.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/quantize_weights.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/distance.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/synaptic_kernel.py",
+				"/home/schlowmo/Repositories/cortexcontrol/octa.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_at.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_kernel_test.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/stimulus_generators.py",
+				"/home/schlowmo/Repositories/OCTA/neuron_equation_builder.py",
 				"/home/schlowmo/.bash_aliases",
-				"/home/schlowmo/Dropbox/config/setup-franz.sh",
-				"/home/schlowmo/.bash_",
-				"/home/moritz/Repositories/spiking-insect-vision/Plotting/semd.py",
-				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/Equations/synapseEquations.py",
-				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/Equations/neuronEquations.py",
-				"/home/moritz/Repositories/OCTA/tutorial_new.py",
-				"/home/moritz/.config/sublime-text-3/Packages/User/Arc-Dark/Arc-Dark-Master.sublime-theme",
-				"/home/moritz/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
-				"/etc/i3blocks.conf",
-				"/home/moritz/.config/i3/i3blocks.conf",
-				"/home/moritz/.config/gtk-3.0/settings.ini",
-				"/home/moritz/.gtkrc-2.0",
-				"/home/moritz/.vimrc",
-				"/home/moritz/.xsession-errors",
-				"/media/moritz/Ellesmera/Dropbox/ebiv/scripts/Oscilloscope_scripts/old/raster_plot_aex.py",
-				"/etc/upstart-xsessions",
-				"/home/moritz/.xinitrc",
-				"/home/moritz/.Xauthority",
-				"/media/moritz/Data/sEMD/plots/Spikes.svg",
-				"/home/moritz/Repositories/plotting/Basic Obstacle Avoidance.ipynb",
-				"/home/moritz/Repositories/spiking-insect-vision/Plotting/visualize_semd.py",
-				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/biases/sEMD_beforeCC.txt",
-				"/home/moritz/Repositories/spiking-insect-vision/Oscilloscope_scripts/test/raster.csv",
-				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/expRun_STP.py",
-				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/nbs_array.py",
-				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/default_setup.py",
-				"/home/moritz/Repositories/spiking-insect-vision/Oscilloscope_scripts/Client_run.py",
-				"/usr/local/lib/python2.7/dist-packages/pyNCS/neurosetup.py"
+				"/home/schlowmo/Repositories/cortexcontrol/ctxctl_SSV.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/October/Morit_Milde_Purpose_description.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPISyn_gm.py",
+				"/home/schlowmo/.local/lib/python3.5/site-packages/teili-0.2-py3.5.egg/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DoubleExponential.py",
+				"/home/schlowmo/Downloads/lol.py",
+				"/home/schlowmo/Repositories/teili/tests/test_testbench.py",
+				"/home/schlowmo/Repositories/teili/tests/test_groups.py",
+				"/home/schlowmo/Repositories/teili/tests/test_wta.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations_long.py",
+				"/usr/local/lib/python3.5/dist-packages/pyqtgraph/__init__.py",
+				"/home/schlowmo/Repositories/teili/unit_tests/test_equations_long.py",
+				"/home/schlowmo/Repositories/teili/tests/test_tools.py",
+				"/home/schlowmo/Repositories/teili/.git/hooks/pre-push"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 42.0
 			},
 			"find_in_files":
 			{
@@ -934,7 +918,65 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"organization",
+					"gtestWTA",
+					"win_stdp",
+					"H",
+					"p_post_EPSC",
+					"pWeight2",
+					"pSpikes",
+					"statemon_syn_post",
+					"statemon_syn_pre",
+					"statemon_post",
+					"spikemon_post",
+					"statemon_pre",
+					"spikemon_pre",
+					"SynSTDP",
+					"SynPost",
+					"SynPre",
+					"postSTDP",
+					"preSTDP",
+					"neuron_model",
+					"statemonSynOut",
+					"statemonNeuIn",
+					"statemonNeuOut",
+					"spikemonOut",
+					"spikemon",
+					"spikemonInp",
+					"Syn",
+					"statemoninput_synapse",
+					"InpSyn",
+					"testSyn",
+					"gInpGroup",
+					"tsInp",
+					"testNeurons",
+					"testNeurons2",
+					"testNeurons",
+					"teili_equation_path",
+					"CtxDynapse",
+					"FpgaSpikeEvent",
+					"buffer_pointer",
+					"Iahpmax",
+					"w_plast",
+					"self.parameters",
+					"Ipred_plast",
+					"w_plast",
+					"Ipred",
+					"w_plast",
+					"Ipred_pre",
+					"    >>> neuron_obj",
+					"    >>> syn_obj",
+					"w_mean",
+					"w_std",
+					"reinit_threshold",
+					"w_std_re_init",
+					"w_std_init",
+					"w_std",
+					"syn_obj",
+					"n2dNeurons",
+					"ncols",
+					"ind2xy",
+					"wPlast",
+					"get",
 					"p_InhWTA",
 					"p_WTAInh",
 					"I_connection_probability",
@@ -971,16 +1013,16 @@
 			},
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 42.0
 			},
 			"input":
 			{
-				"height": 72.0
+				"height": 74.0
 			},
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 284.0
+				"height": 376.0
 			},
 			"output.find_results":
 			{
@@ -1005,7 +1047,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 44.0
+				"height": 76.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1059,6 +1101,326 @@
 				"selected_items":
 				[
 					[
+						"targ",
+						"target_N"
+					],
+					[
+						"raster",
+						"rasterPlot_c"
+					],
+					[
+						"eq",
+						"eq_dict"
+					],
+					[
+						"dic",
+						"dict_name"
+					],
+					[
+						"num_inputs",
+						"num_inputs=2"
+					],
+					[
+						"dir",
+						"directory_name"
+					],
+					[
+						"sourc",
+						"source_path"
+					],
+					[
+						"Ie_",
+						"Ie_th\t(DPIstdp.py)"
+					],
+					[
+						"Ii_tau",
+						"Ii_tau*(Ii_syn\t(DPIstdp_gm.py)"
+					],
+					[
+						"Itau",
+						"Itau_i\t(DPIstdp_gm.py)"
+					],
+					[
+						"decay",
+						"decay_time\tparam"
+					],
+					[
+						"learn",
+						"learning_rate"
+					],
+					[
+						"run",
+						"run_regularly"
+					],
+					[
+						"syn",
+						"synapse_types"
+					],
+					[
+						"SLOW",
+						"SLOW_INH"
+					],
+					[
+						"synap",
+						"synapse_type"
+					],
+					[
+						"post",
+						"post_neurons"
+					],
+					[
+						"core",
+						"core_offset"
+					],
+					[
+						"feature",
+						"feature_neuron"
+					],
+					[
+						"qu",
+						"quantize_weights_number\tfunction"
+					],
+					[
+						"qunatiz",
+						"quantized_weights"
+					],
+					[
+						"synapse",
+						"synapse_types"
+					],
+					[
+						"weights_",
+						"weights_inp"
+					],
+					[
+						"data",
+						"data_dir"
+					],
+					[
+						"rot",
+						"rotating_bar\t(testbench.py)"
+					],
+					[
+						"OCTA",
+						"OCTA_Testbench\tmodule"
+					],
+					[
+						"OCT",
+						"OCTA_Testbench\t(testbench.py)"
+					],
+					[
+						"activ",
+						"activity_proxy"
+					],
+					[
+						"check",
+						"check_units"
+					],
+					[
+						"exp",
+						"exp_weighted_membrane_buffer"
+					],
+					[
+						"disit",
+						"distribution"
+					],
+					[
+						"wei",
+						"weight_update"
+					],
+					[
+						"membran",
+						"membrane_buffer"
+					],
+					[
+						"Ipred",
+						"Ipred_syn"
+					],
+					[
+						"norma",
+						"normalized_Imem_var"
+					],
+					[
+						"Imem",
+						"Imem_var"
+					],
+					[
+						"high",
+						"high_indices"
+					],
+					[
+						"qua",
+						"quantized_weights"
+					],
+					[
+						"thre",
+						"threshold_high"
+					],
+					[
+						"thres",
+						"threshold_high"
+					],
+					[
+						"dec",
+						"declare_types\tfunction"
+					],
+					[
+						"inh",
+						"inh_wta_c"
+					],
+					[
+						"qunati",
+						"quantize_weights\tmodule"
+					],
+					[
+						"quna",
+						"quantize_weights\tmodule"
+					],
+					[
+						"testbench",
+						"testbench_stim"
+					],
+					[
+						"DPIst",
+						"DPIstdp_gm"
+					],
+					[
+						"Synapse",
+						"SynapseEquationBuilder.import_eq('octa\t(run_reg_functions.py)"
+					],
+					[
+						"SynST",
+						"SynSTDGM"
+					],
+					[
+						"synaps",
+						"synapse_group"
+					],
+					[
+						"logi",
+						"logical_or\tinstance"
+					],
+					[
+						"calac",
+						"calculate_distance"
+					],
+					[
+						"buffer",
+						"buffer_size"
+					],
+					[
+						"clacl",
+						"calculate_mean\tfunction"
+					],
+					[
+						"cal",
+						"calculate_mean\tfunction"
+					],
+					[
+						"clac",
+						"calculate_mean"
+					],
+					[
+						"Vect",
+						"Vector3D"
+					],
+					[
+						"Vec",
+						"Vector3D\tclass"
+					],
+					[
+						"_g",
+						"_get_length\tfunction"
+					],
+					[
+						"my_ve",
+						"my_vec2"
+					],
+					[
+						"my",
+						"my_duck_1\tstatement"
+					],
+					[
+						"he",
+						"head_color\tstatement"
+					],
+					[
+						"my_de",
+						"my_dec_duck\tstatement"
+					],
+					[
+						"red",
+						"red_head_3\tstatement"
+					],
+					[
+						"blac",
+						"black_duck"
+					],
+					[
+						"Dec",
+						"DecoyDuck\tclass"
+					],
+					[
+						"fl",
+						"flying_behaviour\tstatement"
+					],
+					[
+						"None",
+						"NonFlyingBehaviour"
+					],
+					[
+						"Fly",
+						"FlyinBehaviour\tclass"
+					],
+					[
+						"RedHe",
+						"ReadHeadDuck\tclass"
+					],
+					[
+						"neuron_m",
+						"neuron_models"
+					],
+					[
+						"pytho",
+						"python3"
+					],
+					[
+						"equation",
+						"equation_builder"
+					],
+					[
+						"pop",
+						"popitem\tfunction"
+					],
+					[
+						"file",
+						"filename"
+					],
+					[
+						"import",
+						"importlib"
+					],
+					[
+						"neuro",
+						"neuron_eq"
+					],
+					[
+						"Nac",
+						"NCSBrian2Lib"
+					],
+					[
+						"NCS",
+						"NCSBrian2Lib"
+					],
+					[
+						"standal",
+						"standaloneParams"
+					],
+					[
+						"Build",
+						"BuildingBlock\tclass"
+					],
+					[
 						"visu",
 						"visualization_backend"
 					],
@@ -1123,10 +1485,6 @@
 						"adjacency_matrix\tstatement"
 					],
 					[
-						"NCS",
-						"NCSBrian2Lib\t(davis_interface.py)"
-					],
-					[
 						"start",
 						"start_time"
 					],
@@ -1157,10 +1515,6 @@
 					[
 						"reserv",
 						"reservoir"
-					],
-					[
-						"Synapse",
-						"Synapses\t(groups.py)"
 					],
 					[
 						"bias",
@@ -1203,10 +1557,6 @@
 						"DPIstdp\tclass"
 					],
 					[
-						"eq",
-						"equation_builder"
-					],
-					[
 						"statem",
 						"statemon_weight"
 					],
@@ -1243,16 +1593,8 @@
 						"WTAMonitors"
 					],
 					[
-						"raster",
-						"raster_input"
-					],
-					[
 						"end",
 						"end_time"
-					],
-					[
-						"synap",
-						"synaptic"
 					],
 					[
 						"start_",
@@ -1269,306 +1611,6 @@
 					[
 						"symb",
 						"symbolBrush\t(neuron_synapse.py)"
-					],
-					[
-						"symbo",
-						"symbolSize=7\t(testbench.py)"
-					],
-					[
-						"symp",
-						"symbolPen=None\t(testbench.py)"
-					],
-					[
-						"symbol",
-						"symbol='o\t(testbench.py)"
-					],
-					[
-						"wt",
-						"wtaParams"
-					],
-					[
-						"block",
-						"block_params\t(wta.py)"
-					],
-					[
-						"DP",
-						"DPISyn\tclass"
-					],
-					[
-						"test",
-						"testbench"
-					],
-					[
-						"n",
-						"noise_input\tstatement"
-					],
-					[
-						"num",
-						"num_inputs\t(neuron_synapse.py)"
-					],
-					[
-						"Neu",
-						"Neurons\tclass"
-					],
-					[
-						"numn",
-						"num_neurons"
-					],
-					[
-						"neur",
-						"neuron_id"
-					],
-					[
-						"inpu",
-						"inputGroup"
-					],
-					[
-						"neuron",
-						"neuron_id"
-					],
-					[
-						"ass",
-						"assertEqual\tfunction"
-					],
-					[
-						"num_inp",
-						"num_inp_neurons\tparam"
-					],
-					[
-						"Test",
-						"TestCase\t(test_tools.py)"
-					],
-					[
-						"Unit",
-						"unittest\tmodule"
-					],
-					[
-						"tr",
-						"truncnorm"
-					],
-					[
-						"buil",
-						"building_blocks\t(test_wta.py)"
-					],
-					[
-						"exc",
-						"except\t(groups.py)"
-					],
-					[
-						"var",
-						"variables"
-					],
-					[
-						"syna",
-						"synaptic_kernel"
-					],
-					[
-						"Eve",
-						"Events.npy"
-					],
-					[
-						"assert",
-						"assertEqual\tfunction"
-					],
-					[
-						"fker",
-						"fkernelgauss1d\tfunction"
-					],
-					[
-						"asse",
-						"assertEqual"
-					],
-					[
-						"retu",
-						"returnValTrue"
-					],
-					[
-						"reutn",
-						"returnVal"
-					],
-					[
-						"return",
-						"returnValFalse"
-					],
-					[
-						"returnV",
-						"returnValTrue"
-					],
-					[
-						"tes",
-						"testVal"
-					],
-					[
-						"ret",
-						"returnValueIf\tfunction"
-					],
-					[
-						"small",
-						"smallerThanVal\t(tools.py)"
-					],
-					[
-						"has",
-						"hasattr"
-					],
-					[
-						"brian",
-						"briangroup"
-					],
-					[
-						"art",
-						"artifical_stimulus=False"
-					],
-					[
-						"stdp",
-						"stdp_testbench"
-					],
-					[
-						"s",
-						"stdp_testbench"
-					],
-					[
-						"ind2",
-						"ind2xy\tfunction"
-					],
-					[
-						"coord",
-						"coordinates\t(testbench.py)"
-					],
-					[
-						"asser",
-						"assertEqual\tfunction"
-					],
-					[
-						"par",
-						"params\t(neuron_synapse.py)"
-					],
-					[
-						"dpi_syn",
-						"dpi_syn_eq"
-					],
-					[
-						"set",
-						"setParams\tfunction"
-					],
-					[
-						"dp",
-						"dpi_neuron_param\tmodule"
-					],
-					[
-						"DPIS",
-						"DPISynSTDPparam"
-					],
-					[
-						"DPI_",
-						"DPI_stdp\tfunction"
-					],
-					[
-						"Syn",
-						"SynapseModels\tmodule"
-					],
-					[
-						"dpi",
-						"dpi_synapse\tmodule"
-					],
-					[
-						"dpi_neu",
-						"dpi_neuron_eq"
-					],
-					[
-						"NeuronG",
-						"NeuronGroup\tclass"
-					],
-					[
-						"dpi_",
-						"dpi_neuron\tmodule"
-					],
-					[
-						"Sili",
-						"SiliconEq"
-					],
-					[
-						"event",
-						"events"
-					],
-					[
-						"param",
-						"parameters"
-					],
-					[
-						"la",
-						"labelStyle"
-					],
-					[
-						"statemon",
-						"statemonInpSyn"
-					],
-					[
-						"bord",
-						"border_width"
-					],
-					[
-						"sym",
-						"symbols"
-					],
-					[
-						"sv",
-						"svg_e_all"
-					],
-					[
-						"win_",
-						"win_number\tstatement"
-					],
-					[
-						"win",
-						"win_isi"
-					],
-					[
-						"plot",
-						"plot_dir"
-					],
-					[
-						"freq",
-						"frequency"
-					],
-					[
-						"std",
-						"std_frequency"
-					],
-					[
-						"spi",
-						"spikes"
-					],
-					[
-						"e",
-						"exporters\tmodule"
-					],
-					[
-						"mean_",
-						"mean_spikes"
-					],
-					[
-						"max",
-						"max_dt\tstatement"
-					],
-					[
-						"del",
-						"delta_t"
-					],
-					[
-						"mean",
-						"mean_frequency\tstatement"
-					],
-					[
-						"burst",
-						"burstlength\tstatement"
-					],
-					[
-						"misma",
-						"mismatch_burst"
-					],
-					[
-						"burs",
-						"burstlength_rec\tstatement"
 					]
 				]
 			},
@@ -1578,74 +1620,13 @@
 					"file": "/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
 					"settings":
 					{
-						"buffer_size": 1239,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/teili/README.md",
-					"settings":
-					{
-						"buffer_size": 3613,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/teili/tools/cpptools.py",
-					"settings":
-					{
-						"buffer_size": 8538,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
-					"settings":
-					{
-						"buffer_size": 6110,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/teili/building_blocks/wta.py",
-					"settings":
-					{
-						"buffer_size": 24527,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/spike_based_computation.tex",
-					"settings":
-					{
-						"buffer_size": 5317,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/dot-files/install_packages.sh",
-					"settings":
-					{
-						"buffer_size": 3027,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/dot-files/window_arrange.py",
-					"settings":
-					{
-						"buffer_size": 1113,
+						"buffer_size": 939,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				}
 			],
-			"build_system": "Packages/MarkdownPreview/Markdown.sublime-build",
+			"build_system": "",
 			"build_system_choices":
 			[
 				[
@@ -1701,30 +1682,6 @@
 					],
 					[
 						"Packages/Markdown Preview/Markdown.sublime-build",
-						""
-					]
-				],
-				[
-					[
-						[
-							"Packages/MarkdownPreview/Markdown.sublime-build",
-							""
-						],
-						[
-							"Packages/Vintageous/Vintageous.sublime-build",
-							""
-						],
-						[
-							"Packages/Vintageous/Vintageous.sublime-build",
-							"Vintageous - Test (All)"
-						],
-						[
-							"Packages/Vintageous/Vintageous.sublime-build",
-							"Vintageous - Test (This File Only)"
-						]
-					],
-					[
-						"Packages/MarkdownPreview/Markdown.sublime-build",
 						""
 					]
 				],
@@ -1857,7 +1814,7 @@
 				"selected_items":
 				[
 					[
-						"package",
+						"packag",
 						"Package Control: Install Package"
 					],
 					[
@@ -1870,10 +1827,6 @@
 					],
 					[
 						"Package Control: ",
-						"Package Control: Install Package"
-					],
-					[
-						"packag",
 						"Package Control: Install Package"
 					],
 					[
@@ -1903,138 +1856,138 @@
 			},
 			"file_history":
 			[
+				"/home/schlowmo/ownCloud/Documents/configs/vs_code_setup.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Webpage questions.txt",
+				"/home/schlowmo/Repositories/ADaPTION/Makefile.config",
+				"/home/schlowmo/.local/share/applications/pycharm.desktop",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/registration_opens_mail.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/mission_statement.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/invitation_email.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Talks/Labmeeting/12.12.2018/announcement.txt",
+				"/home/schlowmo/Repositories/teili/examples/stdp_kernel_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvdp.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_gm.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIstdp_gm.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/SynSTDGM.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPIstdp.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvar.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotter2d.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/run_reg_functions.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_run_reg.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_mismatch.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/sorting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_init.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Job announcement.txt",
+				"/home/schlowmo/Documents/OCTA/Thesis/test_plot.py",
+				"/home/schlowmo/Repositories/teili/teili/stimuli/testbench.py",
+				"/home/schlowmo/Repositories/teili/setup.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/neuron_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Getting started.md",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/teili/models/neuron_models.py",
 				"/home/schlowmo/Repositories/teili/README.md",
-				"/home/schlowmo/Repositories/Phd_Project/Thesis/mathdesign.sty",
-				"/home/schlowmo/Repositories/Phd_Project/Thesis/jb-thesis.cls",
-				"/home/schlowmo/Repositories/Phd_Project/Thesis/example.tex",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/synapse_models.py",
+				"/home/schlowmo/Repositories/teili/teili/__init__.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/building_block.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/wta.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/reservoir.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Core.md",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/examples/mismatch_example.py",
 				"/home/schlowmo/.bashrc",
-				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Researchideas_Moritz_Milde.tex",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Online Clustering of Temporal Activity/OCTA.tex",
-				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/PostDoc ideas.txt",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/submission/NECO-11-17-3017-Source.tex",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/synapse_models.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/synapse_equation_builder.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_kernel_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_test.py",
-				"/home/schlowmo/Repositories/ncs_brian/tutorial.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/core/groups.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/indexing.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.pyc",
-				"/home/schlowmo/Desktop/test.py",
-				"/home/schlowmo/Repositories/coincidence-detection/stimulus_protocol_generator.py",
-				"/home/schlowmo/Repositories/coincidence-detection/CD_stimulus_protocol.txt",
-				"/home/schlowmo/Repositories/coincidence-detection/coincidence_network.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/example_dvs_plot.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/neuron_equation_builder.py",
-				"/home/schlowmo/Repositories/reservoir/reservoir_config.py",
-				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_syn_eq.py",
-				"/home/schlowmo/Repositories/CAER_install/install_caer.sh",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/submission/NECO-11-17-3017-Supplementary File.tex",
-				"/home/schlowmo/Documents/Sensing_Perception.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/brian2genn_test.py",
-				"/home/schlowmo/Documents/install_brian2genn.sh",
-				"/home/schlowmo/.bash_profile",
-				"/home/schlowmo/Repositories/pyaer/scripts/configs/davis240c_config.json",
-				"/home/schlowmo/Repositories/pyaer/pyaer/davis.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/neuron_models.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_subgroup_test.py",
-				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.txt",
-				"/home/schlowmo/.local/lib/python3.5/site-packages/sympy/core/evalf.py",
-				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_neuron_eq.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/wta.py",
-				"/home/schlowmo/Repositories/ncs_brian/parameters/dpi_neuron_param.py",
-				"/home/schlowmo/Repositories/ncs_brian/parameters/constants.py",
-				"/home/schlowmo/Repositories/OCTA/interfaces/convert.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotter2d.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta_test.py",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Master projects/Closed-loop sEMD/LOR_Schoepe_Telluride.tex",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Journal Club/Journal Clubs at INI_old.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/building_block.py",
-				"/home/schlowmo/Documents/spikegen_stdp_test.py",
-				"/home/schlowmo/Dropbox/Studies/ToDo/ToDo.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/plotting/wta_plot.py",
-				"/home/schlowmo/Repositories/ncs_brian/syn_eq.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotting.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/parameters/dpi_neuron_param.py",
-				"/home/schlowmo/Repositories/OCTA/README.md",
-				"/tmp/mozilla_schlowmo0/groups.py",
-				"/home/schlowmo/Repositories/OCTA/.gitmodules",
-				"/home/schlowmo/Repositories/OCTA/octa.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/synaptic_kernel.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/misc.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_neuron.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_testbench.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Tools/tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/WTA.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_testbench.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Stimuli/testbench.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/BuildingBlock.py",
-				"/tmp/mozilla_schlowmo0/test_maths.py",
-				"/home/schlowmo/Dropbox/Scripts/Brian2/aedat_check.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Equations/NeuronEquation.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/NeuronModels.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/SynapseModels.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp_kernel.py",
-				"/tmp/mozilla_schlowmo0/maths.py",
-				"/home/schlowmo/.config/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
-				"/home/schlowmo/.config/sublime-text-3/Packages/User/FileHeader.sublime-settings",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/.gitignore",
-				"/home/schlowmo/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
-				"/home/schlowmo/.config/sublime-text-3/Packages/AutoDocstring/AutoDocstring.sublime-settings",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Groups/Groups.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/dpi_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Parameters/dpi_neuron_param.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Models/dpi_neuron.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse_simple.py",
-				"/home/schlowmo/Repositories/ncs_brian/neuron_eq.py",
-				"/home/schlowmo/Repositories/ncs_brian/neuron_param.py",
-				"/home/schlowmo/Dropbox/config/install_packages.txt",
-				"/home/schlowmo/.config/sublime-text-3/Packages/User/python3.sublime-build",
-				"/home/schlowmo/Dropbox/config/.bashrc",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/ctxctl_SSV.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPISyn.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/synapse_templates.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/old_code.py",
+				"/home/schlowmo/Repositories/cortexcontrol/NeuronNeuronConnector.py",
+				"/home/schlowmo/Repositories/cortexcontrol/PyCtxUtils.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/neuron_templates.py",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/lock_and_load.py",
+				"/home/schlowmo/Repositories/OCTA/octa/dynap_octa.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/indexing.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/converter.py",
+				"/home/schlowmo/Repositories/teili/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/quantize_weights.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/random_sampling.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/distance.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/synaptic_kernel.py",
+				"/home/schlowmo/Repositories/cortexcontrol/octa.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_at.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_kernel_test.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/stimulus_generators.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/misc.py",
+				"/home/schlowmo/Repositories/OCTA/neuron_equation_builder.py",
 				"/home/schlowmo/.bash_aliases",
-				"/home/schlowmo/Dropbox/config/setup-franz.sh",
-				"/home/schlowmo/.bash_",
-				"/home/moritz/Repositories/spiking-insect-vision/Plotting/semd.py",
-				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/Equations/synapseEquations.py",
-				"/home/moritz/Repositories/OCTA/NCSBrian2Lib/Equations/neuronEquations.py",
-				"/home/moritz/Repositories/OCTA/tutorial_new.py",
-				"/home/moritz/.config/sublime-text-3/Packages/User/Arc-Dark/Arc-Dark-Master.sublime-theme",
-				"/home/moritz/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
-				"/etc/i3blocks.conf",
-				"/home/moritz/.config/i3/i3blocks.conf",
-				"/home/moritz/.config/gtk-3.0/settings.ini",
-				"/home/moritz/.gtkrc-2.0",
-				"/home/moritz/.vimrc",
-				"/home/moritz/.xsession-errors",
-				"/media/moritz/Ellesmera/Dropbox/ebiv/scripts/Oscilloscope_scripts/old/raster_plot_aex.py",
-				"/etc/upstart-xsessions",
-				"/home/moritz/.xinitrc",
-				"/home/moritz/.Xauthority",
-				"/media/moritz/Data/sEMD/plots/Spikes.svg",
-				"/home/moritz/Repositories/plotting/Basic Obstacle Avoidance.ipynb",
-				"/home/moritz/Repositories/spiking-insect-vision/Plotting/visualize_semd.py",
-				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/biases/sEMD_beforeCC.txt",
-				"/home/moritz/Repositories/spiking-insect-vision/Oscilloscope_scripts/test/raster.csv",
-				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/expRun_STP.py",
-				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/nbs_array.py",
-				"/home/moritz/Repositories/spiking-insect-vision/sEMD_chip/lib/default_setup.py",
-				"/home/moritz/Repositories/spiking-insect-vision/Oscilloscope_scripts/Client_run.py",
-				"/usr/local/lib/python2.7/dist-packages/pyNCS/neurosetup.py"
+				"/home/schlowmo/Repositories/cortexcontrol/ctxctl_SSV.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/October/Morit_Milde_Purpose_description.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPISyn_gm.py",
+				"/home/schlowmo/.local/lib/python3.5/site-packages/teili-0.2-py3.5.egg/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DoubleExponential.py",
+				"/home/schlowmo/Downloads/lol.py",
+				"/home/schlowmo/Repositories/teili/tests/test_testbench.py",
+				"/home/schlowmo/Repositories/teili/tests/test_groups.py",
+				"/home/schlowmo/Repositories/teili/tests/test_wta.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations_long.py",
+				"/usr/local/lib/python3.5/dist-packages/pyqtgraph/__init__.py",
+				"/home/schlowmo/Repositories/teili/unit_tests/test_equations_long.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations.py",
+				"/home/schlowmo/Repositories/teili/tests/test_tools.py",
+				"/home/schlowmo/Repositories/teili/.git/hooks/pre-push",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_matrix_visualization.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_subgroup_test.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_syn_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_shunt_syn_eq.py",
+				"/home/schlowmo/Repositories/OCTA/octa.py",
+				"/home/schlowmo/Repositories/OCTA/setup.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_neuron_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_lin_syn_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dynapse_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/linneuron_eq.py",
+				"/home/schlowmo/Documents/spp/tests.py",
+				"/home/schlowmo/Documents/spp.py",
+				"/home/schlowmo/Documents/spp/vector.py",
+				"/home/schlowmo/Documents/spp/starbuzz.py",
+				"/home/schlowmo/Documents/spp/kmeans.py",
+				"/home/schlowmo/Repositories/dot-files/install_packages.sh",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Equation builder.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Building Blocks.md",
+				"/home/schlowmo/Repositories/teili/docs/conf.py",
+				"/home/schlowmo/Repositories/teili/requirements.txt",
+				"/home/schlowmo/Repositories/teili/tools/sorting.py",
+				"/home/schlowmo/Repositories/teili/tools/converter.py",
+				"/home/schlowmo/Repositories/teili/tools/distance.py",
+				"/home/schlowmo/Repositories/teili/building_blocks/wta.py",
+				"/home/schlowmo/Repositories/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/stimuli/testbench.py",
+				"/home/schlowmo/Repositories/teili/tools/math_functions.py",
+				"/home/schlowmo/Repositories/teili/docs/modules/modules.rst",
+				"/home/schlowmo/Repositories/teili/docs/index.rst",
+				"/home/schlowmo/Repositories/OCTA/README.md",
+				"/home/schlowmo/Repositories/teili/models/builder/combine.py",
+				"/home/schlowmo/Repositories/teili/examples/STDP_IE.png",
+				"/home/schlowmo/Repositories/teili/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/models/synapse_models.py",
+				"/home/schlowmo/Repositories/teili/models/neuron_models.py",
+				"/home/schlowmo/Repositories/teili/models/builder/neuron_equation_builder.py",
+				"/home/schlowmo/Repositories/pyaer/scripts/davis240_test.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/davis_interface.py",
+				"/home/schlowmo/Repositories/teili/tools/indexing.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/semd.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_tools.py",
+				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/wta.py"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 48.0
 			},
 			"find_in_files":
 			{
@@ -2048,7 +2001,31 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"organization",
+					"CtxDynapse",
+					"FpgaSpikeEvent",
+					"buffer_pointer",
+					"Iahpmax",
+					"w_plast",
+					"self.parameters",
+					"Ipred_plast",
+					"w_plast",
+					"Ipred",
+					"w_plast",
+					"Ipred_pre",
+					"    >>> neuron_obj",
+					"    >>> syn_obj",
+					"w_mean",
+					"w_std",
+					"reinit_threshold",
+					"w_std_re_init",
+					"w_std_init",
+					"w_std",
+					"syn_obj",
+					"n2dNeurons",
+					"ncols",
+					"ind2xy",
+					"wPlast",
+					"get",
 					"p_InhWTA",
 					"p_WTAInh",
 					"I_connection_probability",
@@ -2086,7 +2063,7 @@
 			"groups":
 			[
 				{
-					"selected": 6,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -2095,15 +2072,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1239,
+								"buffer_size": 939,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										5,
-										5
+										619,
+										619
 									]
 								],
 								"settings":
@@ -2137,379 +2114,14 @@
 										10,
 										7,
 										226,
-										6,
-										4,
-										11,
-										24,
-										15,
-										4,
-										152,
-										183,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1528109320.76,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-									"vintage":
-									{
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 5
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/schlowmo/Repositories/teili/README.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3613,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3589,
-										3589
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										6,
-										4,
-										12,
-										51,
-										15,
-										7,
-										20,
-										60,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1528109892.32,
-									"markdown_live_preview_enabled": true,
-									"markdown_live_preview_id": 48,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"vintage":
-									{
-										"_vintageous_glue_until_normal_mode": false,
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"normal_insert_count": "1",
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 10
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 1020.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/schlowmo/Repositories/teili/tools/cpptools.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 8538,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2050,
-										2050
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										6,
-										3,
-										23,
-										45,
-										17,
-										12,
-										88,
-										250,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"vintage":
-									{
-										"_vintageous_glue_until_normal_mode": false,
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"normal_insert_count": "1",
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 20
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6110,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1202,
-										1202
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										6,
-										3,
-										23,
-										45,
-										17,
-										12,
-										73,
-										90,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1528109214.6,
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
-									"vintage":
-									{
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 0
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/schlowmo/Repositories/teili/building_blocks/wta.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 24527,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1925,
-										1925
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										6,
-										4,
-										10,
 										8,
-										17,
-										4,
-										6,
+										24,
+										14,
+										11,
+										31,
+										5,
 										143,
+										71,
 										113,
 										1,
 										133,
@@ -2520,105 +2132,15 @@
 										3,
 										46
 									],
-									"markdonw_live_preview_last_run": 1528099717.76,
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
-									"vintage":
-									{
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 74
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 225.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 6,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/spike_based_computation.tex",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5317,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3763,
-										3763
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										6,
-										4,
-										10,
-										23,
-										48,
-										5,
-										249,
-										1,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1528100723.37,
-									"spell_check": true,
-									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
+									"markdonw_live_preview_last_run": 1550587369.71,
+									"markdown_live_preview_enabled": true,
+									"markdown_live_preview_id": 80,
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 									"vintage":
 									{
 										"_vintageous_glue_until_normal_mode": true,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
 										"action": null,
 										"action_count": "",
 										"mode": "mode_insert",
@@ -2629,98 +2151,7 @@
 										"partial_sequence": "",
 										"register": "\"",
 										"sequence": "",
-										"xpos": 6
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 958.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/home/schlowmo/Repositories/dot-files/install_packages.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3027,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1468,
-										1468
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										6,
-										3,
-										23,
-										44,
-										13,
-										5,
-										208,
-										92,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1528100962.92,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"vintage":
-									{
-										"_vintageous_glue_until_normal_mode": true,
-										"action": null,
-										"action_count": "",
-										"mode": "mode_insert",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"normal_insert_count": "1",
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 0
+										"xpos": 7
 									}
 								},
 								"translation.x": 0.0,
@@ -2729,110 +2160,17 @@
 							},
 							"stack_index": 0,
 							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"file": "/home/schlowmo/Repositories/dot-files/window_arrange.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1113,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1029,
-										1029
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										6,
-										4,
-										0,
-										35,
-										18,
-										12,
-										122,
-										56,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1528065311.95,
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
-									"vintage":
-									{
-										"_vintageous_glue_until_normal_mode": false,
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"normal_insert_count": "1",
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 0
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 7,
-							"type": "text"
 						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 48.0
 			},
 			"input":
 			{
-				"height": 72.0
+				"height": 74.0
 			},
 			"layout":
 			{
@@ -2859,7 +2197,7 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 284.0
+				"height": 376.0
 			},
 			"output.find_results":
 			{
@@ -2882,11 +2220,11 @@
 				"height": 96.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3000,1920",
+			"position": "0,0,0,0,0,0,55,980,1509,3200,1800",
 			"project": "",
 			"replace":
 			{
-				"height": 44.0
+				"height": 88.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -2923,14 +2261,14 @@
 			"selected_group": 0,
 			"settings":
 			{
-				"_vintageous_last_buffer_search": "figure",
+				"_vintageous_last_buffer_search": "custom",
 				"_vintageous_last_buffer_search_command": "vi_slash",
-				"_vintageous_last_char_search_command": "vi_big_t",
-				"_vintageous_last_character_search": "h",
+				"_vintageous_last_char_search_command": "vi_f",
+				"_vintageous_last_character_search": "f",
 				"_vintageous_reset_during_init": true,
 				"vintage":
 				{
-					"_cmdline_cd": "/home/schlowmo"
+					"_cmdline_cd": "/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019"
 				}
 			},
 			"show_minimap": false,
@@ -2942,7 +2280,4925 @@
 			"template_settings":
 			{
 			},
-			"window_id": 47,
+			"window_id": 39,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"spikemonit",
+						"spikemonitor_noise"
+					],
+					[
+						"noi",
+						"noise_input"
+					],
+					[
+						"input",
+						"inputGroup"
+					],
+					[
+						"nex",
+						"nextRow\t(stdp_tutorial.py)"
+					],
+					[
+						"Post",
+						"PostDevelopCommand\tclass"
+					],
+					[
+						"targ",
+						"target_N"
+					],
+					[
+						"raster",
+						"rasterPlot_c"
+					],
+					[
+						"eq",
+						"eq_dict"
+					],
+					[
+						"dic",
+						"dict_name"
+					],
+					[
+						"num_inputs",
+						"num_inputs=2"
+					],
+					[
+						"dir",
+						"directory_name"
+					],
+					[
+						"sourc",
+						"source_path"
+					],
+					[
+						"Ie_",
+						"Ie_th\t(DPIstdp.py)"
+					],
+					[
+						"Ii_tau",
+						"Ii_tau*(Ii_syn\t(DPIstdp_gm.py)"
+					],
+					[
+						"Itau",
+						"Itau_i\t(DPIstdp_gm.py)"
+					],
+					[
+						"decay",
+						"decay_time\tparam"
+					],
+					[
+						"learn",
+						"learning_rate"
+					],
+					[
+						"run",
+						"run_regularly"
+					],
+					[
+						"syn",
+						"synapse_types"
+					],
+					[
+						"SLOW",
+						"SLOW_INH"
+					],
+					[
+						"synap",
+						"synapse_type"
+					],
+					[
+						"post",
+						"post_neurons"
+					],
+					[
+						"core",
+						"core_offset"
+					],
+					[
+						"feature",
+						"feature_neuron"
+					],
+					[
+						"qu",
+						"quantize_weights_number\tfunction"
+					],
+					[
+						"qunatiz",
+						"quantized_weights"
+					],
+					[
+						"synapse",
+						"synapse_types"
+					],
+					[
+						"weights_",
+						"weights_inp"
+					],
+					[
+						"data",
+						"data_dir"
+					],
+					[
+						"rot",
+						"rotating_bar\t(testbench.py)"
+					],
+					[
+						"OCTA",
+						"OCTA_Testbench\tmodule"
+					],
+					[
+						"OCT",
+						"OCTA_Testbench\t(testbench.py)"
+					],
+					[
+						"activ",
+						"activity_proxy"
+					],
+					[
+						"check",
+						"check_units"
+					],
+					[
+						"exp",
+						"exp_weighted_membrane_buffer"
+					],
+					[
+						"disit",
+						"distribution"
+					],
+					[
+						"wei",
+						"weight_update"
+					],
+					[
+						"membran",
+						"membrane_buffer"
+					],
+					[
+						"Ipred",
+						"Ipred_syn"
+					],
+					[
+						"norma",
+						"normalized_Imem_var"
+					],
+					[
+						"Imem",
+						"Imem_var"
+					],
+					[
+						"high",
+						"high_indices"
+					],
+					[
+						"qua",
+						"quantized_weights"
+					],
+					[
+						"thre",
+						"threshold_high"
+					],
+					[
+						"thres",
+						"threshold_high"
+					],
+					[
+						"dec",
+						"declare_types\tfunction"
+					],
+					[
+						"inh",
+						"inh_wta_c"
+					],
+					[
+						"qunati",
+						"quantize_weights\tmodule"
+					],
+					[
+						"quna",
+						"quantize_weights\tmodule"
+					],
+					[
+						"testbench",
+						"testbench_stim"
+					],
+					[
+						"DPIst",
+						"DPIstdp_gm"
+					],
+					[
+						"Synapse",
+						"SynapseEquationBuilder.import_eq('octa\t(run_reg_functions.py)"
+					],
+					[
+						"SynST",
+						"SynSTDGM"
+					],
+					[
+						"synaps",
+						"synapse_group"
+					],
+					[
+						"logi",
+						"logical_or\tinstance"
+					],
+					[
+						"calac",
+						"calculate_distance"
+					],
+					[
+						"buffer",
+						"buffer_size"
+					],
+					[
+						"clacl",
+						"calculate_mean\tfunction"
+					],
+					[
+						"cal",
+						"calculate_mean\tfunction"
+					],
+					[
+						"clac",
+						"calculate_mean"
+					],
+					[
+						"Vect",
+						"Vector3D"
+					],
+					[
+						"Vec",
+						"Vector3D\tclass"
+					],
+					[
+						"_g",
+						"_get_length\tfunction"
+					],
+					[
+						"my_ve",
+						"my_vec2"
+					],
+					[
+						"my",
+						"my_duck_1\tstatement"
+					],
+					[
+						"he",
+						"head_color\tstatement"
+					],
+					[
+						"my_de",
+						"my_dec_duck\tstatement"
+					],
+					[
+						"red",
+						"red_head_3\tstatement"
+					],
+					[
+						"blac",
+						"black_duck"
+					],
+					[
+						"Dec",
+						"DecoyDuck\tclass"
+					],
+					[
+						"fl",
+						"flying_behaviour\tstatement"
+					],
+					[
+						"None",
+						"NonFlyingBehaviour"
+					],
+					[
+						"Fly",
+						"FlyinBehaviour\tclass"
+					],
+					[
+						"RedHe",
+						"ReadHeadDuck\tclass"
+					],
+					[
+						"neuron_m",
+						"neuron_models"
+					],
+					[
+						"pytho",
+						"python3"
+					],
+					[
+						"equation",
+						"equation_builder"
+					],
+					[
+						"pop",
+						"popitem\tfunction"
+					],
+					[
+						"file",
+						"filename"
+					],
+					[
+						"import",
+						"importlib"
+					],
+					[
+						"neuro",
+						"neuron_eq"
+					],
+					[
+						"Nac",
+						"NCSBrian2Lib"
+					],
+					[
+						"NCS",
+						"NCSBrian2Lib"
+					],
+					[
+						"standal",
+						"standaloneParams"
+					],
+					[
+						"Build",
+						"BuildingBlock\tclass"
+					],
+					[
+						"visu",
+						"visualization_backend"
+					],
+					[
+						"equat",
+						"equation_builder\t(wta.py)"
+					],
+					[
+						"names",
+						"namespace"
+					],
+					[
+						"name",
+						"_name\tstatement"
+					],
+					[
+						"on",
+						"on_post\tstatement"
+					],
+					[
+						"on_",
+						"on_pre\tstatement"
+					],
+					[
+						"equa",
+						"equation_builder\tparam"
+					],
+					[
+						"list",
+						"list_of_coord"
+					],
+					[
+						"noise",
+						"noise_y"
+					],
+					[
+						"repeti",
+						"repetition_offset"
+					],
+					[
+						"nois",
+						"noise_y"
+					],
+					[
+						"rep",
+						"repetition"
+					],
+					[
+						"n2",
+						"n2dNeurons"
+					],
+					[
+						"rand",
+						"randint\tfunction"
+					],
+					[
+						"adjace",
+						"adjacency_matrix\tstatement"
+					],
+					[
+						"start",
+						"start_time"
+					],
+					[
+						"intern",
+						"interneurons"
+					],
+					[
+						"itern",
+						"interneurons"
+					],
+					[
+						"dpi_neur",
+						"dpi_neuron_eq"
+					],
+					[
+						"reser",
+						"reservor_network\tstatement"
+					],
+					[
+						"recurr",
+						"recurrent_exc_connection"
+					],
+					[
+						"reservo",
+						"reservoir"
+					],
+					[
+						"reserv",
+						"reservoir"
+					],
+					[
+						"bias",
+						"bias_directory"
+					],
+					[
+						"plotter",
+						"plotter2d\tmodule"
+					],
+					[
+						"Conne",
+						"Connections\tclass"
+					],
+					[
+						"NC",
+						"NCSBrian2Lib\t(octa.py)"
+					],
+					[
+						"tau",
+						"tau_var"
+					],
+					[
+						"testN",
+						"testNeu"
+					],
+					[
+						"num_inh_",
+						"num_inh_inputs"
+					],
+					[
+						"synIn",
+						"synInhInh1i"
+					],
+					[
+						"wta",
+						"wtaParams"
+					],
+					[
+						"DPI",
+						"DPIstdp\tclass"
+					],
+					[
+						"statem",
+						"statemon_weight"
+					],
+					[
+						"spikem",
+						"spikemon_input"
+					],
+					[
+						"State",
+						"StateMonitor"
+					],
+					[
+						"ran",
+						"randint\tfunction"
+					],
+					[
+						"compres",
+						"compressionMap"
+					],
+					[
+						"next",
+						"nextRow\t(neuron_synapse.py)"
+					],
+					[
+						"plot_t",
+						"plot_statemon_qt"
+					],
+					[
+						"spikemonW",
+						"spikemonWTAInp"
+					],
+					[
+						"WTA",
+						"WTAMonitors"
+					],
+					[
+						"end",
+						"end_time"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/schlowmo/Repositories/teili/docs/index.rst",
+					"settings":
+					{
+						"buffer_size": 1247,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/teili/docs/conf.py",
+					"settings":
+					{
+						"buffer_size": 6774,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/teili/teili/core/groups.py",
+					"settings":
+					{
+						"buffer_size": 32001,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/teili/docs/scripts/Core.rst",
+					"settings":
+					{
+						"buffer_size": 3271,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/teili/docs/scripts/Building Blocks.rst",
+					"settings":
+					{
+						"buffer_size": 4874,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/teili/docs/scripts/Getting started.rst",
+					"settings":
+					{
+						"buffer_size": 4500,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.rst",
+					"settings":
+					{
+						"buffer_size": 46644,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/teili/docs/scripts/Equation builder.rst",
+					"settings":
+					{
+						"buffer_size": 6099,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/User/python3.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Markdown Preview/Markdown.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Markdown Preview/Markdown.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Traditional"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Script Builder"
+						]
+					],
+					[
+						"Packages/LaTeXTools/LaTeX.sublime-build",
+						"PdfLaTeX"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 168.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"pak",
+						"Package Control: Install Package"
+					],
+					[
+						"build",
+						"Build With: python3"
+					],
+					[
+						"inter",
+						"Anaconda: Set Python interpreter"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"update",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"pascl",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 1086.0
+			},
+			"console":
+			{
+				"height": 226.0,
+				"history":
+				[
+					"echo LOOL",
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/schlowmo/Repositories/teili/docs/build/html/_static/css/theme.css",
+				"/home/schlowmo/Repositories/teili/docs/_static/default.css",
+				"/home/schlowmo/Repositories/teili/setup.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/synapse_templates.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/neuron_templates.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_gm.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPISyn.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_tutorial.py",
+				"/usr/share/sphinx_rtd_theme/static/css/theme.css",
+				"/home/schlowmo/Repositories/teili/docs/build/html/_static/js/theme.js",
+				"/home/schlowmo/Repositories/teili/teili/core/network.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Core.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Building Blocks.md",
+				"/home/schlowmo/Repositories/OCTA/README.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Equation builder.md",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_matrix_visualization.py",
+				"/home/schlowmo/.cache/.fr-1Q956U/thesis_george/thesis.tex",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/wta.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Neuron and Synapse models.md",
+				"/home/schlowmo/Repositories/teili/docs/conf.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/teili/examples/mismatch_tutorial.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/dpi_synapse_param.py",
+				"/home/schlowmo/teiliApps/equations/DPI.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvar.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/SynSTDGM.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIstdp_gm.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Getting started.md",
+				"/home/schlowmo/Repositories/teili/docs/build/doctrees/scripts/Getting started.doctree",
+				"/home/schlowmo/Repositories/teili/docs/build/html/_sources/scripts/Getting started.txt",
+				"/home/schlowmo/Repositories/teili/docs/build/doctrees/index.doctree",
+				"/home/schlowmo/Repositories/teili/examples/ExpAdaptIF_rand_input_demo.py",
+				"/home/schlowmo/Repositories/teili/README.md",
+				"/home/schlowmo/miniconda3/lib/python3.7/site-packages/teili/models/equations/ExpAdaptIF.py",
+				"/home/schlowmo/Repositories/teili/teili/__init__.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/random_sampling.py",
+				"/home/schlowmo/Repositories/teili/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/stimuli/testbench.py",
+				"/home/schlowmo/Repositories/Phd_Project/.gitignore",
+				"/home/schlowmo/Repositories/teili/teili/tools/misc.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Other examples.md",
+				"/home/schlowmo/Repositories/teili/examples/stdp_tutorial.py",
+				"/home/schlowmo/Repositories/teili/examples/wta_standalone_tutorial.py",
+				"/home/schlowmo/Repositories/teili/examples/mismatch_example.py",
+				"/home/schlowmo/Repositories/teili/examples/wta_standalone_test.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_tutorial.py",
+				"/home/schlowmo/Repositories/teili/examples/wta_live_demo.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_test.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_test.py",
+				"/home/schlowmo/Repositories/teili/examples/poisson_neurons.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_kernel_test.py",
+				"/home/schlowmo/teiliApps/examples/stdp_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/neuron_equation_builder.py",
+				"/home/schlowmo/.config/sublime-text-3/Packages/User/python3.sublime-build",
+				"/home/schlowmo/tmp.txt",
+				"/home/schlowmo/Repositories/teili/teili/models/synapse_models.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/constants.py",
+				"/home/schlowmo/teiliApps/examples/wta_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/neuron_models.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations.py",
+				"/home/schlowmo/teiliApps/examples/example_dvs_plot.py",
+				"/home/schlowmo/teiliApps/examples/mismatch_example.py",
+				"/home/schlowmo/teiliApps/examples/wta_live_demo.py",
+				"/home/schlowmo/teiliApps/examples/reservoir_test.py",
+				"/home/schlowmo/teiliApps/examples/poisson_neurons.py",
+				"/home/schlowmo/teiliApps/examples/neuron_synapse_subgroup_test.py",
+				"/home/schlowmo/teiliApps/examples/sequence_learning_standalone_example.py",
+				"/home/schlowmo/teiliApps/examples/nicola_cloapth_2017_params.py",
+				"/home/schlowmo/miniconda3/envs/teili_ci_test/lib/python3.6/site-packages/teili/models/equations/DPI.py",
+				"/home/schlowmo/miniconda3/envs/teili_ci_test/bin/python3.6",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Cover letter/cover_letter.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/Allgemein/CV/CV.tex",
+				"/home/schlowmo/.local/share/applications/pycharm.desktop",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/registration_opens_mail.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/mission_statement.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/invitation_email.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Talks/Labmeeting/12.12.2018/announcement.txt",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvdp.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPIstdp.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotter2d.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/run_reg_functions.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_run_reg.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_mismatch.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/sorting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_init.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Job announcement.txt",
+				"/home/schlowmo/Documents/OCTA/Thesis/test_plot.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/building_block.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/reservoir.py",
+				"/home/schlowmo/.bashrc",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/ctxctl_SSV.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/old_code.py",
+				"/home/schlowmo/Repositories/cortexcontrol/NeuronNeuronConnector.py",
+				"/home/schlowmo/Repositories/cortexcontrol/PyCtxUtils.py",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/lock_and_load.py",
+				"/home/schlowmo/Repositories/OCTA/octa/dynap_octa.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/indexing.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/converter.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/quantize_weights.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/distance.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/synaptic_kernel.py",
+				"/home/schlowmo/Repositories/cortexcontrol/octa.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_at.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_kernel_test.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/stimulus_generators.py",
+				"/home/schlowmo/Repositories/OCTA/neuron_equation_builder.py",
+				"/home/schlowmo/.bash_aliases",
+				"/home/schlowmo/Repositories/cortexcontrol/ctxctl_SSV.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/October/Morit_Milde_Purpose_description.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPISyn_gm.py",
+				"/home/schlowmo/.local/lib/python3.5/site-packages/teili-0.2-py3.5.egg/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DoubleExponential.py",
+				"/home/schlowmo/Downloads/lol.py",
+				"/home/schlowmo/Repositories/teili/tests/test_testbench.py",
+				"/home/schlowmo/Repositories/teili/tests/test_groups.py",
+				"/home/schlowmo/Repositories/teili/tests/test_wta.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations_long.py",
+				"/usr/local/lib/python3.5/dist-packages/pyqtgraph/__init__.py",
+				"/home/schlowmo/Repositories/teili/unit_tests/test_equations_long.py",
+				"/home/schlowmo/Repositories/teili/tests/test_tools.py"
+			],
+			"find":
+			{
+				"height": 48.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"gtestWTA",
+					"win_stdp",
+					"H",
+					"p_post_EPSC",
+					"pWeight2",
+					"pSpikes",
+					"statemon_syn_post",
+					"statemon_syn_pre",
+					"statemon_post",
+					"spikemon_post",
+					"statemon_pre",
+					"spikemon_pre",
+					"SynSTDP",
+					"SynPost",
+					"SynPre",
+					"postSTDP",
+					"preSTDP",
+					"neuron_model",
+					"statemonSynOut",
+					"statemonNeuIn",
+					"statemonNeuOut",
+					"spikemonOut",
+					"spikemon",
+					"spikemonInp",
+					"Syn",
+					"statemoninput_synapse",
+					"InpSyn",
+					"testSyn",
+					"gInpGroup",
+					"tsInp",
+					"testNeurons",
+					"testNeurons2",
+					"testNeurons",
+					"teili_equation_path",
+					"CtxDynapse",
+					"FpgaSpikeEvent",
+					"buffer_pointer",
+					"Iahpmax",
+					"w_plast",
+					"self.parameters",
+					"Ipred_plast",
+					"w_plast",
+					"Ipred",
+					"w_plast",
+					"Ipred_pre",
+					"    >>> neuron_obj",
+					"    >>> syn_obj",
+					"w_mean",
+					"w_std",
+					"reinit_threshold",
+					"w_std_re_init",
+					"w_std_init",
+					"w_std",
+					"syn_obj",
+					"n2dNeurons",
+					"ncols",
+					"ind2xy",
+					"wPlast",
+					"get",
+					"p_InhWTA",
+					"p_WTAInh",
+					"I_connection_probability",
+					"layerSize",
+					"predictionUnits",
+					"errorStyle",
+					"tileID",
+					"contextFanIn",
+					"totalNumberTiles",
+					"tileNumberY",
+					"tileNumberX",
+					"tileSizeY",
+					"tileSizeX",
+					"strideSizeX",
+					"strideSizeY",
+					"strideSizeX",
+					"win",
+					"Description",
+					"component",
+					"namespace"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/schlowmo/Repositories/teili/docs/index.rst",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1247,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1011,
+										1011
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										8,
+										27,
+										13,
+										18,
+										35,
+										5,
+										181,
+										150,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1548672886.25,
+									"syntax": "Packages/RestructuredText/reStructuredText.sublime-syntax",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 30
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/schlowmo/Repositories/teili/docs/conf.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6774,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4220,
+										4220
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.python - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										31,
+										15,
+										36,
+										42,
+										12,
+										254,
+										72,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1549973706.07,
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 22
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 2400.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/schlowmo/Repositories/teili/teili/core/groups.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 32001,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										12270,
+										12270
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										8,
+										17,
+										56,
+										35,
+										9,
+										2,
+										72,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1549705294.77,
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 41
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 3750.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 3,
+							"file": "/home/schlowmo/Repositories/teili/docs/scripts/Core.rst",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3271,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										508,
+										508
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										8,
+										17,
+										22,
+										43,
+										10,
+										54,
+										247,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/RestructuredText/reStructuredText.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 3
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 75.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/schlowmo/Repositories/teili/docs/scripts/Building Blocks.rst",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4874,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4224,
+										4224
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										8,
+										17,
+										15,
+										46,
+										7,
+										110,
+										195,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/RestructuredText/reStructuredText.sublime-syntax",
+									"tab_size": 6,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 1875.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/schlowmo/Repositories/teili/docs/scripts/Getting started.rst",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4500,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3976,
+										3976
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										28,
+										11,
+										39,
+										20,
+										3,
+										59,
+										126,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/RestructuredText/reStructuredText.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 2400.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.rst",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 46644,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										41295,
+										41295
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										31,
+										15,
+										40,
+										7,
+										9,
+										177,
+										68,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"highlight_line": false,
+									"syntax": "Packages/RestructuredText/reStructuredText.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 41
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 29250.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/schlowmo/Repositories/teili/docs/scripts/Equation builder.rst",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6099,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2570,
+										2570
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										8,
+										17,
+										1,
+										48,
+										0,
+										210,
+										50,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/RestructuredText/reStructuredText.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 2
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 48.0
+			},
+			"input":
+			{
+				"height": 74.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 376.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.latextools":
+			{
+				"height": 250.0
+			},
+			"output.markdown":
+			{
+				"height": 170.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 170.0
+			},
+			"output.vi_out":
+			{
+				"height": 96.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,1,0,0,0,0,0,0,3200,1800",
+			"project": "",
+			"replace":
+			{
+				"height": 88.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 380.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"mon_addr"
+					]
+				],
+				"width": 392.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"_vintageous_last_buffer_search": "pytho",
+				"_vintageous_last_buffer_search_command": "vi_slash",
+				"_vintageous_last_char_search_command": "vi_t",
+				"_vintageous_last_character_search": "t",
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/home/schlowmo/Repositories/teili/docs/_static"
+				}
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 191.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 90,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fpga",
+						"fgpa_modules"
+					],
+					[
+						"save",
+						"save_biases"
+					],
+					[
+						"teili",
+						"teili2ctxctl\tmodule"
+					],
+					[
+						"Poiss",
+						"PoissonGroup\t(teili2ctxctl.py)"
+					],
+					[
+						"Spike",
+						"SpikeGeneratorGroup\t(teili2ctxctl.py)"
+					],
+					[
+						"weights",
+						"weights_rec\tstatement"
+					],
+					[
+						"mat",
+						"matrix\t(sorting.py)"
+					],
+					[
+						"isi",
+						"isi_base\tparam"
+					],
+					[
+						"set",
+						"set_spikes_fpga\tfunction"
+					],
+					[
+						"spik",
+						"spikegen_group"
+					],
+					[
+						"synapse",
+						"synapse_group\tparam"
+					],
+					[
+						"post",
+						"post_pop"
+					],
+					[
+						"synap",
+						"synapse_group\tparam"
+					],
+					[
+						"start",
+						"start_neurons"
+					],
+					[
+						"virtual",
+						"virtual_neurons"
+					],
+					[
+						"SpikeGene",
+						"SpikeGeneratorGroup\tclass"
+					],
+					[
+						"target",
+						"target_list"
+					],
+					[
+						"Spi",
+						"SpikeGeneratorGroup\tclass"
+					],
+					[
+						"input",
+						"input_spikes"
+					],
+					[
+						"Ie_",
+						"Ie_th\t(DPIstdp.py)"
+					],
+					[
+						"Ii_tau",
+						"Ii_tau*(Ii_syn\t(DPIstdp_gm.py)"
+					],
+					[
+						"Itau",
+						"Itau_i\t(DPIstdp_gm.py)"
+					],
+					[
+						"decay",
+						"decay_time\tparam"
+					],
+					[
+						"learn",
+						"learning_rate"
+					],
+					[
+						"run",
+						"run_regularly"
+					],
+					[
+						"syn",
+						"synapse_types"
+					],
+					[
+						"SLOW",
+						"SLOW_INH"
+					],
+					[
+						"core",
+						"core_offset"
+					],
+					[
+						"feature",
+						"feature_neuron"
+					],
+					[
+						"qu",
+						"quantize_weights_number\tfunction"
+					],
+					[
+						"qunatiz",
+						"quantized_weights"
+					],
+					[
+						"weights_",
+						"weights_inp"
+					],
+					[
+						"data",
+						"data_dir"
+					],
+					[
+						"rot",
+						"rotating_bar\t(testbench.py)"
+					],
+					[
+						"OCTA",
+						"OCTA_Testbench\tmodule"
+					],
+					[
+						"OCT",
+						"OCTA_Testbench\t(testbench.py)"
+					],
+					[
+						"activ",
+						"activity_proxy"
+					],
+					[
+						"check",
+						"check_units"
+					],
+					[
+						"exp",
+						"exp_weighted_membrane_buffer"
+					],
+					[
+						"disit",
+						"distribution"
+					],
+					[
+						"wei",
+						"weight_update"
+					],
+					[
+						"membran",
+						"membrane_buffer"
+					],
+					[
+						"Ipred",
+						"Ipred_syn"
+					],
+					[
+						"norma",
+						"normalized_Imem_var"
+					],
+					[
+						"Imem",
+						"Imem_var"
+					],
+					[
+						"high",
+						"high_indices"
+					],
+					[
+						"qua",
+						"quantized_weights"
+					],
+					[
+						"thre",
+						"threshold_high"
+					],
+					[
+						"thres",
+						"threshold_high"
+					],
+					[
+						"dec",
+						"declare_types\tfunction"
+					],
+					[
+						"inh",
+						"inh_wta_c"
+					],
+					[
+						"qunati",
+						"quantize_weights\tmodule"
+					],
+					[
+						"quna",
+						"quantize_weights\tmodule"
+					],
+					[
+						"testbench",
+						"testbench_stim"
+					],
+					[
+						"DPIst",
+						"DPIstdp_gm"
+					],
+					[
+						"eq",
+						"equations"
+					],
+					[
+						"Synapse",
+						"SynapseEquationBuilder.import_eq('octa\t(run_reg_functions.py)"
+					],
+					[
+						"SynST",
+						"SynSTDGM"
+					],
+					[
+						"synaps",
+						"synapse_group"
+					],
+					[
+						"logi",
+						"logical_or\tinstance"
+					],
+					[
+						"calac",
+						"calculate_distance"
+					],
+					[
+						"buffer",
+						"buffer_size"
+					],
+					[
+						"clacl",
+						"calculate_mean\tfunction"
+					],
+					[
+						"cal",
+						"calculate_mean\tfunction"
+					],
+					[
+						"clac",
+						"calculate_mean"
+					],
+					[
+						"Vect",
+						"Vector3D"
+					],
+					[
+						"Vec",
+						"Vector3D\tclass"
+					],
+					[
+						"_g",
+						"_get_length\tfunction"
+					],
+					[
+						"my_ve",
+						"my_vec2"
+					],
+					[
+						"my",
+						"my_duck_1\tstatement"
+					],
+					[
+						"he",
+						"head_color\tstatement"
+					],
+					[
+						"my_de",
+						"my_dec_duck\tstatement"
+					],
+					[
+						"red",
+						"red_head_3\tstatement"
+					],
+					[
+						"blac",
+						"black_duck"
+					],
+					[
+						"Dec",
+						"DecoyDuck\tclass"
+					],
+					[
+						"fl",
+						"flying_behaviour\tstatement"
+					],
+					[
+						"None",
+						"NonFlyingBehaviour"
+					],
+					[
+						"Fly",
+						"FlyinBehaviour\tclass"
+					],
+					[
+						"RedHe",
+						"ReadHeadDuck\tclass"
+					],
+					[
+						"neuron_m",
+						"neuron_models"
+					],
+					[
+						"pytho",
+						"python3"
+					],
+					[
+						"equation",
+						"equation_builder"
+					],
+					[
+						"pop",
+						"popitem\tfunction"
+					],
+					[
+						"file",
+						"filename"
+					],
+					[
+						"import",
+						"importlib"
+					],
+					[
+						"neuro",
+						"neuron_eq"
+					],
+					[
+						"Nac",
+						"NCSBrian2Lib"
+					],
+					[
+						"NCS",
+						"NCSBrian2Lib"
+					],
+					[
+						"standal",
+						"standaloneParams"
+					],
+					[
+						"Build",
+						"BuildingBlock\tclass"
+					],
+					[
+						"visu",
+						"visualization_backend"
+					],
+					[
+						"equat",
+						"equation_builder\t(wta.py)"
+					],
+					[
+						"names",
+						"namespace"
+					],
+					[
+						"name",
+						"_name\tstatement"
+					],
+					[
+						"on",
+						"on_post\tstatement"
+					],
+					[
+						"on_",
+						"on_pre\tstatement"
+					],
+					[
+						"equa",
+						"equation_builder\tparam"
+					],
+					[
+						"noi",
+						"noise_x\tstatement"
+					],
+					[
+						"list",
+						"list_of_coord"
+					],
+					[
+						"noise",
+						"noise_y"
+					],
+					[
+						"repeti",
+						"repetition_offset"
+					],
+					[
+						"nois",
+						"noise_y"
+					],
+					[
+						"rep",
+						"repetition"
+					],
+					[
+						"n2",
+						"n2dNeurons"
+					],
+					[
+						"rand",
+						"randint\tfunction"
+					],
+					[
+						"adjace",
+						"adjacency_matrix\tstatement"
+					],
+					[
+						"intern",
+						"interneurons"
+					],
+					[
+						"itern",
+						"interneurons"
+					],
+					[
+						"dpi_neur",
+						"dpi_neuron_eq"
+					],
+					[
+						"reser",
+						"reservor_network\tstatement"
+					],
+					[
+						"recurr",
+						"recurrent_exc_connection"
+					],
+					[
+						"reservo",
+						"reservoir"
+					],
+					[
+						"reserv",
+						"reservoir"
+					],
+					[
+						"bias",
+						"bias_directory"
+					],
+					[
+						"plotter",
+						"plotter2d\tmodule"
+					],
+					[
+						"Conne",
+						"Connections\tclass"
+					],
+					[
+						"NC",
+						"NCSBrian2Lib\t(octa.py)"
+					],
+					[
+						"tau",
+						"tau_var"
+					],
+					[
+						"testN",
+						"testNeu"
+					],
+					[
+						"num_inh_",
+						"num_inh_inputs"
+					],
+					[
+						"synIn",
+						"synInhInh1i"
+					],
+					[
+						"wta",
+						"wtaParams"
+					],
+					[
+						"DPI",
+						"DPIstdp\tclass"
+					],
+					[
+						"statem",
+						"statemon_weight"
+					],
+					[
+						"spikem",
+						"spikemon_input"
+					],
+					[
+						"State",
+						"StateMonitor"
+					],
+					[
+						"ran",
+						"randint\tfunction"
+					],
+					[
+						"compres",
+						"compressionMap"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/spike_based_computation.tex",
+					"settings":
+					{
+						"buffer_size": 3978,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/introduction.tex",
+					"settings":
+					{
+						"buffer_size": 19843,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/reactiveControl.tex",
+					"settings":
+					{
+						"buffer_size": 10084,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/frontiers17.tex",
+					"settings":
+					{
+						"buffer_size": 64243,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/semd.tex",
+					"settings":
+					{
+						"buffer_size": 12876,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/neuralcomp18.tex",
+					"settings":
+					{
+						"buffer_size": 106858,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/octa.tex",
+					"settings":
+					{
+						"buffer_size": 96026,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/discussion.tex",
+					"settings":
+					{
+						"buffer_size": 32932,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/appendix/semd_appendix.tex",
+					"settings":
+					{
+						"buffer_size": 10844,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/appendix/octa_appendix.tex",
+					"settings":
+					{
+						"buffer_size": 3466,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/timeBasedComputation.tex",
+					"settings":
+					{
+						"buffer_size": 39651,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/appendix/reactivecontrol_appendix.tex",
+					"settings":
+					{
+						"buffer_size": 4622,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/acknowledgement.tex",
+					"settings":
+					{
+						"buffer_size": 1492,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/abstract.tex",
+					"settings":
+					{
+						"buffer_size": 8316,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/abstract_de.tex",
+					"settings":
+					{
+						"buffer_size": 8,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/acronyms.tex",
+					"settings":
+					{
+						"buffer_size": 2379,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "\\begin{chapquote}{Carlo Rovelli, \\textit{The order of time}}\n{\\fontsize{15}{16}\\selectfont ``The nature of time is perhaps the greatest\\\\ remaining mystery.''}\n\\end{chapquote}\n\n\\makeatletter\n\\renewcommand{\\@chapapp}{}% Not necessary...\n\\newenvironment{chapquote}[2][2em]\n  {\\setlength{\\@tempdima}{#1}%\n   \\def\\chapquote@author{#2}%\n   \\parshape 1 \\@tempdima \\dimexpr\\textwidth-2\\@tempdima\\relax%\n   \\itshape}\n  {\\par\\normalfont\\hfill--\\ \\chapquote@author\\hspace*{\\@tempdima}\\par\\bigskip}\n\\makeatother\n\n\\lettrine[lines=2]{\nParades-Valles_etal18",
+					"settings":
+					{
+						"buffer_size": 543,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/biblio/biblioncs.bib",
+					"settings":
+					{
+						"buffer_size": 1207040,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Markdown Preview/Markdown.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Markdown Preview/Markdown.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Traditional"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - PdfLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - XeLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Basic Builder - LuaLaTeX"
+						],
+						[
+							"Packages/LaTeXTools/LaTeX.sublime-build",
+							"Script Builder"
+						]
+					],
+					[
+						"Packages/LaTeXTools/LaTeX.sublime-build",
+						"PdfLaTeX"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 168.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"update",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"pascl",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 1086.0
+			},
+			"console":
+			{
+				"height": 226.0,
+				"history":
+				[
+					"echo LOOL",
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/schlowmo/ownCloud/Documents/Studies/Allgemein/CV/CV.tex",
+				"/home/schlowmo/.emacs.d/init.el",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/common.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/jb-thesis.cls",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/spike_based_computation.log",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/biblio/biblio.bib",
+				"/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty",
+				"/home/schlowmo/Downloads/Bachelorthesis_Moritz_Milde_201023818 (2).tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/corticalOrganization.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/computationalPrimitives.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/submission/NECO-11-17-3017-Supplementary File.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/appendix/semd_appendix.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/appendix/reactivecontrol_appendix.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/adaption.tex",
+				"/home/schlowmo/.cache/.fr-AfR8Go/frontiers-neurorobotics-revision/Appendix.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/biblio/biblioncs.bib",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/spike_based_computation.bbl",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/biblio/nbs.bib",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/octapus.tex",
+				"/home/schlowmo/.cache/.fr-VtFi1f/frontiers-neurorobotics-revision/literature_pushbot.bib",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/neuralcomp18.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/frontiers17.tex",
+				"/home/schlowmo/.cache/.fr-WaThT7/Overleaf_Final/pushbot_nav_ISCAS.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/literature_mendeley.bib",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Research proposal/Researchideas_Moritz_Milde.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/literature_pushbot.bib",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/introduction.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/timeBasedComputation.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/my_bib.bib",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/reactiveControl.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/semd.tex",
+				"/home/schlowmo/Repositories/Phd_Project/.gitignore",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/biblio/acronyms.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/acronyms.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/[no file]",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/submission/NECO-11-17-3017-Source.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/biblio/ncsown.bib",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/spike_based_scene_understanding.tex",
+				"/home/schlowmo/Downloads/Bioinspired event-driven collision avoidance based on optic flow with a spikin neural network.tex",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/Spiking elementary motion detector in neuromorphic systems.tex",
+				"/home/schlowmo/Repositories/teili/teili/__init__.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/sorting.py",
+				"/home/schlowmo/Repositories/teili/teili/stimuli/testbench.py",
+				"/home/schlowmo/Repositories/cortexcontrol/NeuronNeuronConnector.py",
+				"/home/schlowmo/Repositories/teili/setup.py",
+				"/home/schlowmo/Repositories/teili/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/wta.py",
+				"/home/schlowmo/Documents/teili2ctxctl.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/building_block.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/ctxctl_SSV.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPISyn.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/synapse_templates.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_mismatch.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/old_code.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_kernel_test.py",
+				"/home/schlowmo/Repositories/cortexcontrol/PyCtxUtils.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_init.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPIstdp.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/neuron_templates.py",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/lock_and_load.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIstdp_gm.py",
+				"/home/schlowmo/Repositories/OCTA/octa/dynap_octa.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/indexing.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/converter.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/run_reg_functions.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_run_reg.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/quantize_weights.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/random_sampling.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/distance.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/synaptic_kernel.py",
+				"/home/schlowmo/Repositories/teili/teili/models/synapse_models.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/neuron_models.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotting.py",
+				"/home/schlowmo/Repositories/cortexcontrol/octa.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_at.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotter2d.py",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_kernel_test.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/stimulus_generators.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/misc.py",
+				"/home/schlowmo/Repositories/OCTA/neuron_equation_builder.py",
+				"/home/schlowmo/.bash_aliases",
+				"/home/schlowmo/Repositories/cortexcontrol/ctxctl_SSV.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/October/Morit_Milde_Purpose_description.tex",
+				"/home/schlowmo/Repositories/teili/README.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Getting started.md",
+				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvdp.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPISyn_gm.py",
+				"/home/schlowmo/.bashrc",
+				"/home/schlowmo/.local/lib/python3.5/site-packages/teili-0.2-py3.5.egg/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DoubleExponential.py",
+				"/home/schlowmo/Downloads/lol.py",
+				"/home/schlowmo/Repositories/teili/tests/test_testbench.py",
+				"/home/schlowmo/Repositories/teili/tests/test_groups.py",
+				"/home/schlowmo/Repositories/teili/tests/test_wta.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations_long.py",
+				"/usr/local/lib/python3.5/dist-packages/pyqtgraph/__init__.py",
+				"/home/schlowmo/Repositories/teili/unit_tests/test_equations_long.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations.py",
+				"/home/schlowmo/Repositories/teili/tests/test_tools.py",
+				"/home/schlowmo/Repositories/teili/.git/hooks/pre-push",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_matrix_visualization.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_subgroup_test.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_syn_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_shunt_syn_eq.py",
+				"/home/schlowmo/Repositories/OCTA/octa.py",
+				"/home/schlowmo/Repositories/OCTA/setup.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_neuron_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_lin_syn_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/equations/dynapse_eq.py",
+				"/home/schlowmo/Repositories/ncs_brian/linneuron_eq.py",
+				"/home/schlowmo/Documents/spp/tests.py",
+				"/home/schlowmo/Documents/spp.py",
+				"/home/schlowmo/Documents/spp/vector.py",
+				"/home/schlowmo/Documents/spp/starbuzz.py",
+				"/home/schlowmo/Documents/spp/kmeans.py",
+				"/home/schlowmo/Repositories/dot-files/install_packages.sh",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Equation builder.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Building Blocks.md"
+			],
+			"find":
+			{
+				"height": 48.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"e",
+					"fig:robot_DVS",
+					"sec:DVS",
+					"chapter:DVS",
+					"fig:DVS",
+					"eq:event",
+					"fig:DVS",
+					"Fig.",
+					"Sec.",
+					"Ch.",
+					"Fig.",
+					"Sec.",
+					"Ch.~",
+					"ch.",
+					"Ch.",
+					"ch.",
+					"Ch.",
+					"Eq.",
+					"Fig.",
+					"Sec.",
+					"Fig.",
+					"Sec.",
+					"Fig.",
+					"Sec.",
+					"Fig.",
+					"Eq.",
+					"Ch.",
+					"Sec.",
+					"Ch.",
+					"Sec.",
+					"Sec",
+					"(",
+					"ROLLS",
+					"rolls",
+					"ROLLS",
+					"(",
+					"def",
+					"% @Author: mmilde\n% @Date:   2019-02-11 11:14:08\n% @Last Modified by:   mmilde\n% @Last Modified time: 2019-02-11 11:14:08\n",
+					"% @Author: mmilde\n% @Date:   2019-02-11 11:13:48\n% @Last Modified by:   mmilde\n% @Last Modified time: 2019-02-11 11:13:48\n",
+					"Conradt_etal09a",
+					"% @Author: mmilde\n% @Date:   2019-02-10 13:18:16\n% @Last Modified by:   mmilde\n% @Last Modified time: 2019-02-10 13:18:16\n",
+					"% @Author: mmilde\n% @Date:   2019-02-10 13:18:11\n% @Last Modified by:   mmilde\n% @Last Modified time: 2019-02-10 13:18:11",
+					"Fu_etal14",
+					"Hu",
+					"q:event",
+					"fig:ase",
+					"waver",
+					"zed",
+					"Milde_etal17a",
+					"ase_dyn",
+					"behavior",
+					"maneuver",
+					"Liu_etal10b",
+					"Moeys_etal16",
+					"Kramer_etal96b",
+					"Bartolozzi_Indiveri07b",
+					"Partysch_etal17",
+					"HaddadKhatibLacroixChatila98",
+					"ReimannIossifidisSchoner2011",
+					"SchonerDoseEngels95",
+					"Khansari-Zadeh2012",
+					"Zadeh2012",
+					"Brooks1991a",
+					"Sandamirskaya2014",
+					"Erlhagen2006",
+					"Bicho2011",
+					"SandamirskayaEtAl2013",
+					"SchonerSpencer2015",
+					"BichoMalletSchoner2000",
+					"DeanEtAl2009",
+					"MullerEtAl2011",
+					"CorradiEtAl2016",
+					"Liu2010",
+					"Lichtsteiner2006",
+					"Indiveri2006",
+					"Mitra2009",
+					"Perez-pen2013",
+					"Conradt2015",
+					"WilsonCowan73",
+					"Averbeck2006",
+					"PougetDayanZemel2000",
+					"Ermentrout1998",
+					"Neftci2011",
+					"HaslerMarr2013",
+					"Benjamin2014",
+					"Qiao2015",
+					"FurberEtAl2012",
+					"NECO",
+					"includegraphics",
+					"Figures",
+					"figures",
+					"Figures",
+					"\\cite",
+					"brandl",
+					"CtxDynapse",
+					"FpgaSpikeEvent",
+					"buffer_pointer",
+					"Iahpmax",
+					"w_plast",
+					"self.parameters",
+					"Ipred_plast",
+					"w_plast",
+					"Ipred",
+					"w_plast",
+					"Ipred_pre",
+					"    >>> neuron_obj",
+					"    >>> syn_obj",
+					"w_mean",
+					"w_std",
+					"reinit_threshold",
+					"w_std_re_init",
+					"w_std_init",
+					"w_std",
+					"syn_obj",
+					"n2dNeurons",
+					"ncols",
+					"ind2xy",
+					"wPlast",
+					"get",
+					"p_InhWTA",
+					"p_WTAInh",
+					"I_connection_probability",
+					"layerSize",
+					"predictionUnits",
+					"errorStyle",
+					"tileID",
+					"contextFanIn",
+					"totalNumberTiles"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/spike_based_computation.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3978,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1466,
+										1466
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										12,
+										7,
+										9,
+										9,
+										47,
+										4,
+										50,
+										43,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"highlight_line": false,
+									"markdonw_live_preview_last_run": 1544170262.94,
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 46
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 900.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/introduction.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 19843,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5473,
+										5473
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										14,
+										12,
+										16,
+										9,
+										6,
+										123,
+										106,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1547549261.43,
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 628
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 450.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/reactiveControl.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10084,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										93,
+										93
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										6,
+										11,
+										10,
+										46,
+										13,
+										5,
+										144,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1547134997.06,
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 19
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 150.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/frontiers17.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 64243,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										16101,
+										16101
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										27,
+										0,
+										22,
+										15,
+										6,
+										99,
+										104,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"highlight_line": false,
+									"markdonw_live_preview_last_run": 1549539803.9,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"recording": true,
+										"register": "\"",
+										"sequence": "",
+										"xpos": 236
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 4150.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 16,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/semd.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 12876,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4577,
+										4577
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										6,
+										14,
+										28,
+										36,
+										2,
+										221,
+										241,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"highlight_line": false,
+									"markdonw_live_preview_last_run": 1547568473.2,
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 24
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 825.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/papers/neuralcomp18.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 106858,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										23007,
+										23007
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										25,
+										14,
+										31,
+										27,
+										9,
+										89,
+										132,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1548686151.3,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 201
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 8087.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/octa.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 96026,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										92078,
+										92078
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										12,
+										6,
+										9,
+										13,
+										57,
+										4,
+										87,
+										144,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"highlight_line": false,
+									"markdonw_live_preview_last_run": 1544171127.47,
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 22
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 29025.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/discussion.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 32932,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										232,
+										232
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										8,
+										16,
+										16,
+										3,
+										8,
+										13,
+										86,
+										178,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1547745367.02,
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 28
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 5,
+					"sheets":
+					[
+						{
+							"buffer": 8,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/appendix/semd_appendix.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10844,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										10,
+										13,
+										21,
+										33,
+										1,
+										196,
+										254,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1549804863.73,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 3075.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/appendix/octa_appendix.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3466,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										309,
+										309
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										16,
+										11,
+										48,
+										43,
+										6,
+										229,
+										106,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 209
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 13,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/timeBasedComputation.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 39651,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9605,
+										9605
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										1,
+										14,
+										13,
+										18,
+										34,
+										9,
+										222,
+										103,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1547549279.73,
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 28
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 2475.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/appendix/reactivecontrol_appendix.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4622,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										128,
+										128
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										10,
+										13,
+										21,
+										46,
+										14,
+										214,
+										219,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1549805670.12,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 35
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/acknowledgement.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1492,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1450,
+										1450
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										10,
+										13,
+										30,
+										14,
+										1,
+										37,
+										132,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 42
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/abstract.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8316,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3563,
+										3563
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										11,
+										11,
+										13,
+										48,
+										10,
+										6,
+										60,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"spell_check": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 92
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/sections/abstract_de.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7,
+										7
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										11,
+										11,
+										14,
+										8,
+										8,
+										177,
+										156,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 7
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 17,
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/acronyms.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2379,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										374,
+										374
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										226,
+										12,
+										7,
+										13,
+										26,
+										22,
+										4,
+										50,
+										169,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1544436495.66,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 44
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 15,
+							"type": "text"
+						},
+						{
+							"buffer": 16,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 543,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										543,
+										543
+									]
+								],
+								"settings":
+								{
+									"default_dir": "/home/schlowmo/Repositories/Phd_Project/Thesis/chapters",
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 19
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 14,
+							"type": "text"
+						},
+						{
+							"buffer": 17,
+							"file": "/home/schlowmo/Repositories/Phd_Project/Thesis/biblio/biblioncs.bib",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1207040,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										288334,
+										288334
+									]
+								],
+								"settings":
+								{
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										227,
+										2,
+										9,
+										13,
+										36,
+										38,
+										13,
+										127,
+										255,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"markdonw_live_preview_last_run": 1549805100.95,
+									"syntax": "Packages/LaTeXTools/BibLaTeX.tmLanguage",
+									"translate_tabs_to_spaces": false,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 9
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 231593.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 48.0
+			},
+			"input":
+			{
+				"height": 74.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 376.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.latextools":
+			{
+				"height": 332.0
+			},
+			"output.markdown":
+			{
+				"height": 170.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 170.0
+			},
+			"output.vi_out":
+			{
+				"height": 96.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,3200,1800",
+			"project": "",
+			"replace":
+			{
+				"height": 88.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 380.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"mon_addr"
+					]
+				],
+				"width": 392.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"_vintageous_last_buffer_search": "theo",
+				"_vintageous_last_buffer_search_command": "vi_slash",
+				"_vintageous_last_char_search_command": "vi_t",
+				"_vintageous_last_character_search": "i",
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/home/schlowmo/ownCloud/Documents/Studies/Allgemein/Letter template"
+				}
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 191.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 86,
 			"workspace_name": ""
 		}
 	],

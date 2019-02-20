@@ -367,6 +367,6 @@
 	// specifies whether LaTeXTools should open the PDF file on a
 	// successful build. If set to false, the PDF file won't be opened
 	// unless explicitly launched using C-l,v or C-l,j
-	"open_pdf_on_build": true,
+	"open_pdf_on_build": false,
 
 }
