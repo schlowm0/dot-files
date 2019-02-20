@@ -456,6 +456,10 @@ dump."
   )
 
 (defun dotspacemacs/user-config ()
+    ;; ...
+    ;; Set escape keybinding to "jk"
+    (setq-default evil-escape-key-sequence "jk")
+    (setq-default evil-escape-key-sequence "qw")
   "Configuration for user code:
 This function is called at the very end of Spacemacs startup, after layer
 configuration.

@@ -6,10 +6,18 @@ sudo apt-get update
 sudo apt-get upgrade
 # install relevant programs
 sudo apt-get install -y terminator inkscape htop ipython3 vlc vim thunderbird chromium-browser \
-    texlive-latex-extra latexmk texlive-bibtex-extra texlive texmaker git subversion zathura \
-    numix-icon-theme numix-icon-theme-circle openvpn sublime-text xclip build-essential
+    texlive-latex-extra latexmk texlive-bibtex-extra texlive git subversion zathura \
+    numix-icon-theme numix-icon-theme-circle openvpn sublime-text xclip build-essential  \
+    lemonbar i3 i3lock
+
+cd ~/Repositories/
+git clone git clone https://github.com/meskarune/i3lock-fancy.git
+cd i3lock-fancy
+sudo make install
 
 # install emacs
+sudo sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list
+sudo apt-get update
 sudo apt-get build-dep emacs24
 cd ~/Downloads/
 wget http://ftp.gnu.org/gnu/emacs/emacs-25.3.tar.gz
@@ -44,13 +52,11 @@ Type=Application
 Categories=Messaging,Internet
 EOF"
 
-mkdir ~/Repositories
-cd ~/Repositories/
-git clone 
 cp ~/Repositories/dot-files/.bash_aliases ~/
-cp -r /Repositories/dot-files/.config ~/
-cp -r /Repositories/dot-files/.thunderbird ~/
-
+cp -r ~/Repositories/dot-files/.config ~/
+cp -r ~/Repositories/dot-files/.thunderbird ~/
+cp -r ~/Repositories/dot-files/.ipython ~/
+cp ~/Repositories/dot-files/.vimrc ~/
 source ~/.bashrc
 
 # install libraries and codecs
@@ -62,20 +68,20 @@ sudo apt-get install -y libusb-dev libopencv-dev mesa-utils mesa-common-dev \
 
 # install python related libraries via apt-get
 # install miniconda and create python3.7 env
+cd ~/tmp/
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+chmod +x Miniconda-latest-Linux-x86_64.sh
+./Miniconda-latest-Linux-x86_64.sh
+
 conda create -n teili python=3.5
 conda create -n python_latest python=3.7.1
 
-source activate teili
-cd ~/Repositories/
-pip install teili/
-pip install OCTA/
-
-
 # Install libcaer
+git clone https://github.com/inilabs/libcaer.git
 cd ~/Repositories/libcaer
 sudo apt-get install build-essential cmake pkg-config libusb-1.0-0-dev libserial-dev
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_OPENCV=1 .
-make -j4
+make -j4 
 sudo make install
 
 

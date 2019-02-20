@@ -15,4 +15,9 @@ sudo wget https://github.com/inilabs/devices-bin/blob/master/drivers/linux/udev-
 cd ~/Repositories
 git clone git@code.ini.uzh.ch:ncs/teili.git
 git clone git@code.ini.uzh.ch:mmilde/OCTA.git
-git clone https://github.com/inilabs/libcaer.git
+
+source activate teili
+cd ~/Repositories/
+pip install teili/
+pip install OCTA/
+
