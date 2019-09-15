@@ -2,45 +2,98 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-
-
 noremap <C-V> "+p
-vnoremap <C-c> "+y
+noremap <C-c> "+y
 ":imap jk <Esc>
-" :imap ii <Esc>
+":imap ii <Esc>
+inoremap kj <esc>
+inoremap jk <esc>
+inoremap qw <esc>
+
 map <leader>ss :setlocal spell!<cr>
 
 set nocompatible
 filetype indent plugin on
+filetype on
+filetype indent on
+filetype plugin on
+set ruler
+set cursorline
 syntax on
+syntax enable
+
+set mouse=a
+" Prevent incorrect backgroung rendering
+let &t_ut=''
+
+" ===
+" === Editor behavior
+" ===
+" Better tab
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set list
+set listchars=tab:▸\ ,trail:▫
+set scrolloff=5
+" Prevent auto line split
+set wrap
+set tw=0
+
+set indentexpr=
+" Better backspace
+set backspace=indent,eol,start
+
+set foldmethod=indent
+set foldlevel=99
+
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
 " Better command-line completion
 set wildmenu
- 
+set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
+set wildmode=longest,list,full
+
+set incsearch
+set smartcase
 " Show partial commands in the last line of the screen
 set showcmd
 set showmode
 set ruler
 set showmatch
 set number
+
 " Highlight searches (use <C-L> to temporarily turn off highlighting; see the
 " mapping of <C-L> below)
 set hlsearch
+exec "nohlsearch"
 
 set ignorecase
 " Allow backspacing over autoindent, line breaks and start of insert action
 set backspace=indent,eol,start
- 
+
 " When opening a new line and no filetype-specific indenting is enabled, keep
 " the same indent as the line you're currently on. Useful for READMEs, etc.
 set autoindent
 
 " Always display the status line, even if only one window is displayed
 set laststatus=2
- 
+set autochdir
+set formatoptions-=tc
+
+" ===
+" === Window behaviors
+" ===
+set splitright
+set splitbelow
+
 " Instead of failing a command because of unsaved changes, instead raise a
 " dialogue asking if you wish to save changed files.
 set confirm
- 
+
 " Use visual bell instead of beeping when doing something wrong
 set visualbell
 
