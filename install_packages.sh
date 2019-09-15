@@ -6,7 +6,7 @@ sudo apt-get upgrade
 sudo apt-get install -y terminator inkscape htop ipython3 vlc vim chromium-browser \
     texlive-latex-extra latexmk texlive-bibtex-extra texlive git subversion zathura \
     numix-icon-theme numix-icon-theme-circle openvpn xclip build-essential  \
-    lemonbar i3 i3lock i3lock-fancy
+    lemonbar i3 i3lock i3lock-fancy lm-sensors 
 
 # Maybe change i3 to i3-gaps-wm from
 # sudo add-apt-repository ppa:kgilmer/speed-ricer
