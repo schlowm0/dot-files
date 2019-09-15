@@ -89,5 +89,10 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_OPENCV=1 .
 make -j4
 sudo make install
 
-
-
+# Get desktop background wallpaper
+cd ~/Pictures/
+mkdir Wallpapers/
+wget -O tree.png https://newevolutiondesigns.com/images/freebies/nature-hd-background-4.jpg
+wget -O heart.jpg https://www.dropbox.com/s/iui4icdko8lufc3/heart.jpg?dl=1
+wget -O triangle.jpg https://www.dropbox.com/s/o5b96rd8xyratei/art-digital-miscellaneous-modern-abstract-minimalist-wallpaper-hipster-triangle-wallpapers-images.jpg?dl=1
+wget -O forest.jpg https://www.dropbox.com/s/kix5aok6ywymeid/HD_Nature_Wallpapers_by_CurtiXs.jpg?dl=1
