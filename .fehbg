@@ -1,0 +1,2 @@
+#!/bin/sh
+'feh' '--bg-scale' '/home/schlowmo/Pictures/Wallpapers/tree.png' 
