@@ -16,6 +16,11 @@ sudo apt-get install -y terminator inkscape htop ipython3 vlc vim chromium-brows
 # cd i3lock-fancy
 # sudo make install
 
+cd ~/Repositories/
+git clone https://github.com/i3-gnome/i3-gnome.git
+cd i3-gnome/
+sudo make install
+
 # install emacs
 sudo sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list
 sudo apt-get update
