@@ -56,10 +56,12 @@ This function should only modify configuration layer settings."
      syntax-checking
      version-control
      python
+     anaconda-mode
      bibtex
      latex
      themes-megapack
-     pdf-tools
+     ipython-notebook
+     ;; pdf-tools
      )
 
    ;; List of additional packages that will be installed without being
@@ -69,7 +71,12 @@ This function should only modify configuration layer settings."
    ;; To use a local version of a package, use the `:location' property:
    ;; '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
-   dotspacemacs-additional-packages '(xclip)
+   dotspacemacs-additional-packages
+   '(
+     xclip
+     py-autopep8
+     key-chord
+     )
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -187,7 +194,7 @@ It should only modify the values of Spacemacs settings."
 
    ;; Initial message in the scratch buffer, such as "Welcome to Spacemacs!"
    ;; (default nil)
-   dotspacemacs-initial-scratch-message nil
+   dotspacemacs-initial-scratch-message t
 
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press `SPC T n' to cycle to the next theme in the list (works great
@@ -353,7 +360,7 @@ It should only modify the values of Spacemacs settings."
    ;;                       text-mode
    ;;   :size-limit-kb 1000)
    ;; (default nil)
-   dotspacemacs-line-numbers nil
+   dotspacemacs-line-numbers t
 
    ;; Code folding method. Possible values are `evil' and `origami'.
    ;; (default 'evil)
@@ -438,7 +445,8 @@ This function defines the environment variables for your Emacs session. By
 default it calls `spacemacs/load-spacemacs-env' which loads the environment
 variables declared in `~/.spacemacs.env' or `~/.spacemacs.d/.spacemacs.env'.
 See the header of this file for more information."
-  (spacemacs/load-spacemacs-env))
+  (spacemacs/load-spacemacs-env)
+)
 
 (defun dotspacemacs/user-init ()
   "Initialization for user code:
@@ -446,6 +454,8 @@ This function is called immediately after `dotspacemacs/init', before layer
 configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
+  (setenv "WORKON_HOME" "/home/schlowmo/miniconda3/envs")
+  (pyvenv-mode 1)
   )
 
 (defun dotspacemacs/user-load ()
@@ -456,16 +466,36 @@ dump."
   )
 
 (defun dotspacemacs/user-config ()
-    ;; ...
+    ;; "Configuration for user code:
+    ;; This function is called at the very end of Spacemacs startup, after layer
+    ;; configuration.
+    ;; Put your configuration code here, except for variables that should be set
+    ;; before packages are loaded."
     ;; Set escape keybinding to "jk"
-    (setq-default evil-escape-key-sequence "jk")
-    (setq-default evil-escape-key-sequence "qw")
-  "Configuration for user code:
-This function is called at the very end of Spacemacs startup, after layer
-configuration.
-Put your configuration code here, except for variables that should be set
-before packages are loaded."
-  )
-
+    ;; (setq-default evil-escape-key-sequence "jk")
+    (add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
+    (key-chord-mode 1)
+    (key-chord-define evil-insert-state-map "jk" 'evil-escape)
+    (key-chord-define evil-insert-state-map "ii" 'evil-escape)
+    (key-chord-define evil-insert-state-map "kj" 'evil-escape)
+    )
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
+(defun dotspacemacs/emacs-custom-settings ()
+  "Emacs custom settings.
+This is an auto-generated function, do not modify its content directly, use
+Emacs customize menu instead.
+This function is called at the very end of Spacemacs initialization."
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(evil-escape-key-sequence "qw"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+)
