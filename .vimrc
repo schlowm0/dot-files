@@ -1,6 +1,7 @@
+execute pathogen#infect()
+
 syntax enable
 set background=dark
-colorscheme solarized
 
 noremap <C-V> "+p
 noremap <C-c> "+y
@@ -18,7 +19,7 @@ filetype on
 filetype indent on
 filetype plugin on
 set ruler
-set cursorline
+" set cursorline
 syntax on
 syntax enable
 
@@ -48,6 +49,13 @@ set backspace=indent,eol,start
 set foldmethod=indent
 set foldlevel=99
 
+" Vim airline config
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='solarized'
+
+set runtimepath+=~/.vim-plugins/LanguageClient-neovim
+
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
@@ -62,7 +70,7 @@ set smartcase
 " Show partial commands in the last line of the screen
 set showcmd
 set showmode
-set ruler
+ " set ruler
 set showmatch
 set number
 
@@ -126,11 +134,7 @@ inoremap <F8> <Esc>:nohl<CR>a
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
 set rtp+=~/.vim/bundle/vundle/
-" call vundle#rc()
 
-" let Vundle manage Vundle
-" " required! 
-" Bundle 'gmarik/vundle'
 augroup vimrc_autocmds
     autocmd!
     " highlight characters past column 120
@@ -139,22 +143,9 @@ augroup vimrc_autocmds
     autocmd FileType python set nowrap
     augroup END
 
-" Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-" Powerline setup
-" set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
-" set laststatus=2
-" Bundle 'scrooloose/nerdtree'
-
-" map <F2> :NERDTreeToggle<CR>
-" Bundle 'klen/python-mode'
-
-
-
-" set runtimepath+=~/.vim/bundle/jedi-vim
-" set runtimepath-=~/.vim/bundle/python-mode
-
 :imap jk <Esc>
-:imap ii <Esc> 
+:imap ii <Esc>
+
 
 
 

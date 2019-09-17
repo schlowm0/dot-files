@@ -43,7 +43,13 @@
 		"anymore",
 		"discretise",
 		"",
-		""
+		"",
+		"parallelise",
+		"dendritic",
+		"neuroscientific",
+		"electrophysiological",
+		"manageably",
+		"composability"
 	],
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/One Dark Material - Theme/schemes/OneDark.tmTheme",
@@ -54,7 +60,7 @@
 	"font_options":
 	[
 	],
-	"font_size": 8,
+	"font_size": 9,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

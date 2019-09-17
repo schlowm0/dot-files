@@ -6,7 +6,12 @@ export ZSH="/home/schlowmo/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
+POWERLEVEL9K_MODE='nerdfont-complete' # 'awesome-fontconfig'
+ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status anaconda time)
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"

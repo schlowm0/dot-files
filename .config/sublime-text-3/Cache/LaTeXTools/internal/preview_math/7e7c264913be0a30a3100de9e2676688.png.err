@@ -1,0 +1,802 @@
+Failed to run 'pdflatex' to create pdf to preview.
+
+
+Errors:
+TeX STOPPED: File ended while scanning use of \frac{(kappa * Itau_clip) \end {equation} Although the neuronal membrane p
+TeX reports the error was in file: 7e7c264913be0a30a3100de9e2676688.tex
+
+LaTeX document:
+-----BEGIN DOCUMENT-----
+
+\documentclass[preview,border=0.3pt]{standalone}
+% import xcolor if available and not already present
+\IfFileExists{xcolor.sty}{\usepackage{xcolor}}{}%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\IfFileExists{latexsym.sty}{\usepackage{latexsym}}{}
+\IfFileExists{mathtools.sty}{\usepackage{mathtools}}{}
+
+\begin{document}
+% set the foreground color
+\IfFileExists{xcolor.sty}{\color[HTML]{A6B2C0}}{}%
+\(
+\tau = \frac{C_{mem} \ U_t}{(kappa * Itau_clip)
+\end{equation}
+% Although, the membrane potential of neurons is usually experimentally measured and modelled as a voltage and synaptic dynamics are described based on conductances, we simulate the circuit dynamics of mixed-signal sub-threshold neuromorphic processors by using a current-mode analysis as these circuits are operated in current-mode.
+Although the neuronal membrane potential of neurons is the voltage between cell interior and exterior and although synaptic dynamics describe the development of ion-channel conductances over time, our mixed-signal sub-threshold neuromorphic circuits use currents to represent these measurements and can therefore be said to be operated in current-mode.
+Equation~\ref{eq:dpi_neuron} describes the current-based neuron model as first presented in \parencite{Indiveri_etal06} and implemented on the \ac{dynap} \parencite{Moradi_etal18}.
+The synaptic dynamics of both plastic and non-plastic synapses are described as follows:
+\begin{equation}
+    \tau \ \frac{dI_{syn}}{dt} = \frac{-I_{syn} - I_{gain}}{\frac{I_{gain}}{I_{syn}} + 1},
+    % dIe_syn/dt = (-Ie_syn - Ie_gain + 2*Io_syn*(Ie_syn<=Io_syn))/(tausyne*((Ie_gain/Ie_syn)+1))
+    \label{eq:dpi_syn}
+\end{equation}
+where $I_{syn}$ represent the \ac{psc}, $I_{gain}$ is modelling the synaptic gain and has a multiplicative effect on top of the synaptic weight, and $\tau$ represents the synaptic time constant.
+As all incoming currents are summed by the post-synaptic neuron, the synaptic type, i.e. excitatory or inhibitory, is determined by the sign of $I_{syn}$, which in turn is set by the weight associated to the given synapse.
+On the arrival of a pre-synaptic spike the synaptic variable $I_{syn}$ is updated as follows:
+\begin{equation}
+    I_{syn} = I_{syn} + \frac{I_w \ w \ I_{gain}}{I_{tau} \ \frac{I_{gain}}{I_{syn}}},
+    % Ie_syn += Iw_e*w_plast*Ie_gain*Ipred_pre*(weight>0)/(Itau_e*((Ie_gain/Ie_syn)+1))
+\end{equation}
+in which $I_w$ is the current flowing through transistor $M_5$, which is scaled by $w$ (see Figure~\ref{fig:schematics} for circuit schematics).
+For non-plastic synapses $w$ is 1, whereas in the case of plastic synapses $w$ is updated according to Eq.~\ref{eq:stdp} and ranges between [0, 1] (see Section~\ref{sec:plasticity} for more details).
+
+
+
+
+
+% Role of interneurons in the brain recap and evidence
+
+
+\subsection{Plasticity mechanism}
+\label{sec:plasticity}
+\subsubsection{\acl{stdp}}
+While the non-plastic synapses follow the well-known \ac{dpi} synapse dynamics as governed by Eq. \ref{eq:dpi_syn}, the \ac{stdp}-based synapses have two additional terms to model the weight update based on the relative timing of the pre- and post-synaptic spiking (see Eq.~\ref{eq:stdp}, as proposed by \citep{Song_etal00}).
+\begin{equation}
+    \Delta w =
+    \begin{cases}
+        {a^{+} \cdot exp^{\left( {\frac{t_{pre} - t_{post}}{\tau^{+}}}\right)},\ if\ t_{pre} \leq\ t_{post}}\\
+        {a^{-} \cdot exp^{\left( {\frac{t_{pre} - t_{post}}{\tau^{-}}}\right)},\ if\ t_{pre} >\ t_{post}},
+    \end{cases}
+    \label{eq:stdp}
+\end{equation}
+where $+$ and $-$ represents the weight increment and decrement respectively, $t_{pre}$ and $t_{post}$ are the time when the pre and post synaptic neuron elicited a spike and $\tau$ describes the temporal window in which the synaptic weight is effectively updated.
+Furthermore, synapses which project from the pool of inhibitory interneurons into the excitatory neurons follow an \ac{adp} rule (see below for more details).
+
+\subsubsection{Activity Dependent Plasticity}
+\label{sec:adp}
+The role of inhibition in neuronal processing is subject to debate and far away from being as clearly understood as the role of its excitatory counterpart.
+Inhibitory interneurons are thought to regulate excitatory activity by balancing their activity.
+Furthermore, inhibition introduces competition among excitatory neurons as inhibitory projections tend to target local ensembles of excitatory neurons.
+% Our functional understanding of the role of inhibitory interneurons during visual processing .
+As our functional understanding of inhibitory interneurons during computation is limited, models often incorporate random, fixed synaptic projections which are not subject to any kind of plasticity.
+To gain a better understanding of the computational role of inhibition and overcome the aforementioned limitation we propose an inhibitory plasticity rule which is based on the post-synaptic neuron activity $\sigma$ (see Eq.~\ref{eq:activity_proxy}) over a certain temporal period (50 ms), and adjust the associated synaptic weight to introduce competition and balance excitatory activity.
+\begin{equation}
+    \sigma_i = \int^{t_0}_{t_0 - \Delta t} {I_{mem}(t)_i \cdot e^{\frac{(t-t_0)}{\tau}}} dt
+    \label{eq:activity_proxy}
+\end{equation}
+This plasticity mechanism tries to homoeostatically regulate the excitatory activity.
+Every time an inhibitory neuron spikes, the normalised post-synaptic activity $\hat{\sigma}_i$ is compared to a threshold $\sigma_{target}$, and the weight is updated accordingly (see Eq.~\ref{eq:adp}).
+The thresholds are synapse specific and are randomly initialised from a uniform distribution in a range between $0.3$ and $0.5$.
+This learning rule is similar to \parencite{Vogels_etal11}, but instead of looking at the output firing rate we integrate the exponentially weighted somatic current $I_{mem}$ within a sliding window.
+Hence, the novel plasticity rule proposed here does reflect sub-threshold fluctuations of the membrane potential and thus reflects the asynchronous inputs which did not trigger the generation of an action potential.
+\begin{equation}
+    \Delta w = \eta \cdot (\hat{\sigma}_i - \sigma_{target})
+    \label{eq:adp}
+\end{equation}
+
+
+\subsection{Dynamic routing of synaptic transmission}
+\label{sec:ase_octa}
+The aforementioned local plasticity mechanisms allow the network to capture spatio-temporally correlated inputs while balancing the network's activity, and by introducing competition among excitatory neurons diversify the captured spatio-temporal features.
+If we want to design a system which uses the learned features to make temporal predictions about future neuronal activity we certainly don't want to intervene with ongoing processing of the predicted activity, but rather adjust the synaptic transmission of predicted activity.
+We previously could show that by varying the threshold of the \ac{dpi} synapse with a time varying signal, the synapse acts as a temporal correlation detector (see Section~\ref{ch:semd} \& \citep{Milde_etal18}).
+The mechanism enabling the synapse to detect temporal correlation can be understood as adaptively varying the synaptic efficacy, thus we named it the \acf{ase} mechanism.
+% In Section~\ref{ch:semd} the synaptic efficacy was up-regulated in the presence of highly temporally correlated events.
+In other words, the \ac{epsc} is modulated based on the relative timing of two spikes.
+The two main parameters which define the operation regime are two synaptic time-constants, $\tau_{gain}$ and $\tau_{syn}$ (see Figure~\ref{fig:schematics}).
+While in the case of optic flow detection the efficacy was up-regulated for highly temporally correlated spikes, the synaptic efficacy modulation should also work in the opposite direction, i.e.\ temporally correlated spikes lead to a down-regulation of the synaptic efficacy.
+The positive synaptic efficacy scaling could be seen as an \textit{amplification/attention signal}, which emphasises an `expected' relative timing of spikes.
+The negative efficacy scaling, on the other hand, can be understood as a self-generated \textit{prediction signal}, which de-emphasises an `expected' relative timing of spikes.
+\begin{figure}
+    \centering
+    \includegraphics[width=7cm, height=4cm]{figures/{stdgm}.pdf}
+    \caption[Synaptic gain modulation for temporal prediction.]{\acf{ase} mechanism. Neuron 2 sets the synaptic gain of neuron 1. The synaptic gain value, i.e. the height of the drop in synaptic gain, is learned via \ac{stdp} with a time window of $5\ $ms. At the time of a pre-synaptic spike in neuron 2, the synaptic efficacy of neuron 1 is lowered and exponentially decays back to its baseline value of 1 with a time constant of $1.5\ $ms.}
+    \label{fig:ase_octa}
+\end{figure}
+Instead of hand-tuning the amplitude of the time varying signal $\phi$ at the time of the arrival of pre-synaptic spike, we use a \ac{stdp} mechanism to learn it (see Eq.~\ref{eq:stgm}).
+\begin{equation}
+\label{eq:stgm}
+    \Delta \phi =
+    \begin{cases}
+        a^{+} \cdot exp^{\left( {\frac{t_{pre} - t_{post}}{\tau^{+}}}\right)},\ if\ t_{pre} \leq\ t_{post}\\
+        a^{-} \cdot exp^{\left( {\frac{t_{pre} - t_{post}}{\tau^{-}}}\right)},\ if\ t_{pre} >\ t_{post}
+    \end{cases}
+\end{equation}
+The prediction mechanism via modulating the synaptic efficacy is incorporated in the synapses projecting from $L_4$ into $L_{2/3}$ and $L_{5/6}$.
+However, the activity of $L_{5/6}$ determines the synaptic efficacy $\phi$ as follows:
+\begin{equation}
+\label{eq:ase_dyn}
+    \frac{d\phi}{dt} = \frac{(1 - \phi)}{\tau_{pred}},
+\end{equation}
+where $\tau_{pred}$ is the time constant with which the synaptic gain value converges back to 1 (see Figure~\ref{fig:ase_octa}).
+\subsection{Additional mechanism for learning}
+\paragraph{Device mismatch}
+As we discussed earlier analogue neuromorphic hardware is prone to device mismatch \citep{Pelgrom_etal89}.
+To design an algorithm suited for these systems we draw each parameter from a truncated normal distribution with a standard deviation of 0.2 and a fixed random seed.
+
+\paragraph{Weight decay}
+All synaptic weights which are subject to \ac{stdp} are also subject to a constant weight decay.
+We decay the weight by a factor proportional to the associated learning rate.
+This weight decay prevents that the associated synaptic weights from becoming too correlated which would cause synchronous network activity.
+Synchronous network activity can be understood as that the network's output is independent of the input, thus indicating that no information is being encoded in the ongoing activity of the network and no computation is being performed.
+\paragraph{Weight re-initialization}
+As each weight is subject to continuous weight decay and the inhibition provided by the interneurons can prevent neurons from being active, thus preventing positive weight update, some weights will go to 0.
+To make sure that all neurons can pick up a spatio-temporal feature we reinitalise the weights if the average weight for each neuron goes below 0.2.
+In the same line of reasoning, if all weights are potentiated, which would lead to even stronger weights due to the correlation-based \ac{stdp} paradigm we reinitialise the weights if the average weight is above 0.8.
+
+\subsection{Sorting}
+To better understand what the network is coding for we sort the spike raster plots according to a given weight matrix.
+First we compute the pair-wise similarity of the neuron weight vectors, by calculating the Euclidean distance between them.
+In the second step we construct a directed graph based on the similarity of each node and allow each node to maximally be connected to any two other nodes.
+The resulting graph represents a permutation, in which similar weight vectors are closer to each other compared to orthogonal ones.
+In the following we will refer to this by saying the spike raster plot is sorted according to a given synaptic projection or weight matrix.
+
+\section{Results}
+We use a simple spatio-temporal pattern to study emerging network dynamics of a single \ac{octa} module.
+The stimulus is a rotating bar, with 18 different angular positions and a spatial extent of $10\ x\ 10$ pixels (Figure~\ref{fig:microcircuit}c, input).
+The bar itself is encoded as a set of events, similar to what an event-based sensor would perceive if an edge is crossing its pixels.
+Additionally we add 20 $\%$ noise events.
+The bar rotates with a constant angular velocity of 3300 $\tfrac{\circ}{s}$.
+The input is connected one-to-one with static synapses.
+These connections are only there to relay the events as generated by the input stimulus to $L_4$ neurons.
+In the beginning of the simulation all synapses are initialised all-to-all and the respective synaptic weights are randomly sampled from from a $\gamma$-distribution, except those projections marked with a dashed line (see Figure~\ref{fig:microcircuit}c).
+The synapses projecting from the pool of excitatory neurons to their respective inhibitory interneurons are randomly initialised with a connectivity probability $p = 0.5$.
+Additionally, inhibitory neurons project to themselves with connectivity probability $p = 0.1$.
+This rather simple cyclic spatio-temporal stimulus was chosen to more easily asses if a single \ac{octa} module is capable of extracting the dominant feature of different orientated edges despite the presence of noise, and also to understand which weight information about the stimulus is encapsulated in which weight matrix.
+The excitatory feedforward projections from $L_4$ to $L_{2/3}$ and $L_{5/6}$ respectively have the objective to learn spatio-temporal features, whereas the excitatory recurrent projections should capture the temporal evolution and thus represent a temporal expectation.
+The excitatory synapses from $L_{2/3}$ to $L_{5/6}$ on the other hand have the objective to encapsulate the temporal relation between the learned spatio-temporal features.
+The respective inhibitory projections should provide the necessary competition among the excitatory neurons and balance activity therein.
+A special role is assigned to the projection from $L_{5/6}$ to $L_4$, which should predict inputs by successfully modulating the synaptic efficacy of the post-synaptic partners.
+We will start by looking into the activity of $L_{2/3}$ and show that the involved synaptic projections indeed fulfill the aforementioned objectives, before we look into the activity of an entire \ac{octa} module.
+
+\subsection{Spatio-temporal receptive fields}
+All synaptic weights are randomly sampled before we start training (see Figure~\ref{fig:receptive_fields} a).
+In total $L_{2/3}$ comprises 49 neurons, which are arranged in a $7x7$ grid.
+Each post-synaptic weight vector is rearranged to match the input space to visualise the $10x10$ receptive field (see Figure~\ref{fig:receptive_fields} top row), and the corresponding histogram of the full adjacency matrix between $L_4$ and $L_{2/3}$ is shown below (see Figure~\ref{fig:receptive_fields}, middle row).
+To easily assess the information content encapsulated by the receptive fields of neurons in $L_{2/3}$ we calculate the cross-correlation coefficients between all neurons of $L_{2/3}$ and sort the coefficients according to the neuron id (see Figure~\ref{fig:receptive_fields}, bottom row).
+Upon initialisation the receptive fields are random which can easily be seen in the sorted cross-correlation coefficients.
+Neurons are only highly correlated to themselves, while being anti-correlated to others (see Figure~\ref{fig:receptive_fields} a).
+\begin{figure}
+    \centerline{\includegraphics[width=17cm, height=8cm]{figures/{receptive_fields_effect_inhibtion}.pdf}}
+    \caption[Learned receptive fields.]{Receptive fields of excitatory neurons in $L_{2/3}$. Top row: receptive fields; middle row: histogram of adjacency matrix between $L_{4}$ and $L_{2/3}$; bottom row: sorted cross-correlation coefficients between receptive fields of neurons in $L_{2/3}$. a) Randomly initialised receptive fields before training. Weights are sampled from a $\gamma$-distribution with $k = 0.4$ and $\Sigma = 0.9$ and are clipped between 0 and 1. The average weight is 0.38. The cross-correlation analysis shows that each receptive field is only highly correlated to itself while being un- or anti-correlated to others. b) Receptive fields after 100 revolutions with random-fixed inhibition. Only 28 out of the 49 neurons were able to develop an orientation preference. However, as inhibitory weights are fixed, the learned receptive fields are highly correlated and cover only a subspace of the presented orientations. c) Receptive fields after 100 revolutions with plastic inhibition according to \ref{eq:adp}. 43 out of the 49 neurons were able to develop an orientation preference. The correlation analysis shows that some receptive fields are highly correlated, however, a substantial amount of receptive fields are either uncorrelated or even anti-correlated, nicely spanning the space of presented orientations.}
+    \label{fig:receptive_fields}
+\end{figure}
+As the receptive fields are random in the beginning any presented input will lead to spiking activity in $L_{2/3}$, which in turn activates the inhibitory neurons, which themselves suppress activity in the excitatory pool (see Figure~\ref{fig:rasterplot}a).
+The temporal evolution is only governed by the synaptic time constants and does not reflect any temporal aspects of the provided input.
+In the first experiment we only adjust the excitatory \ac{stdp} synapses (see Eq.~\ref{eq:stdp}), while keeping the inhibitory synapses fixed ($p = 0.67$).
+After 10 $s$ only 28 neurons adjusted their weights to show an orientation preference in their receptive field (see Figure~\ref{fig:receptive_fields}b).
+The remaining 21 neurons have random receptive fields, which due to the constant weight decay and despite the reinitialisation have small associated synaptic weights.
+The receptive fields are sorted according to the learned recurrent weight matrix.
+Neurons with similar receptive fields show a strong similarity in their recurrent weights and thus are placed next to each other.
+Apart from the orientation preference, the cross-correlation analysis reveals that the learned receptive fields are highly correlated and only a few receptive fields are in fact anti-correlated (see Figure~\ref{fig:receptive_fields}b, bottom).
+Even if a given neuron now tries to tune its weights to reflect a certain orientation, the static inhibitory clamp prevents it from doing so by preventing post-synaptic spiking, which is crucial for \ac{stdp}.
+The effect of this static inhibitory clamp not only affects the formation of orientation tuning, but also affects the temporal activity (see Figure~\ref{fig:rasterplot}b).
+The spike raster plot is also sorted according to the recurrent weight matrix.
+While the feedforward weights from $L_4$ to $L_{2/3}$ incorporate the spatio-temporal structure of the input, the temporal sequence is encoded in the recurrent weights, as the sorted spike raster plot shows that neurons with a particular orientation preference fire repetitively at a particular moment in time (see Figure~\ref{fig:rasterplot}b).
+In the following we will refer to this behaviour as temporal alignment.
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth, height=2.5cm]{figures/{effect_of_inhibition}.pdf}
+    \caption[Temporal activity before and after training recurrent weights.]{Raster plot, i.e. temporal activity, of $L_{2/3}$ before training and without and with plastic inhibition for a full stimulus revolution. Raster plots are sorted accoring to recurrent weight matrix of $L_{2/3}$. a) Randomly initialised network with randomly sorted neuron indices. No structure in the temporal activity is present. b) Temporal activity after 100 revolutions with random-fixed inhibition. Only 28 out of the 49 neurons were able to develop an orientation preference and thus are represented in the spike raster plot. While the recurrent weight matrix is able to incorporate the temporal structure of the input, the non-plastic inhibition prevents the neurons from being active during the entire stimulus presentation. Furthermore, due to the \ac{stdp} rule, the network's activity starts to synchronise as static inhibition can not prevent it. c) Temporal activity after 100 revolutions with plastic inhibition according to \ref{eq:adp}. 43 out of the 49 neurons were able to develop an orientation preference and thus are represented in the spike raster plot. The plastic inhibition allows the network to utilise more computational resources and thus neurons are active during the entire stimulus presentation. Plastic inhibition also prevents the network from synchronising.}
+    \label{fig:rasterplot}
+\end{figure}
+When examining Figure \ref{fig:rasterplot}b more closely, however, only 28 out of the 49 feature detectors are at all active and as the correlation analysis of the receptive fields suggest, they tend to temporally cluster due to similar receptive fields, which ultimately will lead to synchronised activity in $L_{2/3}$.
+The synchronisation is natural consequence of correlation-based learning rules, such as \ac{stdp}.
+Up to now we kept the inhibition provided by the inhibitory interneurons static.
+This clearly provides the necessary competition among the excitatory feature detector neurons to learn different spatio-temporal features.
+However, it has the drawback that over time the receptive fields and the temporal network activity tend to synchronise, and thus do not encode any unique/useful information about the stimulus as the activity is only determined by the synaptic constants between the excitatory and inhibitory neurons and vice versa, but not by any learned weights.
+% In the second experiment we make the inhibitory synapses to the proposed \ac{adp} rule, thus inhibitory synapses can update their weights according to equation ~\ref{eq:adp}.
+To overcome this limitation and allow the network to leverage its full potential, i.e use more computational resources, we initialise the inhibitory to excitatory projection as all-to-all and make the weights subject to \ac{adp}.
+The inhibition, which is needed to learn different orientation tuning in the excitatory neuron pool, is adapted according to \ref{eq:adp}, to allow each neuron to be equally active which results in more diverse receptive fields (compare Figure~\ref{fig:receptive_fields}b \& c).
+This increased ability to differentiate between more orientations is also reflected in the corresponding correlation analysis (see Figure~\ref{fig:receptive_fields}c, bottom).
+Inhibitory projections are too weak in the beginning and lead to an over-excitation, and thus to similar orientation tuning of multiple neurons in $L_{2/3}$ are strengthened.
+On the other hand, inhibitory projections which are too strong and prevent any activity in the respective $L_{2/3}$ neurons are weakened, to allow the neuron to tune its weights to a particular orientation.
+By adjusting the inhibitory weights according to Eq.~\ref{eq:adp}, 43 neurons out of the 49 learn a preferred orientation.
+Hence, more computational resources can be leveraged to learn and encode the presented spatio-temporal pattern.
+The amount of allowed activity is set by $\sigma_{target}$, which can take any value between 0 and 1 and is uniformly initialised between  $0.3$ and $0.5$ for each synapse.
+When setting $\sigma_{target}$ equal to 1, meaning no inhibitory competition is provided, the learned receptive fields are the same for each neuron, a superposition of all presented orientations .
+On the other hand, a $\sigma_{target}$ of 0 leads to maximal inhibition, which causes the network to oscillate and learn a single preferred orientation for all neurons in $L_{2/3}$.
+Despite the inhibitory weight adaptation introduced by \ac{adp}, the recurrent excitatory weights capture the temporal evolution of the stimulus and the network activity is temporally aligned (see Figure~\ref{fig:rasterplot}c).
+The inhibitory plasticity successfully balances the network activity by minimizing the difference between the post-synaptic activity $\hat{\sigma}_i$ and the respective activity target $\sigma_{target}$ (see Figure~\ref{fig:adp}).
+Additionally, the proposed plasticity mechanism prevents the network from synchronising, as the learned receptive field are more diverse and each neuron has a unique temporal activity during the presentation of the stimulus.
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=\textwidth, height=5cm]{figures/{activity_proxy_single_trace}.pdf}
+    \caption[Effect of \acl{adp} mechanism to adjust inhibitory weights.]{Effect of \acf{adp} on normalised post-synaptic activity $\hat{\sigma}_i$. The proposed inhibitory plasticity rule is capable of adjusting the inhibitory weights, such that the difference between $\hat{\sigma}_i$ and $\sigma_{target}$ is minimised. This leads not only to more neurons being recruited to tune their weights to a particular orientation, but also balances the overall activity, such that it helps to prevent oscillations from occurring. A single normalised post-synaptic activity is plotted in black for better visibility.}
+    \label{fig:adp}
+\end{figure}
+\subsection{Mismatch and synaptic temporal prediction}
+As stated earlier, oscillations represent a severe limitation for a network.
+The network's activity starts to oscillate either if inhibition is too strong and not subject to plasticity or if the network is exposed longer than 15 seconds to the stimulus.
+The latter reason is due to fact that the excitatory synapses are altered according to \ac{stdp}.
+\ac{stdp} is a temporal correlation based learning rule, which has the consequence that synaptic weights get strengthened if the respective pre and post synaptic neurons show temporally correlated activity.
+Ultimately, this will cause already correlated activity to become more correlated up to the point where all weights are high.
+This has the consequence that excitatory neurons will emit spikes at the same point in time which in turn will trigger an avalanche of inhibitory spikes, preventing any neuron from firing until excitation is strong enough.
+Hence, the network will exhibit oscillations and lose all previously encoded information as the dominant source of activity is internally generated and determined by the excitatory-inhibitory synaptic time constants.\\
+As previously discussed, neuromorphic analogue sensory-processing systems are subject to device mismatch.
+The proposed meta-architecture was designed to provide an unsupervised, local feature extraction mechanism for neuromorphic sensory-processing systems.
+To overcome the aforementioned limitation and test if an \ac{octa} module would be suitable for hardware emulation we added mismatch to our simulation.
+It turns out that the heterogeneity does not need to be compensated by population averaging as previously proposed (see Chapter~\ref{ch:reactivecontrol}), but in fact in combination with \ac{stdp} and \ac{adp} provides the network with sufficient noise to prevent synchronous oscillations from dominating the network's activity.
+\begin{figure}
+    \centerline{\includegraphics[width=17cm, height=11cm]{figures/{rasterplot_mismatch_v2}.pdf}}
+    \caption[Network activity and effect of mismatch.]{Activity of a single \acf{octa} module. The blue box represents the temporal activity of $L_4$, the green box represents temporal activity of $L_{2/3}$ after sorting according to its recurrent weight matrix. The orange box represents the temporal activity of $L_{5/6}$ after sorting according to weight matrix between $L_{2/3}$ and $L_{5/6}$. All parameters of the network are subject to mismatch, i.e. show $\approx 20 \%$ variability.
+    Not only is the network capable, despite the additional noise, of capturing the prevalent spatio-temporal statistics of the input, but it learns phase shifted predictive fields to temporally predict the input. Furthermore, adding mismatch allows the involved plasticity mechanisms to find a stable operating regime, without starting to oscillate and proves that the proposed meta-architecture is suited for analogue neuromorphic processing systems.}
+    \label{fig:mismatch}
+\end{figure}
+As in the previous simulation the network starts from randomly initialised weights and all plastic parameters are trained jointly.
+Both excitatory feedforward projections from $L_4$ to $L_{2/3}$ and $L_{5/6}$ respectively learn the statistically prevalent orientations of the input, which is reflected in the different receptive fields (see Figure~\ref{fig:mismatch}).
+Note that, in contrast to previous experiments, the network is stimulated for 30 seconds (also 40, 50, 80 and 150 seconds were tested, showing similar network activity and receptive field formation).
+Despite the longer presentation of the input pattern the network does not start to oscillate.
+The combination of excitatory-inhibitory balance introduced by \ac{adp} and inhomogeneous network's parameters introduced by simulating device mismatch successfully prevented the network from oscillating.\\
+The temporal activity of $L_{2/3}$, which is sorted according to the recurrent weight matrix shows the same temporal alignment as in previous experiments (see Figure~\ref{fig:mismatch}, $L_{2/3}$ spike raster plot).
+The temporal activity of $L_{5/6}$ shows a similar temporal alignment, however, the spike raster plot is sorted according to the weight matrix between $L_{2/3}$ and $L_{5/6}$.
+This shows that the temporal information, i.e the input sequence, is preserved in the synaptic weight matrix between $L_{2/3}$ and $L_{5/6}$ (see Figure~\ref{fig:mismatch}, $L_{5/6}$ spike raster plot).
+The only aforementioned synaptic objective we have not yet addressed is the one of the synaptic projections from $L_{5/6}$ back to its input population $L_4$.
+We hoped they would temporally predict the input.
+In contrast to all other synaptic projections, the predictive synapses are not learning either an excitatory or inhibitory weight, but a synaptic gain value $\phi$, which upon pre-synaptic spiking lowers the post-synaptic gain of the feedforward synapses of $L_4$ (see Eq.~\ref{eq:ase_dyn} \&~\ref{eq:stgm}).
+The synaptic gain is initialised in the beginning to 1 and the the respective gain value $\phi$ is initialised to 0, thus any early activity in $L_{5/6}$ has no or very little effect on the synaptic efficacy.
+The incoming receptive fields to $L_{5/6}$, as well as the outgoing predictive fields are sorted according to the weight matrix from $L_{2/3}$ to $L_{5/6}$.
+While the incoming receptive fields are driven by input and respond to similar orientations as their $L_{2/3}$counterparts, the outgoing predictive fields of the same neuron tend to have a phase shifted orientation preference.
+The phase shift is approximately 100$^\circ$ (compare the receptive and predictive fields of $L_{5/6}$ in Figure~\ref{fig:mismatch}).
+We will discuss the underlying cause of the learned phase shift between receptive and predictive fields later.
+% This phase shift can not be explained by the synaptic transmission delay between $L_4$ and $L_{5/6}$, but emerges from the internal network dynamics.
+
+
+
+% systems delay is present
+% but when modulating the rotational velocity the incorporated phaseshift changes as well
+
+
+\section{Discussion}
+\label{sec:octa_discussion}
+We presented a meta-architecture for \acfp{snn}, which represents a modular building block for unsupervised feature extraction suited for asynchronous event-based sensory-processing systems.
+We showed that a single \acf{octa} module is capable of extracting statistically relevant spatio-temporal features from a stream of asynchronous events, despite noise present at the sensory and the processing level, i.e. device mismatch.
+We demonstrated that device mismatch is a feature which in combination with an inhibitory plasticity mechanism leads to stable receptive fields and balanced network activity.
+The recurrent structure is inspired by the recurrent organisation principles found in neocortical columns \citep[][\& see Figure~\ref{fig:microcircuit}]{Douglas_etal89,Binzegger_etal04}.
+We further showed that the recurrent network structure enables the network to learn temporal predictions which are encoded in the predictive fields, which are tuned to the input, hence, the network has an implicit temporal representation of time in ongoing processing (see Figure~\ref{fig:mismatch}).\\
+% Additionally we demonstrated that am \ac{octa} module can be emulated \\
+The feedforward synapses from $L_{4}$ to $L_{2/3}$ and $L_{5/6}$ respectively incorporate spatio-temporally correlated features which result in orientation tuning, whereas the recurrent synaptic projections incorporate the temporal sequence of the stimulus.
+The inhibitory projections into their excitatory counterpart provide sufficient competition, while balancing the overall excitatory activity, allowing the excitatory neurons to capture the spatio-temporal evolution of the input (see Figure~\ref{fig:receptive_fields} \&~\ref{fig:rasterplot}).
+
+\paragraph{Recurrent weight matrix:}
+To understand the computational role of the learned recurrent excitatory projections we used the similarity of each post-synaptic weight vector to construct a directed graph, with each node maximally connected to two other nodes.
+The resulting permutation was used to sort the temporal activity covered in the spike raster plot of $L_{2/3}$ (see Figure~\ref{fig:rasterplot}).
+The sorting revealed that the temporal sequence of the input is indeed incorporated in the recurrent weight matrix, as the sorted spike raster plot showed that particular neurons fire at particular times and their corresponding receptive fields are tuned to similar orientations (see Figure~\ref{fig:receptive_fields} \&~\ref{fig:rasterplot}).
+The observed temporal alignment can be understood as expressing a temporal expectation.\\
+Kappel and colleagues reported previously that when excitatory recurrent weights of a soft \ac{wta} network are subject to \ac{stdp}, these recurrent connections represent expectations equal to the expectation step in hidden markov process \citep{Kappel_etal14}, meaning that these connections are capable of learning a temporal sequence.
+While \cite{Kappel_etal14} showed both theoretically and using computer simulations that this represents a useful feature for a variety of cognitive tasks, we could demonstrate that their findings are also valid in the context of event-based inputs and noisy sensing and computation.\\
+The uni-directional projection between $L_{2/3}$ and $L_{5/6}$, on the other hand, preserves the learned temporal structure of the excitatory recurrent weights of $L_{2/3}$ and $L_{5/6}$.
+The temporal alignment observed in $L_{2/3}$ is present in $L_{5/6}$, even though we used the similarity in the uni-directional projection to sort the temporal activity of $L_{5/6}$ (see Figure~\ref{fig:mismatch}).
+
+% + stochastic EM Nessler_etal13
+%!
+\paragraph{Stability and the effect of \acl{adp}:}
+The excitatory feedforward and lateral recurrent projections enable the network to learn the spatio-temporal statistics of the presented input.
+The inhibitory projections are crucial in this context, as these synapses act as an activity regulariser, while introducing competition between excitatory neurons.
+% and thus enable the network to use more computational resources to capture the spatio-temporal statistics of the input .
+If we would turn inhibition off, either by removing the inhibitory population or by setting $\sigma_{target}$ to 1, the learned receptive fields would represent a superposition of the input, thus being highly correlated.
+Furthermore, the network's activity would become temporally correlated and constant throughout the stimulus presentation.
+This is clearly due to \ac{stdp}, as it is a correlation-based learning paradigm and if no counter mechanism is present to decorrelate activity, \ac{stdp} would enforce already correlated activity even more.
+If we were, on the other hand, to set $\sigma_{target}$ to 0, meaning that we install maximally strong inhibition similar to a connectivity probability of 1 between inhibitory and excitatory neurons, we would observe two effects.
+First, the network would start to oscillate, as excitatory activity would lead to a massive injection of inhibitory currents back into the excitatory pool, which in turn would lead to strong inhibitory activity.
+The frequency of oscillation would be independent of the input and only determined by the synaptic time constants between the excitatory and inhibitory neurons \citep{vanVreeswijk_etal94}.
+Secondly, the oscillations thus introduced would lead to a single learned receptive field which is the same for all excitatory neurons, as the post-synaptic spike time, which is used by \ac{stdp}, would be same for all excitatory neurons.
+If we initialise the inhibitory weights with connectivity probability lower than 1, e.g. 0.7, and do not adjust the associated synaptic weight, the network would thereafter be capable of encapsulating the spatio-temporal statistics of the input and learning receptive fields for different orientation tunings (see Fig~\ref{fig:receptive_fields}b \&~\ref{fig:rasterplot}b).
+The static inhibition would lead, however, to oscillatory behaviour, as the excitatory weights increase due to \ac{stdp} and introduce correlated activity which can not be compensated by the static inhibitory clamp.
+Furthermore, the static inhibitory clamp prevents the network from utilizing all its computational resources, because the associated inhibitory weight for a subset of excitatory neurons is too high (compare Figure~\ref{fig:rasterplot}b \& c).
+If we use Equation \ref{eq:adp} with intermediate, randomly distributed values of $\sigma_{target}$ to regulate the strength of inhibitory synapses, we can effectively balance excitatory activity (see Figure~\ref{fig:ase_octa}), while allowing the network to dynamically utilise more of its computational resources.
+If we would like to operate the network in rate-mode, we could rely on reverse \ac{stdp} \citep{Foldiak90,Roberts_Leen10} to adjust the inhibitory weights, however, this type of plasticity cannot be applied in the context of asynchronous sensing and processing, as the activity cannot be assumed to be constant which is needed by reverse \ac{stdp}.
+Vogels and colleagues proposed an alternative learning paradigm to adjust inhibitory weights to balance ongoing processing in excitatory neurons \citep{Vogels_etal11}.
+This inhibitory plasticity rule adjusts the inhibitory synaptic strength based on pre-defined target rate.
+Their plasticity rule is similar to the proposed \ac{adp} rule, however, their rate-based rule only uses post-synaptic super-threshold activity to adjust the synaptic weights.
+The rule from Vogels does not consider sub-threshold membrane fluctuations, which are more likely to be present and informative in asynchronous inputs.\\
+When combining \ac{adp} with heterogeneous network parameters, i.e. device mismatch, we effectively use more available computational resources and prevent the network from fatal oscillations.\\
+% \begin{itemize}
+    % \item We have presented a modular building block for \acp{snn} to learn spatio-temporal patterns
+    % \item ff weights encode features, rec. exc. connections learn temporal sequences similar to \citep{Kappel_etal14}
+    % \item inhibitory synapses act as activity regularizer and if subject to learning enable the network to use more comp. resources
+    % \item often inh. is kept static
+    % \item talk about inh. clamp
+    % \item or if a given network is encoding its information in rate-based reverse stdp protocols are used
+    % \item plastic inh. allows to uilise more comp. resources and in combination with inhomogeneous network hyperparmaters prevent oscillations
+    % \item No inhibition
+    % \item static inhibition (p=1.0) oscilaations (Vreeswijk1994)
+    % \item static random inhibition
+    % \item Activity Dependent Plasticity + biological evidence
+% \end{itemize}
+\subsection{State-of-the-art event-based feature extraction}
+The proposed \ac{octa} network is capable of learning spatio-temporal statistics of event-based inputs with an implicit temporal representation of time in ongoing processing.
+It represents an unsupervised, modular building block for \acp{snn} which is suited to neuromorphic processing systems.
+The \acf{ase} mechanism, which was originally proposed to extract temporal correlations from spatially neighbouring events to estimate optic flow from event-based sensors \citep[][\& see Chapter~\ref{ch:semd}]{Milde_etal18}, was shown to encode errors locally by temporal predictions which adaptively scales synaptic efficacy.\\
+\citet{Bichler_etal12} were able to show that by combining \ac{stdp} in feedforward synaptic projections in hard \ac{wta} to be capable of learning spatio-temporal features for tracking moving objects.
+The lateral connections in their \ac{snn} were not subject to learning and purely served a competitive purpose among the excitatory neurons.
+Additionally, the implemented \ac{stdp} rule had an infinitely long depression window and the receptive fields covered the entire retinal input space.
+\citet{Lagorce_etal15} could demonstrate by converting the asynchronous stream of events as elicited by an event-based vision sensor into analogue traces, what was later called a time surface (see Section~\ref{sec:ebalgorithms}), and presenting these analogue traces to multiple \acfp{esn} \citep{Jaeger02}, their network was capable of extracting spatio-temporal features for classification \citep{Lagorce_etal15}.
+Lagorce showed that this \ac{esn}-based approach is capable of incorporating multiple receptive fields with unique spatio-temporal features, which was achieved by incorporating a \ac{wta} mechanism.
+Each \ac{esn} is capable of representing a complex spatio-temporal pattern, but lateral connections served only to introduce competition among feature detectors \citep{Lagorce_etal15}.
+The temporal capabilities of an \ac{esn} are, however, crucially dependent on the initialisation conditions, as only the readout weights are adjusted, but not the recurrent or feedforward weights \citep{Jaeger02}.
+The incorporation of \acp{esn} in feature extraction allowed the network to represent the temporal information present in the input, but after this feature detection the network conveyed information using integrate and fire neurons, which transmit information in their firing rate \citep{Lagorce_etal15}.
+Thus, after this low-level feature detection stage the spike train carried information only in its rate and the precise spike timing becomes meaningless.\\
+In a later study \citet{Lagorce_etal17} further demonstrated that when converting the asynchronous stream of events into a time surface, it is sufficient to match time surface templates to perform classification \citep{Lagorce_etal17}.
+Afshar extended the time surface approach by introducing adaptive thresholds, which provided faster convergence and more stable receptive fields \citep{Afshar_etal19}.
+Both of the aforementioned approaches can be efficiently implemented in conventional clock-based computing architectures and the timing of detected time surface templates is meaningful.
+However, recurrent interactions between feature detectors implement competition and need to happen instantaneously.
+We could clearly show that recurrent synaptic projections do carry temporal information about the stimulus which can be used by the system to perform predictions.
+Furthermore, the instantaneous inhibition makes an implementation on spiking neuromorphic processors complicated and is biologically rather implausible.
+The adaptive threshold approach of \citet{Afshar_etal19} helped the network to use its computational resources and allocate them equally across available spatio-temporal features, similar to the proposed inhibitory plasticity mechanism.
+A combination of the adaptive threshold with plastic inhibition represents an interesting case study for future investigations.\\
+The present work shows for the first time that ongoing processing can encapsulate an implicit representation of time, which emerges from the recurrent organisation of recurrently connected excitatory-inhibitory networks inspired by neocortical organisation principles.
+This temporal representation is preserved throughout processing and is thus also available for the next processing stage.
+% \subsection{Stability}
+% \begin{itemize}
+%     \item stdp as correlation based learning rule enables in the beginning to capture spatio-temporally correlated patterns
+%     \item when input is continuously presented the correlative nature, however, strengthen already strong synapses, thus synchronising the network's activity. This has the consequence, as the core of the proposed architecture are EI networks that neurons start to oscillate and typically show homogeneous receptive fields and spike timing becomes irrelevant
+% \end{itemize}
+\subsection{Limitations}
+The present study simulated only a single \ac{octa} module and investigated the computational role of the feedforward, lateral recurrent and feedback projections within the \ac{octa} module.
+When the \ac{isi} of events presented to $L_{4}$ increases beyond the specified temporal window of the \ac{stdp} mechanism, the feedforward and lateral recurrent weights which encapsulate spatio-temporal features and their sequence would fail to represent the input statistics.
+This is simply because no pair of spikes would fall into the temporal window of \ac{stdp} and hence no potentiation or depression of any weight would take place.
+This scenario, however, is usually not the case for an event-based sensor, due to its time-continuous mode of operation and its high temporal resolution.
+Only if neither the environment nor the sensor moves, the \ac{isi} of events at the input would fall outside the the temporal window of \ac{stdp} in which case no learning should take place.
+% \begin{itemize}
+%     \item So far we only simulated a single \ac{octa} module
+%     \item if the inputs is non-continuous or ISI is longer than the \ac{stdp} time window feature can not be picked up
+%     \item this, however, is usually not the case for a continuously moving sensor
+
+% \end{itemize}
+\subsubsection{Spike-time dependent gain plasticity}
+We reported earlier that a single \ac{octa} module learns phase shifted predictive fields with respect to the receptive fields.
+To understand the underlying cause for the observed phase shift between corresponding receptive and predictive fields of $L_{5/6}$, we systemically vary the angular velocity $\omega$ of the input and calculate the average phase shift $\Delta \Phi$ between corresponding preferred orientations of receptive and predictive fields (see Figure~\ref{fig:phaseshift}).
+The phase shift is learned via a plasticity rule which similar to classical \ac{stdp} uses temporal correlation of pre and post-synaptic spike timing, however, instead of learning a synaptic weight, the proposed plasticity modulates the synaptic gain (see Eq.~\ref{eq:stgm}).
+The learned synaptic gain modulates the synaptic efficacy according to~\ref{eq:ase_dyn}.
+Hence, the information transmitted from $L_{4}$ to $L_{2/3}$ and $L_{5/6}$ respectively is gated, if the learned predictive field from $L_{5/6}$ temporally matches the input.
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth, height=7cm]{figures/{phaseshift}.pdf}
+    \caption[Learned phase shift for different rotational speeds.]{Phase shift between receptive and predictive fields of $L_{5/6}$ for different rotational velocities of the presented bar.}
+    \label{fig:phaseshift}
+\end{figure}
+When the rotational speed of the presented rotating bar is increased the represented phase shift between the learned, preferred orientations of corresponding receptive and predictive fields decreases.
+This phase shift is partially caused by the accumulated synaptic and neuronal delays of the system, thus the system has a preferred speed.
+This explains the saddle point in figure~\ref{fig:phaseshift}.
+However, if the observed phase shift would be an effect of the accumulated system's delays only, the phase shift should be constant irrespective of the angular velocity.\\
+The synaptic gain modulation is based on precise spike timing, yet neuromorphic systems have certain limitations (see Sections~\ref{sec:ebsensors} \&~\ref{sec:ebprocessors} and Chapter~\ref{ch:reactivecontrol}).
+% Neuromorphic sensory-processing systems are subject to device mismatch.
+% Furthermore, the response of neuromorphic sensors, such as the \ac{dvs}, is noisy.
+% This noise is,due to shot noise, which triggers events without a cause \citep{Lichtsteiner_etal08,Yang_etal15}.
+Hence, an algorithm emulated on neuromorphic hardware might be subject to temporal jitter, which in the context of the temporal predictions based on precise spike timing might be fatal.
+However, temporal jitter, i.e.\ uncertainty, may actually be beneficial, since no prediction, top-down attention, or bottom-up prediction, will be perfect in time and thus will never set the efficacy to the highest possible value (an avalanche of spikes), nor set the efficacy to the lowest possible value (killing the activity of the network completely).
+
+\subsection{Remarks for hardware emulation}
+\label{sec:octa_hw}
+\begin{figure}[!t]
+    \centerline{\includegraphics[width=14cm, height=4cm]{figures/{receptive_fields_mismatch_quantized}.pdf}}
+    \caption[Quantised receptive fields.]{Receptive fields of $L_{2/3}$. a) Learned receptive fields with 32-bit floating point precision. b) Quantised receptive field with 1-bit precision. Weights are quantised to meet limited weight resolution on the \ac{dynap}. Each neuron only has 64 possible synaptic inputs. However, $L_{2/3}$ has in total 3 different weight matrices: feedforward inputs from $L_{4}$, recurrent inputs from $L_{2/3}$ and inhibitory inputs from the interneuron population. We quantise the weight matrix in such a way that only the 20 strongest weights are kept, whereas all others are pruned. c) Raster plot activity of $L_{2/3}$ emulated on the \ac{dynap}. Raster plot is sorted according to the learned recurrent weights within $L_{2/3}$. Despite the one-step quantisation and a different mismatch distribution present on the \ac{dynap} compared to the simulated mismatch the network shows the same temporal alignment as previously observed in software simulation. Note that the input is slowed down by a factor of 3 which has the effect that 1 revolution lasts 300 ms instead of 100 ms.}
+    \label{fig:quantised_weights}
+\end{figure}
+A major motivation of the present work was to construct a neurally implemented algorithm to learn spatio-temporal features as emitted by a \ac{dvs}, suited for neuromorphic processors.
+Analogue-digital sub-threshold neuromorphic systems, such as the \ac{dynap} \citep{Moradi_etal18},  have severe constraints on the bit-precision of synaptic weights (see Section~\ref{sec:ebprocessors}).
+The simulations conducted in this study used, as is standard in computer simulations, a 32-bit floating point representation of synaptic weights.
+Secondly, adjacency matrices which were subject to plasticity were initialised with all-to-all connectivity.
+From a simulation point of view the all-to-all initialisation can easily be adjusted, when incorporating structural plasticity \citep[e.g.\ ][]{George_etal15,Spiess_etal16}.
+However, the mismatch between simulated weight resolution and the effective weight resolution of some neuromorphic processor is more severe (see Section~\ref{sec:ebprocessors}).
+To transfer parameters from a higher bit resolution to hardware which has a limited bit resolution compression scheme, such as quantisation, are used during training \cite{Stromatias_etal15a, Courbariaux_etal15,Gysel18,Milde_etal17a}.
+A key feature of these quantisation schemes is that the available number of bits can be distributed dynamically for each parameter.
+In the context of neuromorphic processors, such as the \ac{dynap}, we cannot afford this, as the synaptic weights are shared among 256 neurons and can only take 1 out of 3 absolute levels, i.e.\ 0, $w_1$ and $w_2$ where $w$ represents a bias current.
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=8cm, height=4.5cm]{figures/{oscilloscope_traces}.pdf}
+    \caption[Membrane potential of hardware neurons.]{Example membrane potential traces of recurrently connected single excitatory and inhibitory neurons of $L_{2/3}$ emulated on the \ac{dynap}. The learned inhibitory projections, whose weights were also quantised, are capable of balancing the excitatory activity. The recurrent excitatory inputs prime the neural activity (note excitatory ripples) and in conjunction with the feedforward activity elicit on average 1 to 3 spikes per neuron per preferred orientation. Note that the input is slowed down by a factor of 3 which has the effect that 1 revolution lasts 300 ms instead of 100 ms.}
+    \label{fig:vmem_traces}
+\end{figure}
+Furthermore, each neuron can only integrate 64 distinct synaptic inputs, which implies that we cannot use the the trick of emulating a higher weight resolution by varying the connectivity probability between two populations as we reported previously \citep[][\& see \ref{ch:reactivecontrol}]{Milde_etal17b,Milde_etal17,Blum_etal17} .
+This is due to at least 3 meaningful synaptic projections within $L_{2/3}$ and 4 projections within $L_{5/6}$.
+To overcome these limitations and perform a first proof of concept of the applicability of parts of \ac{octa}, i.e.\ $L_{2/3}$ on the \ac{dynap} we follow a simple heuristic: Each synaptic projection can occupy 20 out of the 64 available inputs and only the 20 strongest weights are selected and quantised to one of the two available absolute weight levels (compare Figure~\ref{fig:quantised_weights}a \& b).
+All other weights are set to zero.
+After quantising all weight matrices projecting into $L_{2/3}$ we stimulate the \ac{dynap} with the same stimulus and record the network's activity (see Figure~\ref{fig:quantised_weights}).
+The network activity shows the same temporal alignment along the different presented orientations.
+Furthermore, the inhibitory projections balance the excitatory activity, which is driven by the conjunction of recurrent and feedforward excitatory inputs (see Figure~\ref{fig:vmem_traces}).
+This experiment confirms that simulating mismatch and optimizing the weights leads to not only stable network activity, but also allows us to transfer learned synaptic weights to otherwise non-plastic neuromorphic processors.
+This finding will allow us in the future to explore different kinds of learning rules, before we can build a system which incorporates the necessary learning mechanism directly in hardware.
+% \begin{itemize}
+    % \item Simulations were done using 32 bit floating point representation of the weights
+    % \item Secondly, we start from an all-to-all connectivity in local RF, which still represent 100 synaptic inputs per neuron at the beginning
+    % \item neuromorphic HW such as the \ac{dynap} \citep{Moradi_etal18} only feature 64 inputs per neuron. To port a trained network we can quantize synatic weights. However, normal weight quantization \cite{Stromatias_etal15a, Courbariaux_Bengio15,Gysel18,Milde_etal17a} can not be used to optimise the weights.
+    % \item because of 2 absolute possible weights per 256 neurons.
+    % \item show 20 strongest weights as potential quantization scheme
+    % \item quantize receptive field plot
+    % \item raster plot of $L_{2/3}$ emulated on hardware
+% \end{itemize}
+\subsection{Conclusion}
+We resented a neurally implemented building block for unsupervised event-based feature extraction.
+The building block is suited for neuromorphic hardware as it can deal with mismatch at both the sensory and the processing level.
+We were able to show that device mismatch present on analogue neuromorphic hardware is a useful feature, if we incorporate synaptic plasticity in excitatory and inhibitory synapses to dynamically adjust the network's parameters.
+The proposed meta-architecture opens novel perspectives and understanding of how temporal information present in an event-based computing paradigm can be explicitly represented in ongoing processing.
+
+% \begin{itemize}
+%     \item presented a neurally implemented building block for unsupervised event-based feature extraction
+%     \item the building block is suited for neuromorphic hardware as it can deal with mismatch both the sensory and the processing level.
+%     \item we were able to show that device mismatch present on analogue neuromorphic hardware is useful feature if is combined with syanptic plasticity
+%     \item the proposed meta-architecture opens novel perspective and understanding how temporal information present in event-based computing paradigm can be explicitely represented in ongoing processing
+% \end{itemize}
+
+\newpage
+\section*{Postamble}
+\lettrine[lines=2]{W}{e} were able to show, by incorporating event-driven plasticity mechanisms in recurrently connected networks of recurrently connected excitatory-inhibitory neuron populations, that this meta-network is capable of extracting statistically relevant spatio-temporal features and their temporal sequence from asynchronous event-based inputs.
+The proposed meta-architecture was inspired by the highly recurrent, stereotypically repeating canonical organisation structures found in the neocortex (see Section~\ref{sec:microcircuit}).
+Instead of making any prior connectivity assumptions within the network by hard-coding synaptic projections and hand-tuning their parameters, as we did in previous attempts to visual scene understanding (see Chapter~\ref{ch:reactivecontrol} \&~\ref{ch:semd}), we installed unsupervised event-based plasticity rules such that the system can self-adjust its free parameters given the provided input (see Section~\ref{sec:plasticity}),
+The reason for this is two-fold: First, we wanted to formulate a meta-architecture which is genuinely capable of learning spatio-temporal patterns irrespective of the sensory modality, but which only cares about precisely timed asynchronous streams of events.
+Secondly, we intended to construct a modular building block which can be (re-)used at different levels of feature complexity as its primary objective is to learn and predict spatio-temporal patterns.
+The installed prediction mechanism (see Section~\ref{sec:ase_octa}) can be understood as a locally encoded, self-generated error signal which in time-continuous systems is solely based on the precise time of predicted and incoming activity.
+This self-generated error signal can be seen as internally generated appropriate behaviour for predicting future inputs.
+The unsupervised nature of adjusting the network's parameters in combination with the recurrent organisation enabled the system to dynamically allocate its computational resources and installed an implicit temporal representation of time in ongoing processing.\\
+We were able to further demonstrate that by incorporating inhomogeneous network parameters, i.e.\ device mismatch, in our simulation the system not only successfully prevents fatal oscillatory states due to correlation-based learning rules (see Figure~\ref{fig:mismatch} \&~\ref{fig:adp}), but more importantly that the learned parameters, i.e.\ synaptic weights, can be successfully mapped onto mixed-signal sub-threshold neuromorphic processors (see Figure~\ref{fig:quantised_weights} \&~\ref{fig:vmem_traces}).\\
+Thereby, we achieved a formulation of a feature extraction system suited for event-based neuromorphic sensory-processing, to potentially learn spatio-temporal features relevant for object recognition and forming high-level semantic concepts.
+Furthermore, we could show for the first time that device mismatch is a crucial feature for stable learning and computation and when combined with event-based plasticity rules can be exploited to allocate computational resources whose parameters best match the provided inputs.
+
+
+
+% \begin{itemize}
+    % \item we had to design it unsupervised so that we use the meta archtitecues to learn st pattern in general
+    % \item to construct a modular building block which can be used at different levels of feature complexity as its primary objective is to learn and predict spatio-temporal patterns
+    % \item prediction = self-generated teacher signal, which in time-continous systems is purely based on the time when a prediction was made.
+    % \item dynamically allocate computational resources
+    % \item extract statistically relevant information
+    % \item learned phase shift as generated appropriate behaviour
+    % \item implementable on neuromorphic hw
+    % \item computational role of synaptic projections (sequence learning)
+    % \item device mismatch is a feature not a bug
+    % \item implicit temporal representation of time in ongoing processing.
+% \end{itemize}
+\)
+\end{document}
+
+-----END DOCUMENT-----
+
+Log file:
+-----BEGIN LOG-----
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  2 MAR 2019 13:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**7e7c264913be0a30a3100de9e2676688.tex
+(./7e7c264913be0a30a3100de9e2676688.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2015/07/15 v1.2 Class to compile TeX sub-files stand
+alone
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count79
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count80
+\c@sapage=\count81
+
+(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2015/07/15 v1.2 Default configuration file for 'standalone
+' class
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.88 (AUCTeX/preview-latex)
+
+(/usr/share/texmf/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen103
+)
+\pr@snippet=\count90
+\pr@box=\box26
+\pr@output=\toks16
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen104
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks18
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count104
+\calc@Bcount=\count105
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count106
+\calc@Cskip=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count107
+\l_MT_multwidth_dim=\dimen115
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen116
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen117
+\l_MT_above_intertext_sep=\dimen118
+\l_MT_below_intertext_sep=\dimen119
+\l_MT_above_shortintertext_sep=\dimen120
+\l_MT_below_shortintertext_sep=\dimen121
+)
+No file 7e7c264913be0a30a3100de9e2676688.aux.
+\openout1 = `7e7c264913be0a30a3100de9e2676688.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen122
+\scratchbox=\box29
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen123
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+))
+Runaway argument?
+{(kappa * Itau_clip) \end {equation} Although the neuronal membrane p\ETC.
+! File ended while scanning use of \frac .
+<inserted text> 
+                \par 
+<*> 7e7c264913be0a30a3100de9e2676688.tex
+                                        
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> 7e7c264913be0a30a3100de9e2676688.tex
+                                        
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 3923 strings out of 494910
+ 55285 string characters out of 6179835
+ 156479 words of memory out of 5000000
+ 7154 multiletter control sequences out of 15000+600000
+ 5657 words of font info for 25 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 51i,4n,56p,1408b,134s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+
+-----END LOG-----

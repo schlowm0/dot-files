@@ -6,12 +6,12 @@
 		"/home/moritz/Repositories/nstbot",
 		"/home/moritz/Repositories/snn_object_recognition"
 	],
-	"last_version": 3176,
-	"last_window_id": 70,
+	"last_version": 3207,
+	"last_window_id": 96,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 1454.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -19,8 +19,200 @@
 				"selected_items":
 				[
 					[
+						"targ",
+						"target_N"
+					],
+					[
+						"raster",
+						"rasterPlot_c"
+					],
+					[
+						"eq",
+						"eq_dict"
+					],
+					[
+						"dic",
+						"dict_name"
+					],
+					[
+						"num_inputs",
+						"num_inputs=2"
+					],
+					[
+						"dir",
+						"directory_name"
+					],
+					[
+						"sourc",
+						"source_path"
+					],
+					[
+						"Ie_",
+						"Ie_th\t(DPIstdp.py)"
+					],
+					[
+						"Ii_tau",
+						"Ii_tau*(Ii_syn\t(DPIstdp_gm.py)"
+					],
+					[
+						"Itau",
+						"Itau_i\t(DPIstdp_gm.py)"
+					],
+					[
+						"decay",
+						"decay_time\tparam"
+					],
+					[
+						"learn",
+						"learning_rate"
+					],
+					[
 						"run",
-						"run_reg_functions\tmodule"
+						"run_regularly"
+					],
+					[
+						"syn",
+						"synapse_types"
+					],
+					[
+						"SLOW",
+						"SLOW_INH"
+					],
+					[
+						"synap",
+						"synapse_type"
+					],
+					[
+						"post",
+						"post_neurons"
+					],
+					[
+						"core",
+						"core_offset"
+					],
+					[
+						"feature",
+						"feature_neuron"
+					],
+					[
+						"qu",
+						"quantize_weights_number\tfunction"
+					],
+					[
+						"qunatiz",
+						"quantized_weights"
+					],
+					[
+						"synapse",
+						"synapse_types"
+					],
+					[
+						"weights_",
+						"weights_inp"
+					],
+					[
+						"data",
+						"data_dir"
+					],
+					[
+						"rot",
+						"rotating_bar\t(testbench.py)"
+					],
+					[
+						"OCTA",
+						"OCTA_Testbench\tmodule"
+					],
+					[
+						"OCT",
+						"OCTA_Testbench\t(testbench.py)"
+					],
+					[
+						"activ",
+						"activity_proxy"
+					],
+					[
+						"check",
+						"check_units"
+					],
+					[
+						"exp",
+						"exp_weighted_membrane_buffer"
+					],
+					[
+						"disit",
+						"distribution"
+					],
+					[
+						"wei",
+						"weight_update"
+					],
+					[
+						"membran",
+						"membrane_buffer"
+					],
+					[
+						"Ipred",
+						"Ipred_syn"
+					],
+					[
+						"norma",
+						"normalized_Imem_var"
+					],
+					[
+						"Imem",
+						"Imem_var"
+					],
+					[
+						"high",
+						"high_indices"
+					],
+					[
+						"qua",
+						"quantized_weights"
+					],
+					[
+						"thre",
+						"threshold_high"
+					],
+					[
+						"thres",
+						"threshold_high"
+					],
+					[
+						"dec",
+						"declare_types\tfunction"
+					],
+					[
+						"inh",
+						"inh_wta_c"
+					],
+					[
+						"qunati",
+						"quantize_weights\tmodule"
+					],
+					[
+						"quna",
+						"quantize_weights\tmodule"
+					],
+					[
+						"testbench",
+						"testbench_stim"
+					],
+					[
+						"DPIst",
+						"DPIstdp_gm"
+					],
+					[
+						"Synapse",
+						"SynapseEquationBuilder.import_eq('octa\t(run_reg_functions.py)"
+					],
+					[
+						"SynST",
+						"SynSTDGM"
+					],
+					[
+						"synaps",
+						"synapse_group"
 					],
 					[
 						"logi",
@@ -109,10 +301,6 @@
 					[
 						"pytho",
 						"python3"
-					],
-					[
-						"synapse",
-						"synapse_models"
 					],
 					[
 						"equation",
@@ -247,10 +435,6 @@
 						"reservoir"
 					],
 					[
-						"Synapse",
-						"Synapses\t(groups.py)"
-					],
-					[
 						"bias",
 						"bias_directory"
 					],
@@ -291,10 +475,6 @@
 						"DPIstdp\tclass"
 					],
 					[
-						"eq",
-						"equation_builder"
-					],
-					[
 						"statem",
 						"statemon_weight"
 					],
@@ -331,16 +511,8 @@
 						"WTAMonitors"
 					],
 					[
-						"raster",
-						"raster_input"
-					],
-					[
 						"end",
 						"end_time"
-					],
-					[
-						"synap",
-						"synaptic"
 					],
 					[
 						"start_",
@@ -357,178 +529,6 @@
 					[
 						"symb",
 						"symbolBrush\t(neuron_synapse.py)"
-					],
-					[
-						"symbo",
-						"symbolSize=7\t(testbench.py)"
-					],
-					[
-						"symp",
-						"symbolPen=None\t(testbench.py)"
-					],
-					[
-						"symbol",
-						"symbol='o\t(testbench.py)"
-					],
-					[
-						"wt",
-						"wtaParams"
-					],
-					[
-						"block",
-						"block_params\t(wta.py)"
-					],
-					[
-						"DP",
-						"DPISyn\tclass"
-					],
-					[
-						"test",
-						"testbench"
-					],
-					[
-						"n",
-						"noise_input\tstatement"
-					],
-					[
-						"num",
-						"num_inputs\t(neuron_synapse.py)"
-					],
-					[
-						"Neu",
-						"Neurons\tclass"
-					],
-					[
-						"numn",
-						"num_neurons"
-					],
-					[
-						"neur",
-						"neuron_id"
-					],
-					[
-						"inpu",
-						"inputGroup"
-					],
-					[
-						"neuron",
-						"neuron_id"
-					],
-					[
-						"ass",
-						"assertEqual\tfunction"
-					],
-					[
-						"num_inp",
-						"num_inp_neurons\tparam"
-					],
-					[
-						"Test",
-						"TestCase\t(test_tools.py)"
-					],
-					[
-						"Unit",
-						"unittest\tmodule"
-					],
-					[
-						"tr",
-						"truncnorm"
-					],
-					[
-						"buil",
-						"building_blocks\t(test_wta.py)"
-					],
-					[
-						"exc",
-						"except\t(groups.py)"
-					],
-					[
-						"var",
-						"variables"
-					],
-					[
-						"syna",
-						"synaptic_kernel"
-					],
-					[
-						"Eve",
-						"Events.npy"
-					],
-					[
-						"assert",
-						"assertEqual\tfunction"
-					],
-					[
-						"fker",
-						"fkernelgauss1d\tfunction"
-					],
-					[
-						"asse",
-						"assertEqual"
-					],
-					[
-						"retu",
-						"returnValTrue"
-					],
-					[
-						"reutn",
-						"returnVal"
-					],
-					[
-						"return",
-						"returnValFalse"
-					],
-					[
-						"returnV",
-						"returnValTrue"
-					],
-					[
-						"tes",
-						"testVal"
-					],
-					[
-						"ret",
-						"returnValueIf\tfunction"
-					],
-					[
-						"small",
-						"smallerThanVal\t(tools.py)"
-					],
-					[
-						"has",
-						"hasattr"
-					],
-					[
-						"brian",
-						"briangroup"
-					],
-					[
-						"art",
-						"artifical_stimulus=False"
-					],
-					[
-						"stdp",
-						"stdp_testbench"
-					],
-					[
-						"s",
-						"stdp_testbench"
-					],
-					[
-						"ind2",
-						"ind2xy\tfunction"
-					],
-					[
-						"coord",
-						"coordinates\t(testbench.py)"
-					],
-					[
-						"asser",
-						"assertEqual\tfunction"
-					],
-					[
-						"par",
-						"params\t(neuron_synapse.py)"
 					]
 				]
 			},
@@ -761,19 +761,98 @@
 			},
 			"file_history":
 			[
-				"/home/schlowmo/Repositories/teili/teili/models/synapse_models.py",
-				"/home/schlowmo/Repositories/teili/teili/stimuli/testbench.py",
+				"/home/schlowmo/ownCloud/Documents/configs/vs_code_setup.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Webpage questions.txt",
+				"/home/schlowmo/Repositories/ADaPTION/Makefile.config",
+				"/home/schlowmo/.local/share/applications/pycharm.desktop",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/registration_opens_mail.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/mission_statement.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/invitation_email.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Talks/Labmeeting/12.12.2018/announcement.txt",
+				"/home/schlowmo/Repositories/teili/examples/stdp_kernel_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvdp.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_gm.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIstdp_gm.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/SynSTDGM.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPIstdp.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvar.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotter2d.py",
 				"/home/schlowmo/Repositories/teili/teili/tools/plotting.py",
-				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_matrix_visualization.py",
-				"/home/schlowmo/Repositories/OCTA/octa/interfaces/lock_and_load.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/run_reg_functions.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_run_reg.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_mismatch.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/sorting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_init.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Job announcement.txt",
+				"/home/schlowmo/Documents/OCTA/Thesis/test_plot.py",
+				"/home/schlowmo/Repositories/teili/teili/stimuli/testbench.py",
+				"/home/schlowmo/Repositories/teili/setup.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/neuron_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Getting started.md",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/teili/models/neuron_models.py",
+				"/home/schlowmo/Repositories/teili/README.md",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/synapse_models.py",
+				"/home/schlowmo/Repositories/teili/teili/__init__.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/building_block.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/wta.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/reservoir.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Core.md",
 				"/home/schlowmo/Repositories/teili/teili/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/examples/mismatch_example.py",
+				"/home/schlowmo/.bashrc",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/ctxctl_SSV.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPISyn.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/synapse_templates.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/old_code.py",
+				"/home/schlowmo/Repositories/cortexcontrol/NeuronNeuronConnector.py",
+				"/home/schlowmo/Repositories/cortexcontrol/PyCtxUtils.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/neuron_templates.py",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/lock_and_load.py",
+				"/home/schlowmo/Repositories/OCTA/octa/dynap_octa.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/indexing.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/converter.py",
+				"/home/schlowmo/Repositories/teili/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/quantize_weights.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/random_sampling.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/distance.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/synaptic_kernel.py",
+				"/home/schlowmo/Repositories/cortexcontrol/octa.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_at.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_kernel_test.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/stimulus_generators.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/misc.py",
+				"/home/schlowmo/Repositories/OCTA/neuron_equation_builder.py",
+				"/home/schlowmo/.bash_aliases",
+				"/home/schlowmo/Repositories/cortexcontrol/ctxctl_SSV.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/October/Morit_Milde_Purpose_description.tex",
 				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPISyn_gm.py",
+				"/home/schlowmo/.local/lib/python3.5/site-packages/teili-0.2-py3.5.egg/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DoubleExponential.py",
+				"/home/schlowmo/Downloads/lol.py",
+				"/home/schlowmo/Repositories/teili/tests/test_testbench.py",
+				"/home/schlowmo/Repositories/teili/tests/test_groups.py",
+				"/home/schlowmo/Repositories/teili/tests/test_wta.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations_long.py",
+				"/usr/local/lib/python3.5/dist-packages/pyqtgraph/__init__.py",
+				"/home/schlowmo/Repositories/teili/unit_tests/test_equations_long.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations.py",
+				"/home/schlowmo/Repositories/teili/tests/test_tools.py",
+				"/home/schlowmo/Repositories/teili/.git/hooks/pre-push",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_matrix_visualization.py",
 				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_subgroup_test.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_syn_eq.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_shunt_syn_eq.py",
 				"/home/schlowmo/Repositories/OCTA/octa.py",
 				"/home/schlowmo/Repositories/OCTA/setup.py",
-				"/home/schlowmo/Repositories/teili/tests/test_tools.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_neuron_eq.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_lin_syn_eq.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dynapse_eq.py",
@@ -784,10 +863,8 @@
 				"/home/schlowmo/Documents/spp/starbuzz.py",
 				"/home/schlowmo/Documents/spp/kmeans.py",
 				"/home/schlowmo/Repositories/dot-files/install_packages.sh",
-				"/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.md",
 				"/home/schlowmo/Repositories/teili/docs/scripts/Equation builder.md",
 				"/home/schlowmo/Repositories/teili/docs/scripts/Building Blocks.md",
-				"/home/schlowmo/Repositories/teili/setup.py",
 				"/home/schlowmo/Repositories/teili/docs/conf.py",
 				"/home/schlowmo/Repositories/teili/requirements.txt",
 				"/home/schlowmo/Repositories/teili/tools/sorting.py",
@@ -800,11 +877,7 @@
 				"/home/schlowmo/Repositories/teili/docs/modules/modules.rst",
 				"/home/schlowmo/Repositories/teili/docs/index.rst",
 				"/home/schlowmo/Repositories/OCTA/README.md",
-				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_test.py",
-				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
 				"/home/schlowmo/Repositories/teili/models/builder/combine.py",
-				"/home/schlowmo/Repositories/teili/examples/stdp_test.py",
-				"/home/schlowmo/Repositories/teili/README.md",
 				"/home/schlowmo/Repositories/teili/examples/STDP_IE.png",
 				"/home/schlowmo/Repositories/teili/models/builder/synapse_equation_builder.py",
 				"/home/schlowmo/Repositories/teili/models/synapse_models.py",
@@ -815,84 +888,11 @@
 				"/home/schlowmo/Repositories/teili/tools/indexing.py",
 				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/semd.py",
 				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/stimuli/testbench.py",
-				"/home/schlowmo/Dropbox/Scripts/Brian2/mismatch_snippet.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/examples/neuron_synapse_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/examples/stdp_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/core/groups.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/templates/neuron_templates.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/templates/synapse_templates.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/synapse_equation_builder.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/neuron_equation_builder.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/synapse_models.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/neuron_models.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotter2d.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotting.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/combine.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/indexing.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/DPI.py",
-				"/home/schlowmo/Repositories/OCTA/weight_matrix_visualization.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.py",
-				"/home/schlowmo/Dropbox/Saray's Pics/Moritz/saray.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/examples/stdp_kernel_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/README.md",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Documents/Research Plan/Researchplan_Moritz_Milde.tex",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_kernel_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_test.py",
-				"/home/schlowmo/.bashrc",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_test.py",
-				"/home/schlowmo/Repositories/ncs_brian/tutorial.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.pyc",
-				"/home/schlowmo/Desktop/test.py",
-				"/home/schlowmo/Repositories/coincidence-detection/stimulus_protocol_generator.py",
-				"/home/schlowmo/Repositories/coincidence-detection/CD_stimulus_protocol.txt",
-				"/home/schlowmo/Repositories/coincidence-detection/coincidence_network.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/example_dvs_plot.py",
-				"/home/schlowmo/Repositories/reservoir/reservoir_config.py",
-				"/home/schlowmo/Repositories/CAER_install/install_caer.sh",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/submission/NECO-11-17-3017-Supplementary File.tex",
-				"/home/schlowmo/Documents/Sensing_Perception.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/brian2genn_test.py",
-				"/home/schlowmo/Documents/install_brian2genn.sh",
-				"/home/schlowmo/.bash_profile",
-				"/home/schlowmo/Repositories/pyaer/scripts/configs/davis240c_config.json",
-				"/home/schlowmo/Repositories/pyaer/pyaer/davis.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_subgroup_test.py",
-				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.txt",
-				"/home/schlowmo/.local/lib/python3.5/site-packages/sympy/core/evalf.py",
-				"/home/schlowmo/Repositories/ncs_brian/parameters/dpi_neuron_param.py",
-				"/home/schlowmo/Repositories/ncs_brian/parameters/constants.py",
-				"/home/schlowmo/Repositories/OCTA/interfaces/convert.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta_test.py",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Master projects/Closed-loop sEMD/LOR_Schoepe_Telluride.tex",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Journal Club/Journal Clubs at INI_old.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/building_block.py",
-				"/home/schlowmo/Documents/spikegen_stdp_test.py",
-				"/home/schlowmo/Dropbox/Studies/ToDo/ToDo.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/plotting/wta_plot.py",
-				"/home/schlowmo/Repositories/ncs_brian/syn_eq.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/parameters/dpi_neuron_param.py",
-				"/tmp/mozilla_schlowmo0/groups.py",
-				"/home/schlowmo/Repositories/OCTA/.gitmodules",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/synaptic_kernel.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/misc.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_neuron.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_testbench.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Tools/tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/WTA.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp.py"
+				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/wta.py"
 			],
 			"find":
 			{
-				"height": 45.0
+				"height": 63.0
 			},
 			"find_in_files":
 			{
@@ -906,6 +906,17 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"CtxDynapse",
+					"FpgaSpikeEvent",
+					"buffer_pointer",
+					"Iahpmax",
+					"w_plast",
+					"self.parameters",
+					"Ipred_plast",
+					"w_plast",
+					"Ipred",
+					"w_plast",
+					"Ipred_pre",
 					"    >>> neuron_obj",
 					"    >>> syn_obj",
 					"w_mean",
@@ -956,11 +967,11 @@
 			},
 			"incremental_find":
 			{
-				"height": 45.0
+				"height": 63.0
 			},
 			"input":
 			{
-				"height": 72.0
+				"height": 74.0
 			},
 			"menu_visible": true,
 			"output.exec":
@@ -990,7 +1001,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 82.0
+				"height": 118.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1034,7 +1045,7 @@
 			{
 			}
 		},
-		"new_window_width": 0.0
+		"new_window_width": 980.0
 	},
 	"windows":
 	[
@@ -1044,8 +1055,208 @@
 				"selected_items":
 				[
 					[
+						"deca",
+						"decay_strategy\tabc"
+					],
+					[
+						"const",
+						"constants"
+					],
+					[
+						"targ",
+						"target_N"
+					],
+					[
+						"raster",
+						"rasterPlot_c"
+					],
+					[
+						"eq",
+						"eq_dict"
+					],
+					[
+						"dic",
+						"dict_name"
+					],
+					[
+						"num_inputs",
+						"num_inputs=2"
+					],
+					[
+						"dir",
+						"directory_name"
+					],
+					[
+						"sourc",
+						"source_path"
+					],
+					[
+						"Ie_",
+						"Ie_th\t(DPIstdp.py)"
+					],
+					[
+						"Ii_tau",
+						"Ii_tau*(Ii_syn\t(DPIstdp_gm.py)"
+					],
+					[
+						"Itau",
+						"Itau_i\t(DPIstdp_gm.py)"
+					],
+					[
+						"decay",
+						"decay_time\tparam"
+					],
+					[
+						"learn",
+						"learning_rate"
+					],
+					[
 						"run",
-						"run_reg_functions\tmodule"
+						"run_regularly"
+					],
+					[
+						"syn",
+						"synapse_types"
+					],
+					[
+						"SLOW",
+						"SLOW_INH"
+					],
+					[
+						"synap",
+						"synapse_type"
+					],
+					[
+						"post",
+						"post_neurons"
+					],
+					[
+						"core",
+						"core_offset"
+					],
+					[
+						"feature",
+						"feature_neuron"
+					],
+					[
+						"qu",
+						"quantize_weights_number\tfunction"
+					],
+					[
+						"qunatiz",
+						"quantized_weights"
+					],
+					[
+						"synapse",
+						"synapse_types"
+					],
+					[
+						"weights_",
+						"weights_inp"
+					],
+					[
+						"data",
+						"data_dir"
+					],
+					[
+						"rot",
+						"rotating_bar\t(testbench.py)"
+					],
+					[
+						"OCTA",
+						"OCTA_Testbench\tmodule"
+					],
+					[
+						"OCT",
+						"OCTA_Testbench\t(testbench.py)"
+					],
+					[
+						"activ",
+						"activity_proxy"
+					],
+					[
+						"check",
+						"check_units"
+					],
+					[
+						"exp",
+						"exp_weighted_membrane_buffer"
+					],
+					[
+						"disit",
+						"distribution"
+					],
+					[
+						"wei",
+						"weight_update"
+					],
+					[
+						"membran",
+						"membrane_buffer"
+					],
+					[
+						"Ipred",
+						"Ipred_syn"
+					],
+					[
+						"norma",
+						"normalized_Imem_var"
+					],
+					[
+						"Imem",
+						"Imem_var"
+					],
+					[
+						"high",
+						"high_indices"
+					],
+					[
+						"qua",
+						"quantized_weights"
+					],
+					[
+						"thre",
+						"threshold_high"
+					],
+					[
+						"thres",
+						"threshold_high"
+					],
+					[
+						"dec",
+						"declare_types\tfunction"
+					],
+					[
+						"inh",
+						"inh_wta_c"
+					],
+					[
+						"qunati",
+						"quantize_weights\tmodule"
+					],
+					[
+						"quna",
+						"quantize_weights\tmodule"
+					],
+					[
+						"testbench",
+						"testbench_stim"
+					],
+					[
+						"DPIst",
+						"DPIstdp_gm"
+					],
+					[
+						"Synapse",
+						"SynapseEquationBuilder.import_eq('octa\t(run_reg_functions.py)"
+					],
+					[
+						"SynST",
+						"SynSTDGM"
+					],
+					[
+						"synaps",
+						"synapse_group"
 					],
 					[
 						"logi",
@@ -1134,10 +1345,6 @@
 					[
 						"pytho",
 						"python3"
-					],
-					[
-						"synapse",
-						"synapse_models"
 					],
 					[
 						"equation",
@@ -1272,10 +1479,6 @@
 						"reservoir"
 					],
 					[
-						"Synapse",
-						"Synapses\t(groups.py)"
-					],
-					[
 						"bias",
 						"bias_directory"
 					],
@@ -1316,10 +1519,6 @@
 						"DPIstdp\tclass"
 					],
 					[
-						"eq",
-						"equation_builder"
-					],
-					[
 						"statem",
 						"statemon_weight"
 					],
@@ -1356,16 +1555,8 @@
 						"WTAMonitors"
 					],
 					[
-						"raster",
-						"raster_input"
-					],
-					[
 						"end",
 						"end_time"
-					],
-					[
-						"synap",
-						"synaptic"
 					],
 					[
 						"start_",
@@ -1374,247 +1565,32 @@
 					[
 						"m",
 						"monitor"
-					],
-					[
-						"star",
-						"start_time"
-					],
-					[
-						"symb",
-						"symbolBrush\t(neuron_synapse.py)"
-					],
-					[
-						"symbo",
-						"symbolSize=7\t(testbench.py)"
-					],
-					[
-						"symp",
-						"symbolPen=None\t(testbench.py)"
-					],
-					[
-						"symbol",
-						"symbol='o\t(testbench.py)"
-					],
-					[
-						"wt",
-						"wtaParams"
-					],
-					[
-						"block",
-						"block_params\t(wta.py)"
-					],
-					[
-						"DP",
-						"DPISyn\tclass"
-					],
-					[
-						"test",
-						"testbench"
-					],
-					[
-						"n",
-						"noise_input\tstatement"
-					],
-					[
-						"num",
-						"num_inputs\t(neuron_synapse.py)"
-					],
-					[
-						"Neu",
-						"Neurons\tclass"
-					],
-					[
-						"numn",
-						"num_neurons"
-					],
-					[
-						"neur",
-						"neuron_id"
-					],
-					[
-						"inpu",
-						"inputGroup"
-					],
-					[
-						"neuron",
-						"neuron_id"
-					],
-					[
-						"ass",
-						"assertEqual\tfunction"
-					],
-					[
-						"num_inp",
-						"num_inp_neurons\tparam"
-					],
-					[
-						"Test",
-						"TestCase\t(test_tools.py)"
-					],
-					[
-						"Unit",
-						"unittest\tmodule"
-					],
-					[
-						"tr",
-						"truncnorm"
-					],
-					[
-						"buil",
-						"building_blocks\t(test_wta.py)"
-					],
-					[
-						"exc",
-						"except\t(groups.py)"
-					],
-					[
-						"var",
-						"variables"
-					],
-					[
-						"syna",
-						"synaptic_kernel"
-					],
-					[
-						"Eve",
-						"Events.npy"
-					],
-					[
-						"assert",
-						"assertEqual\tfunction"
-					],
-					[
-						"fker",
-						"fkernelgauss1d\tfunction"
-					],
-					[
-						"asse",
-						"assertEqual"
-					],
-					[
-						"retu",
-						"returnValTrue"
-					],
-					[
-						"reutn",
-						"returnVal"
-					],
-					[
-						"return",
-						"returnValFalse"
-					],
-					[
-						"returnV",
-						"returnValTrue"
-					],
-					[
-						"tes",
-						"testVal"
-					],
-					[
-						"ret",
-						"returnValueIf\tfunction"
-					],
-					[
-						"small",
-						"smallerThanVal\t(tools.py)"
-					],
-					[
-						"has",
-						"hasattr"
-					],
-					[
-						"brian",
-						"briangroup"
-					],
-					[
-						"art",
-						"artifical_stimulus=False"
-					],
-					[
-						"stdp",
-						"stdp_testbench"
-					],
-					[
-						"s",
-						"stdp_testbench"
-					],
-					[
-						"ind2",
-						"ind2xy\tfunction"
-					],
-					[
-						"coord",
-						"coordinates\t(testbench.py)"
-					],
-					[
-						"asser",
-						"assertEqual\tfunction"
-					],
-					[
-						"par",
-						"params\t(neuron_synapse.py)"
 					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"contents": "#ToDo\n## Mails\n*  Dylan Muir dylan.muir@ai-ctx.com (AutoEncoder & teili)\n\n## ToDay\n\n\n##General\n*  NCS: Re-work web page description\n\n##Urgent\n*  OCTA: learning rate? learning rate decay? Stop learning critereon: Maybe gain modulation\n*  OCTA: weight decay?\n*  OCTA: Add run_regularly wrapper (just provide group and add certain functionalities)\n*  OCTA: Update octa_param dictionary\n*  OCTA: Work out details for STDGP and ASE\n*  OCTA: Check w/ EI STDP\n\n##Thoughts\n*  OCTA: L6 inhibtion baseweight stronger, due to double input\n\n##Short-term\n*  SEMD: Build BB\n*  OCTA: Evaluation criterion: Get words and compute the entropy over P(x) by sum(P * log P)\n*  OCTA: Change input stimuli & speed\n*  OCTA: Write cpp implementation for run_regularly functions\n*  teili: OnLine DAVIS interface to brian2\n\n##Discussion\n\n##Long-term\n*  ADaPTION: Automatize script create dummy files (get bits, get layout,\n   create, run for 10 iteration, save as dummy prototxt and caffemodel)\n\n## Private\n*  Private: Interface touch buttons + program display",
-					"file": "/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
-					"file_size": 1034,
-					"file_write_time": 131774266516738999,
+					"file": "/home/schlowmo/ownCloud/Documents/General/Mobility/cancellation.tex",
 					"settings":
 					{
-						"buffer_size": 1033,
+						"buffer_size": 1627,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/schlowmo/Repositories/OCTA/octa/tools/run_reg_functions.py",
+					"file": "/home/schlowmo/Documents/test_scripts/ORCA Compiler.py",
 					"settings":
 					{
-						"buffer_size": 18684,
+						"buffer_size": 8135,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/OCTA/octa/tools/add_run_reg.py",
-					"settings":
-					{
-						"buffer_size": 4013,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/teili/examples/stdp_test.py",
-					"settings":
-					{
-						"buffer_size": 7511,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/teili/teili/models/equations/DPISyn.py",
-					"settings":
-					{
-						"buffer_size": 2040,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/schlowmo/Repositories/teili/teili/models/equations/DPIstdp.py",
-					"settings":
-					{
-						"buffer_size": 2653,
-						"line_ending": "Unix"
+						"line_ending": "Unix",
+						"name": "import os, time"
 					}
 				}
 			],
-			"build_system": "",
+			"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -1844,19 +1820,114 @@
 			},
 			"file_history":
 			[
-				"/home/schlowmo/Repositories/teili/teili/models/synapse_models.py",
-				"/home/schlowmo/Repositories/teili/teili/stimuli/testbench.py",
-				"/home/schlowmo/Repositories/teili/teili/tools/plotting.py",
-				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_matrix_visualization.py",
-				"/home/schlowmo/Repositories/OCTA/octa/interfaces/lock_and_load.py",
-				"/home/schlowmo/Repositories/teili/teili/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/teili/core/tags.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/wta.py",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/spike_based_computation.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/jb-thesis.cls",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/chapters/octa.tex",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/octa.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/run_regularly/add_run_reg.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/run_regularly/run_reg_functions.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/octa_params.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/octa_tools.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/Visa/english_confirmation/absender.lco",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/Visa/english_confirmation/english_skill_confirmation.tex",
+				"/home/schlowmo/Repositories/Phd_Project/Thesis/biblio/biblioncs.bib",
+				"/home/schlowmo/.bash_profile",
+				"/home/schlowmo/Repositories/GeNN/userproject/PoissonIzh_project/README.txt",
+				"/home/schlowmo/Repositories/GeNN/README.txt",
+				"/home/schlowmo/Downloads/Miniconda3-latest-Linux-x86_64.sh",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/neuron_templates.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/building_block.py",
 				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
+				"/home/schlowmo/ownCloud/Documents/configs/vs_code_setup.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Webpage questions.txt",
+				"/home/schlowmo/Repositories/ADaPTION/Makefile.config",
+				"/home/schlowmo/.local/share/applications/pycharm.desktop",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/registration_opens_mail.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/mission_statement.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Capo Caccia/2019/invitation_email.txt",
+				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Talks/Labmeeting/12.12.2018/announcement.txt",
+				"/home/schlowmo/Repositories/teili/examples/stdp_kernel_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvdp.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_gm.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIstdp_gm.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/SynSTDGM.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPIstdp.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPIvar.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotter2d.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/plotting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/run_reg_functions.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_run_reg.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/add_mismatch.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/sorting.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_init.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/PostDoc/Job announcement.txt",
+				"/home/schlowmo/Documents/OCTA/Thesis/test_plot.py",
+				"/home/schlowmo/Repositories/teili/teili/stimuli/testbench.py",
+				"/home/schlowmo/Repositories/teili/setup.py",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/neuron_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Getting started.md",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/synapse_equation_builder.py",
+				"/home/schlowmo/Repositories/teili/teili/models/neuron_models.py",
+				"/home/schlowmo/Repositories/teili/README.md",
+				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
+				"/home/schlowmo/Repositories/teili/teili/models/synapse_models.py",
+				"/home/schlowmo/Repositories/teili/teili/__init__.py",
+				"/home/schlowmo/Repositories/teili/teili/building_blocks/reservoir.py",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.md",
+				"/home/schlowmo/Repositories/teili/docs/scripts/Core.md",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/examples/mismatch_example.py",
+				"/home/schlowmo/.bashrc",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/ctxctl_SSV.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DPISyn.py",
+				"/home/schlowmo/Repositories/teili/teili/models/builder/templates/synapse_templates.py",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/old_code.py",
+				"/home/schlowmo/Repositories/cortexcontrol/NeuronNeuronConnector.py",
+				"/home/schlowmo/Repositories/cortexcontrol/PyCtxUtils.py",
+				"/home/schlowmo/Repositories/teili/examples/stdp_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/interfaces/lock_and_load.py",
+				"/home/schlowmo/Repositories/OCTA/octa/dynap_octa.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/indexing.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/converter.py",
+				"/home/schlowmo/Repositories/teili/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/quantize_weights.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/random_sampling.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/distance.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/synaptic_kernel.py",
+				"/home/schlowmo/Repositories/cortexcontrol/octa.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI_at.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPI.py",
+				"/home/schlowmo/Repositories/teili/teili/models/parameters/dpi_neuron_param.py",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_kernel_test.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/stimulus_generators.py",
+				"/home/schlowmo/Repositories/teili/teili/tools/misc.py",
+				"/home/schlowmo/Repositories/OCTA/neuron_equation_builder.py",
+				"/home/schlowmo/.bash_aliases",
+				"/home/schlowmo/Repositories/cortexcontrol/ctxctl_SSV.py",
+				"/home/schlowmo/ownCloud/Documents/Studies/PostDoc/Application/October/Morit_Milde_Purpose_description.tex",
+				"/home/schlowmo/Repositories/OCTA/examples/stdgm_test.py",
+				"/home/schlowmo/Repositories/OCTA/octa/models/equations/DPISyn_gm.py",
+				"/home/schlowmo/.local/lib/python3.5/site-packages/teili-0.2-py3.5.egg/teili/core/groups.py",
+				"/home/schlowmo/Repositories/teili/teili/models/equations/DoubleExponential.py",
+				"/home/schlowmo/Downloads/lol.py",
+				"/home/schlowmo/Repositories/teili/tests/test_testbench.py",
+				"/home/schlowmo/Repositories/teili/tests/test_groups.py",
+				"/home/schlowmo/Repositories/teili/tests/test_wta.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations_long.py",
+				"/usr/local/lib/python3.5/dist-packages/pyqtgraph/__init__.py",
+				"/home/schlowmo/Repositories/teili/unit_tests/test_equations_long.py",
+				"/home/schlowmo/Repositories/teili/tests/test_equations.py",
+				"/home/schlowmo/Repositories/teili/tests/test_tools.py",
+				"/home/schlowmo/Repositories/teili/.git/hooks/pre-push",
+				"/home/schlowmo/Repositories/OCTA/octa/tools/weight_matrix_visualization.py",
 				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_subgroup_test.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_syn_eq.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_shunt_syn_eq.py",
 				"/home/schlowmo/Repositories/OCTA/octa.py",
 				"/home/schlowmo/Repositories/OCTA/setup.py",
-				"/home/schlowmo/Repositories/teili/tests/test_tools.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_neuron_eq.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dpi_lin_syn_eq.py",
 				"/home/schlowmo/Repositories/ncs_brian/equations/dynapse_eq.py",
@@ -1867,10 +1938,8 @@
 				"/home/schlowmo/Documents/spp/starbuzz.py",
 				"/home/schlowmo/Documents/spp/kmeans.py",
 				"/home/schlowmo/Repositories/dot-files/install_packages.sh",
-				"/home/schlowmo/Repositories/teili/docs/scripts/Tutorials.md",
 				"/home/schlowmo/Repositories/teili/docs/scripts/Equation builder.md",
 				"/home/schlowmo/Repositories/teili/docs/scripts/Building Blocks.md",
-				"/home/schlowmo/Repositories/teili/setup.py",
 				"/home/schlowmo/Repositories/teili/docs/conf.py",
 				"/home/schlowmo/Repositories/teili/requirements.txt",
 				"/home/schlowmo/Repositories/teili/tools/sorting.py",
@@ -1878,104 +1947,11 @@
 				"/home/schlowmo/Repositories/teili/tools/distance.py",
 				"/home/schlowmo/Repositories/teili/building_blocks/wta.py",
 				"/home/schlowmo/Repositories/teili/core/groups.py",
-				"/home/schlowmo/Repositories/teili/stimuli/testbench.py",
-				"/home/schlowmo/Repositories/teili/tools/math_functions.py",
-				"/home/schlowmo/Repositories/teili/docs/modules/modules.rst",
-				"/home/schlowmo/Repositories/teili/docs/index.rst",
-				"/home/schlowmo/Repositories/OCTA/README.md",
-				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_builderobj_test.py",
-				"/home/schlowmo/Repositories/teili/examples/neuron_synapse_test.py",
-				"/home/schlowmo/Repositories/teili/models/builder/combine.py",
-				"/home/schlowmo/Repositories/teili/examples/stdp_test.py",
-				"/home/schlowmo/Repositories/teili/README.md",
-				"/home/schlowmo/Repositories/teili/examples/STDP_IE.png",
-				"/home/schlowmo/Repositories/teili/models/builder/synapse_equation_builder.py",
-				"/home/schlowmo/Repositories/teili/models/synapse_models.py",
-				"/home/schlowmo/Repositories/teili/models/neuron_models.py",
-				"/home/schlowmo/Repositories/teili/models/builder/neuron_equation_builder.py",
-				"/home/schlowmo/Repositories/pyaer/scripts/davis240_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/davis_interface.py",
-				"/home/schlowmo/Repositories/teili/tools/indexing.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/semd.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/stimuli/testbench.py",
-				"/home/schlowmo/Dropbox/Scripts/Brian2/mismatch_snippet.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/examples/neuron_synapse_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/examples/stdp_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/core/groups.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/templates/neuron_templates.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/templates/synapse_templates.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/synapse_equation_builder.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/neuron_equation_builder.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/synapse_models.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/neuron_models.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotter2d.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/plotting.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/builder/combine.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/indexing.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/DPI.py",
-				"/home/schlowmo/Repositories/OCTA/weight_matrix_visualization.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.py",
-				"/home/schlowmo/Dropbox/Saray's Pics/Moritz/saray.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/examples/stdp_kernel_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/README.md",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Documents/Research Plan/Researchplan_Moritz_Milde.tex",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_kernel_test.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp_test.py",
-				"/home/schlowmo/.bashrc",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_test.py",
-				"/home/schlowmo/Repositories/ncs_brian/tutorial.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/converter.pyc",
-				"/home/schlowmo/Desktop/test.py",
-				"/home/schlowmo/Repositories/coincidence-detection/stimulus_protocol_generator.py",
-				"/home/schlowmo/Repositories/coincidence-detection/CD_stimulus_protocol.txt",
-				"/home/schlowmo/Repositories/coincidence-detection/coincidence_network.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/example_dvs_plot.py",
-				"/home/schlowmo/Repositories/reservoir/reservoir_config.py",
-				"/home/schlowmo/Repositories/CAER_install/install_caer.sh",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Papers/Spiking Elementary Motion Detector/submission/NECO-11-17-3017-Supplementary File.tex",
-				"/home/schlowmo/Documents/Sensing_Perception.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/brian2genn_test.py",
-				"/home/schlowmo/Documents/install_brian2genn.sh",
-				"/home/schlowmo/.bash_profile",
-				"/home/schlowmo/Repositories/pyaer/scripts/configs/davis240c_config.json",
-				"/home/schlowmo/Repositories/pyaer/pyaer/davis.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse_subgroup_test.py",
-				"/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.txt",
-				"/home/schlowmo/.local/lib/python3.5/site-packages/sympy/core/evalf.py",
-				"/home/schlowmo/Repositories/ncs_brian/parameters/dpi_neuron_param.py",
-				"/home/schlowmo/Repositories/ncs_brian/parameters/constants.py",
-				"/home/schlowmo/Repositories/OCTA/interfaces/convert.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta_test.py",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Master projects/Closed-loop sEMD/LOR_Schoepe_Telluride.tex",
-				"/home/schlowmo/ownCloud/Documents/Studies/PhD/Journal Club/Journal Clubs at INI_old.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/building_blocks/building_block.py",
-				"/home/schlowmo/Documents/spikegen_stdp_test.py",
-				"/home/schlowmo/Dropbox/Studies/ToDo/ToDo.txt",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/plotting/wta_plot.py",
-				"/home/schlowmo/Repositories/ncs_brian/syn_eq.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/neuron_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/stdp.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_wta.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/parameters/dpi_neuron_param.py",
-				"/tmp/mozilla_schlowmo0/groups.py",
-				"/home/schlowmo/Repositories/OCTA/.gitmodules",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/synaptic_kernel.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/tools/misc.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/models/equations/dpi_neuron.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/unit_tests/test_testbench.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/Tools/tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/BuildingBlocks/WTA.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/test_tools.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/neuron_synapse.py",
-				"/home/schlowmo/Repositories/NCSBrian2Lib/UnitTests/stdp.py"
+				"/home/schlowmo/Repositories/teili/stimuli/testbench.py"
 			],
 			"find":
 			{
-				"height": 45.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
@@ -1989,6 +1965,21 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					" ,",
+					" : ",
+					"':",
+					"0.5 * pA",
+					"CtxDynapse",
+					"FpgaSpikeEvent",
+					"buffer_pointer",
+					"Iahpmax",
+					"w_plast",
+					"self.parameters",
+					"Ipred_plast",
+					"w_plast",
+					"Ipred",
+					"w_plast",
+					"Ipred_pre",
 					"    >>> neuron_obj",
 					"    >>> syn_obj",
 					"w_mean",
@@ -2040,24 +2031,24 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/schlowmo/ownCloud/Documents/Studies/ToDo/ToDo.md",
+							"file": "/home/schlowmo/ownCloud/Documents/General/Mobility/cancellation.tex",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1033,
+								"buffer_size": 1627,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1033,
-										1033
+										704,
+										704
 									]
 								],
 								"settings":
@@ -2090,120 +2081,15 @@
 										67,
 										10,
 										7,
-										226,
-										7,
-										16,
-										9,
-										12,
-										23,
+										227,
 										8,
-										84,
-										14,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"highlight_line": false,
-									"markdonw_live_preview_last_run": 1533721285.51,
-									"markdown_live_preview_enabled": true,
-									"markdown_live_preview_id": 56,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-									"vintage":
-									{
-										"_vintageous_glue_until_normal_mode": false,
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"normal_insert_count": "1",
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 90
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/schlowmo/Repositories/OCTA/octa/tools/run_reg_functions.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 18684,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5887,
-										5887
-									]
-								],
-								"settings":
-								{
-									"auto_complete_triggers":
-									[
-										{
-											"characters": ".",
-											"selector": "source.python - string - comment - constant.numeric"
-										},
-										{
-											"characters": ".",
-											"selector": "source.python - string - constant.numeric"
-										}
-									],
-									"c_time":
-									[
-										128,
-										3,
+										7,
+										13,
+										48,
+										23,
+										10,
+										243,
 										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										7,
-										9,
-										10,
-										44,
-										2,
-										12,
-										100,
-										52,
 										113,
 										1,
 										133,
@@ -2214,13 +2100,12 @@
 										3,
 										46
 									],
-									"markdonw_live_preview_last_run": 1531133735.27,
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
+									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
 									"vintage":
 									{
 										"_vintageous_glue_until_normal_mode": false,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
 										"action": null,
 										"action_count": "",
 										"mode": "mode_normal",
@@ -2231,46 +2116,36 @@
 										"partial_sequence": "",
 										"register": "\"",
 										"sequence": "",
-										"xpos": 60
+										"xpos": 18
 									}
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 230.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
 							"type": "text"
 						},
 						{
-							"buffer": 2,
-							"file": "/home/schlowmo/Repositories/OCTA/octa/tools/add_run_reg.py",
+							"buffer": 1,
+							"file": "/home/schlowmo/Documents/test_scripts/ORCA Compiler.py",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4013,
+								"buffer_size": 8135,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										529,
-										529
+										7671,
+										7671
 									]
 								],
 								"settings":
 								{
-									"auto_complete_triggers":
-									[
-										{
-											"characters": ".",
-											"selector": "source.python - string - comment - constant.numeric"
-										},
-										{
-											"characters": ".",
-											"selector": "source.python - string - constant.numeric"
-										}
-									],
+									"auto_name": "import os, time",
 									"c_time":
 									[
 										128,
@@ -2299,15 +2174,15 @@
 										67,
 										10,
 										7,
-										226,
-										7,
-										30,
-										14,
-										19,
-										44,
-										3,
-										170,
+										227,
+										9,
 										12,
+										13,
+										42,
+										41,
+										0,
+										143,
+										184,
 										113,
 										1,
 										133,
@@ -2318,16 +2193,15 @@
 										3,
 										46
 									],
-									"highlight_line": false,
-									"spell_check": true,
 									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
 									"translate_tabs_to_spaces": true,
 									"vintage":
 									{
-										"_vintageous_glue_until_normal_mode": true,
+										"_vintageous_glue_until_normal_mode": false,
 										"action": null,
 										"action_count": "",
-										"mode": "mode_insert",
+										"mode": "mode_normal",
 										"motion": null,
 										"motion_count": "",
 										"must_capture_register_name": false,
@@ -2335,293 +2209,14 @@
 										"partial_sequence": "",
 										"register": "\"",
 										"sequence": "",
-										"xpos": 15
+										"xpos": 17
 									}
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 513.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 1,
-					"sheets":
-					[
-						{
-							"buffer": 3,
-							"file": "/home/schlowmo/Repositories/teili/examples/stdp_test.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 7511,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1813,
-										1813
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										6,
-										14,
-										10,
-										59,
-										10,
-										7,
-										151,
-										131,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1529048953.58,
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"vintage":
-									{
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 19
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 1260.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/schlowmo/Repositories/teili/teili/models/equations/DPISyn.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2040,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										403,
-										403
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										7,
-										9,
-										11,
-										10,
-										40,
-										0,
-										84,
-										89,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1532357214.4,
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
-									"vintage":
-									{
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 68
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/home/schlowmo/Repositories/teili/teili/models/equations/DPIstdp.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2653,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										226,
-										7,
-										9,
-										11,
-										10,
-										40,
-										0,
-										84,
-										89,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"markdonw_live_preview_last_run": 1532357339.03,
-									"syntax": "Packages/Python/Python.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"vintage":
-									{
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 0
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 336.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -2629,11 +2224,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 45.0
+				"height": 24.0
 			},
 			"input":
 			{
-				"height": 72.0
+				"height": 74.0
 			},
 			"layout":
 			{
@@ -2644,18 +2239,11 @@
 						0,
 						1,
 						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
 					]
 				],
 				"cols":
 				[
 					0.0,
-					0.5096875,
 					1.0
 				],
 				"rows":
@@ -2690,11 +2278,11 @@
 				"height": 96.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3200,1800",
+			"position": "0,1,0,0,0,23,15,1003,1469,2550,1980",
 			"project": "",
 			"replace":
 			{
-				"height": 82.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -2728,17 +2316,17 @@
 				],
 				"width": 392.0
 			},
-			"selected_group": 1,
+			"selected_group": 0,
 			"settings":
 			{
-				"_vintageous_last_buffer_search": "dura",
+				"_vintageous_last_buffer_search": "include",
 				"_vintageous_last_buffer_search_command": "vi_slash",
-				"_vintageous_last_char_search_command": "vi_f",
-				"_vintageous_last_character_search": "\n",
+				"_vintageous_last_char_search_command": "vi_big_t",
+				"_vintageous_last_character_search": "d",
 				"_vintageous_reset_during_init": true,
 				"vintage":
 				{
-					"_cmdline_cd": "/home/schlowmo/.config/sublime-text-3/Packages"
+					"_cmdline_cd": "/home/schlowmo/ownCloud/Documents/General/Mobility"
 				}
 			},
 			"show_minimap": false,
