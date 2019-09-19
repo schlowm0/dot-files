@@ -197,13 +197,19 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 # bindsym $mod+shift+x exec i3lock --color "$base01"
 bindsym $mod+Shift+x exec i3lock-fancy 
-exec_always feh --bg-scale ~/Pictures/Wallpapers/razer2.png
+exec_always feh --bg-scale ~/Pictures/Wallpapers/tree.png
 exec chromium-browser
 exec_always compton -f
 exec dropbox
 exec dunst
 # exec xrandr --output eDP-1 --mode 1920x1080 --dpi 220 --scale 2.0x2.0
 # exec_always xrandr --output HDMI2 --off --output HDMI1 --primary --mode 1920x1200 --pos 1920x0 --rotate normal --output VIRTUAL1 --off --output VGA1 --mode 1920x1200 --pos 0x0 --rotate normal
+
+# Set title bars to False
+default_border none
+# Define border sizes
+gaps inner 40
+gaps outer 20
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)

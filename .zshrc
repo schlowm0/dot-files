@@ -53,6 +53,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# Configure plugins
+#
 # Colors:
 eval `dircolors ~/.dir_colors/dircolors`
 
@@ -128,3 +130,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+conda activate 3.7
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
