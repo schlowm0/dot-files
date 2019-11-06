@@ -1,12 +1,14 @@
 #!/bin/sh
 sudo apt-add-repository ppa:numix/ppa
+sudo add-apt-repository ppa:kgilmer/speed-ricer
 sudo apt-get update
 sudo apt-get upgrade
 # install relevant programs
 sudo apt-get install -y terminator inkscape htop ipython3 vlc vim chromium-browser \
     texlive-latex-extra latexmk texlive-bibtex-extra texlive git subversion zathura \
     numix-icon-theme numix-icon-theme-circle openvpn xclip build-essential \
-    lemonbar i3 i3lock i3lock-fancy lm-sensors zsh
+    lemonbar i3 i3lock i3lock-fancy i3-gaps lm-sensors zsh arc-theme fonts-font-awesome \
+    rofi-dev 
 
 # install libraries and codecs
 sudo apt-get install -y libusb-dev libopencv-dev mesa-utils mesa-common-dev \
@@ -54,6 +56,8 @@ git clone https://github.com/syl20bnr/spacemacs.git ~/.emacs.d
 cd ~/.emacs.d
 git checkout develop
 cp ~/Repositories/dot-files/.spacemacs ~/
+
+curl https://gist.githubusercontent.com/lucasdavila/3875946/raw/1c100cae16a06bef154af0f290d665405b554b3b/install_source_code_pro.sh | sh
 
 # create installation dir
 sudo mkdir -p /opt/franz
