@@ -59,7 +59,7 @@ source $ZSH/oh-my-zsh.sh
 eval `dircolors ~/.dir_colors/dircolors`
 
 # Highlighting:
-source /home/schlowmo/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/schlowmo/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Large history file
 HISTSIZE=10000000
