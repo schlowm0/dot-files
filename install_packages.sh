@@ -8,7 +8,7 @@ sudo apt-get install -y terminator inkscape htop ipython3 vlc vim chromium-brows
     texlive-latex-extra latexmk texlive-bibtex-extra texlive git subversion zathura \
     numix-icon-theme numix-icon-theme-circle openvpn xclip build-essential \
     lemonbar i3 i3lock i3lock-fancy i3-gaps lm-sensors zsh arc-theme fonts-font-awesome \
-    rofi-dev 
+    rofi-dev feh gnome-tweak-tool lxappearance thunar
 
 # install libraries and codecs
 sudo apt-get install -y libusb-dev libopencv-dev mesa-utils mesa-common-dev \
@@ -45,7 +45,13 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 cd /tmp	
 git clone https://github.com/ryanoasis/nerd-fonts.git
 ./nerds-fonts/install.sh
-cd
+
+git clone https://github.com/vivien/i3blocks
+cd i3blocks
+./autogen.sh
+./configure
+make
+sudo make install
 
 # install emacs
 sudo add-apt-repository ppa:kelleyk/emacs
